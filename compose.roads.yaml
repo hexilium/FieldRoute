@@ -1,0 +1,30 @@
+name: fieldroute-roads
+include:
+  - compose.routing.yml
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      ROUTING_BACKEND: local_roads
+      SOLVER_BACKEND: insertion
+      ROADS_CAR_URL: http://roads-car:5000
+      ROADS_FOOT_URL: http://roads-foot:5000
+      ROADS_BICYCLE_URL: http://roads-bicycle:5000
+      ROAD_DATA_DIR: /data
+      GEODATA_PATH: /data/geodata.sqlite3
+      GEOCODING_BACKEND: local
+      GEOCODING_CACHE_PATH: /app/.local/geocoding/cache.sqlite3
+    volumes:
+      - ./.local/roads:/data
+      - ./.local/geocoding:/app/.local/geocoding
+    depends_on:
+      geodata-prepare:
+        condition: service_completed_successfully
+      roads-car:
+        condition: service_healthy
+      roads-foot:
+        condition: service_healthy
+      roads-bicycle:
+        condition: service_healthy

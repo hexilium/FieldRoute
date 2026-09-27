@@ -1,0 +1,3626 @@
+{
+  "engineers": [
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-01",
+      "max_jobs": null,
+      "name": "Бригада 01",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-02",
+      "max_jobs": null,
+      "name": "Бригада 02",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-03",
+      "max_jobs": null,
+      "name": "Бригада 03",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-04",
+      "max_jobs": null,
+      "name": "Бригада 04",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-05",
+      "max_jobs": null,
+      "name": "Бригада 05",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-06",
+      "max_jobs": null,
+      "name": "Бригада 06",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-07",
+      "max_jobs": null,
+      "name": "Бригада 07",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-08",
+      "max_jobs": null,
+      "name": "Бригада 08",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-09",
+      "max_jobs": null,
+      "name": "Бригада 09",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-10",
+      "max_jobs": null,
+      "name": "Бригада 10",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-11",
+      "max_jobs": null,
+      "name": "Бригада 11",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-12",
+      "max_jobs": null,
+      "name": "Бригада 12",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-13",
+      "max_jobs": null,
+      "name": "Бригада 13",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-14",
+      "max_jobs": null,
+      "name": "Бригада 14",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "available": true,
+      "available_from": null,
+      "current_location": null,
+      "end_location": null,
+      "equipment": [],
+      "id": "crew-15",
+      "max_jobs": null,
+      "name": "Бригада 15",
+      "shift": {
+        "end": "2026-09-17T14:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency"
+      ],
+      "start_location": {
+        "label": "Синтетический офис",
+        "lat": 55.75,
+        "lon": 37.62
+      },
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null
+    }
+  ],
+  "freeze_horizon_minutes": 0,
+  "jobs": [
+    {
+      "assigned_engineer_id": null,
+      "id": "job-001",
+      "location": {
+        "label": "Синтетическая точка 1; адрес вымышлен",
+        "lat": 55.76105661783788,
+        "lon": 37.631486589334685
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 2,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": "car",
+      "service_minutes": 62,
+      "sla_deadline": "2026-09-17T11:47:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:17:00+03:00",
+          "start": "2026-09-17T10:17:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 1",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-002",
+      "location": {
+        "label": "Синтетическая точка 2; адрес вымышлен",
+        "lat": 55.76703216750326,
+        "lon": 37.61392671886041
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 3,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 73,
+      "sla_deadline": "2026-09-17T11:51:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:21:00+03:00",
+          "start": "2026-09-17T10:21:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 2",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-003",
+      "location": {
+        "label": "Синтетическая точка 3; адрес вымышлен",
+        "lat": 55.76185856791311,
+        "lon": 37.62592598761821
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 4,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 91,
+      "sla_deadline": "2026-09-17T11:02:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:32:00+03:00",
+          "start": "2026-09-17T09:32:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 3",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-004",
+      "location": {
+        "label": "Синтетическая точка 4; адрес вымышлен",
+        "lat": 55.73892238924924,
+        "lon": 37.59847775744119
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 5,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 69,
+      "sla_deadline": "2026-09-17T12:19:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:49:00+03:00",
+          "start": "2026-09-17T10:49:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 4",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-005",
+      "location": {
+        "label": "Синтетическая точка 5; адрес вымышлен",
+        "lat": 55.75983046026839,
+        "lon": 37.64426107603303
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 6,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 61,
+      "sla_deadline": "2026-09-17T10:29:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:59:00+03:00",
+          "start": "2026-09-17T08:59:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 5",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-006",
+      "location": {
+        "label": "Синтетическая точка 6; адрес вымышлен",
+        "lat": 55.74568454410141,
+        "lon": 37.61767051511842
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 7,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 65,
+      "sla_deadline": "2026-09-17T11:03:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:33:00+03:00",
+          "start": "2026-09-17T09:33:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 6",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-007",
+      "location": {
+        "label": "Синтетическая точка 7; адрес вымышлен",
+        "lat": 55.745326514816206,
+        "lon": 37.60547535153857
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 8,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 99,
+      "sla_deadline": "2026-09-17T10:38:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:08:00+03:00",
+          "start": "2026-09-17T09:08:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 7",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-008",
+      "location": {
+        "label": "Синтетическая точка 8; адрес вымышлен",
+        "lat": 55.76571956515765,
+        "lon": 37.62740176926233
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 9,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 95,
+      "sla_deadline": "2026-09-17T12:05:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:35:00+03:00",
+          "start": "2026-09-17T10:35:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 8",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-009",
+      "location": {
+        "label": "Синтетическая точка 9; адрес вымышлен",
+        "lat": 55.73816099133513,
+        "lon": 37.63145633989752
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 10,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 84,
+      "sla_deadline": "2026-09-17T10:11:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:41:00+03:00",
+          "start": "2026-09-17T08:41:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 9",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-010",
+      "location": {
+        "label": "Синтетическая точка 10; адрес вымышлен",
+        "lat": 55.74566039590327,
+        "lon": 37.64447616753183
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 11,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 99,
+      "sla_deadline": "2026-09-17T12:13:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:43:00+03:00",
+          "start": "2026-09-17T10:43:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 10",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-011",
+      "location": {
+        "label": "Синтетическая точка 11; адрес вымышлен",
+        "lat": 55.75205019077589,
+        "lon": 37.62923071254949
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 12,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 58,
+      "sla_deadline": "2026-09-17T12:46:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:16:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 11",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-012",
+      "location": {
+        "label": "Синтетическая точка 12; адрес вымышлен",
+        "lat": 55.74024573059071,
+        "lon": 37.5966050121952
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 13,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 80,
+      "sla_deadline": "2026-09-17T10:50:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:20:00+03:00",
+          "start": "2026-09-17T09:20:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 12",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-013",
+      "location": {
+        "label": "Синтетическая точка 13; адрес вымышлен",
+        "lat": 55.74163867153513,
+        "lon": 37.60554914217931
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 14,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 100,
+      "sla_deadline": "2026-09-17T11:55:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:25:00+03:00",
+          "start": "2026-09-17T10:25:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 13",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-014",
+      "location": {
+        "label": "Синтетическая точка 14; адрес вымышлен",
+        "lat": 55.743328403708745,
+        "lon": 37.62777193326474
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 15,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 96,
+      "sla_deadline": "2026-09-17T11:11:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:41:00+03:00",
+          "start": "2026-09-17T09:41:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 14",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-015",
+      "location": {
+        "label": "Синтетическая точка 15; адрес вымышлен",
+        "lat": 55.748518666693144,
+        "lon": 37.6082440083249
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 16,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 90,
+      "sla_deadline": "2026-09-17T10:33:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:03:00+03:00",
+          "start": "2026-09-17T09:03:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 15",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-016",
+      "location": {
+        "label": "Синтетическая точка 16; адрес вымышлен",
+        "lat": 55.75140318242802,
+        "lon": 37.63235069058261
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 17,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 92,
+      "sla_deadline": "2026-09-17T11:19:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:49:00+03:00",
+          "start": "2026-09-17T09:49:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 16",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-017",
+      "location": {
+        "label": "Синтетическая точка 17; адрес вымышлен",
+        "lat": 55.74637841818505,
+        "lon": 37.60596603795786
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 18,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 87,
+      "sla_deadline": "2026-09-17T10:05:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:35:00+03:00",
+          "start": "2026-09-17T08:35:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 17",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-018",
+      "location": {
+        "label": "Синтетическая точка 18; адрес вымышлен",
+        "lat": 55.749766570056025,
+        "lon": 37.63278910787668
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 19,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 64,
+      "sla_deadline": "2026-09-17T09:58:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:28:00+03:00",
+          "start": "2026-09-17T08:28:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 18",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-019",
+      "location": {
+        "label": "Синтетическая точка 19; адрес вымышлен",
+        "lat": 55.75458805750131,
+        "lon": 37.634603968218144
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 20,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 93,
+      "sla_deadline": "2026-09-17T11:18:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:48:00+03:00",
+          "start": "2026-09-17T09:48:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 19",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-020",
+      "location": {
+        "label": "Синтетическая точка 20; адрес вымышлен",
+        "lat": 55.73428699742147,
+        "lon": 37.614080964325325
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 21,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 88,
+      "sla_deadline": "2026-09-17T11:29:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:59:00+03:00",
+          "start": "2026-09-17T09:59:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 20",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-021",
+      "location": {
+        "label": "Синтетическая точка 21; адрес вымышлен",
+        "lat": 55.741050908319345,
+        "lon": 37.62266129481076
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 22,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 98,
+      "sla_deadline": "2026-09-17T09:32:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:02:00+03:00",
+          "start": "2026-09-17T08:02:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 21",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-022",
+      "location": {
+        "label": "Синтетическая точка 22; адрес вымышлен",
+        "lat": 55.75794598549697,
+        "lon": 37.629085518451326
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 23,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 72,
+      "sla_deadline": "2026-09-17T11:47:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:17:00+03:00",
+          "start": "2026-09-17T10:17:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 22",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-023",
+      "location": {
+        "label": "Синтетическая точка 23; адрес вымышлен",
+        "lat": 55.75966955437567,
+        "lon": 37.61200877365155
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 24,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 82,
+      "sla_deadline": "2026-09-17T10:45:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:15:00+03:00",
+          "start": "2026-09-17T09:15:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 23",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-024",
+      "location": {
+        "label": "Синтетическая точка 24; адрес вымышлен",
+        "lat": 55.73769367915641,
+        "lon": 37.59516226580509
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 25,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 71,
+      "sla_deadline": "2026-09-17T12:34:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:04:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 24",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-025",
+      "location": {
+        "label": "Синтетическая точка 25; адрес вымышлен",
+        "lat": 55.766987971559324,
+        "lon": 37.6330981099526
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 26,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 61,
+      "sla_deadline": "2026-09-17T11:39:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:09:00+03:00",
+          "start": "2026-09-17T10:09:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 25",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-026",
+      "location": {
+        "label": "Синтетическая точка 26; адрес вымышлен",
+        "lat": 55.76333866851412,
+        "lon": 37.60992223957243
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 27,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 87,
+      "sla_deadline": "2026-09-17T12:13:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:43:00+03:00",
+          "start": "2026-09-17T10:43:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 26",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-027",
+      "location": {
+        "label": "Синтетическая точка 27; адрес вымышлен",
+        "lat": 55.753922927611775,
+        "lon": 37.60264196342748
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 28,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 65,
+      "sla_deadline": "2026-09-17T12:45:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:15:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 27",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-028",
+      "location": {
+        "label": "Синтетическая точка 28; адрес вымышлен",
+        "lat": 55.75141764508431,
+        "lon": 37.63393132393153
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 29,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 55,
+      "sla_deadline": "2026-09-17T11:45:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:15:00+03:00",
+          "start": "2026-09-17T10:15:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 28",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-029",
+      "location": {
+        "label": "Синтетическая точка 29; адрес вымышлен",
+        "lat": 55.75356200504057,
+        "lon": 37.61943028540144
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 30,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 78,
+      "sla_deadline": "2026-09-17T09:58:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:28:00+03:00",
+          "start": "2026-09-17T08:28:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 29",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-030",
+      "location": {
+        "label": "Синтетическая точка 30; адрес вымышлен",
+        "lat": 55.76363398760164,
+        "lon": 37.63658327646806
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 31,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 70,
+      "sla_deadline": "2026-09-17T10:48:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:18:00+03:00",
+          "start": "2026-09-17T09:18:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 30",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-031",
+      "location": {
+        "label": "Синтетическая точка 31; адрес вымышлен",
+        "lat": 55.734085305993794,
+        "lon": 37.6389004799602
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 32,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 60,
+      "sla_deadline": "2026-09-17T09:50:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:20:00+03:00",
+          "start": "2026-09-17T08:20:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 31",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-032",
+      "location": {
+        "label": "Синтетическая точка 32; адрес вымышлен",
+        "lat": 55.7583486734144,
+        "lon": 37.635801162671
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 33,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 89,
+      "sla_deadline": "2026-09-17T12:44:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:14:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 32",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-033",
+      "location": {
+        "label": "Синтетическая точка 33; адрес вымышлен",
+        "lat": 55.75957003945505,
+        "lon": 37.60141957322499
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 34,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 90,
+      "sla_deadline": "2026-09-17T11:31:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:01:00+03:00",
+          "start": "2026-09-17T10:01:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 33",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-034",
+      "location": {
+        "label": "Синтетическая точка 34; адрес вымышлен",
+        "lat": 55.73794457052307,
+        "lon": 37.62138368937091
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 35,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 82,
+      "sla_deadline": "2026-09-17T12:05:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:35:00+03:00",
+          "start": "2026-09-17T10:35:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 34",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-035",
+      "location": {
+        "label": "Синтетическая точка 35; адрес вымышлен",
+        "lat": 55.766717064616266,
+        "lon": 37.64144567465011
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 36,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 99,
+      "sla_deadline": "2026-09-17T12:43:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:13:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 35",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-036",
+      "location": {
+        "label": "Синтетическая точка 36; адрес вымышлен",
+        "lat": 55.73924143828203,
+        "lon": 37.61058581456504
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 37,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 96,
+      "sla_deadline": "2026-09-17T12:21:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:51:00+03:00",
+          "start": "2026-09-17T10:51:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 36",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-037",
+      "location": {
+        "label": "Синтетическая точка 37; адрес вымышлен",
+        "lat": 55.745443138091055,
+        "lon": 37.639980704232144
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 38,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 62,
+      "sla_deadline": "2026-09-17T11:25:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:55:00+03:00",
+          "start": "2026-09-17T09:55:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 37",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-038",
+      "location": {
+        "label": "Синтетическая точка 38; адрес вымышлен",
+        "lat": 55.74092460209198,
+        "lon": 37.59820129481631
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 39,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 92,
+      "sla_deadline": "2026-09-17T09:35:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:05:00+03:00",
+          "start": "2026-09-17T08:05:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 38",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-039",
+      "location": {
+        "label": "Синтетическая точка 39; адрес вымышлен",
+        "lat": 55.75194117480728,
+        "lon": 37.62442200572052
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 40,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 59,
+      "sla_deadline": "2026-09-17T09:31:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:01:00+03:00",
+          "start": "2026-09-17T08:01:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 39",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-040",
+      "location": {
+        "label": "Синтетическая точка 40; адрес вымышлен",
+        "lat": 55.75748227407574,
+        "lon": 37.59794368834381
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 41,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 57,
+      "sla_deadline": "2026-09-17T09:47:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:17:00+03:00",
+          "start": "2026-09-17T08:17:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 40",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-041",
+      "location": {
+        "label": "Синтетическая точка 41; адрес вымышлен",
+        "lat": 55.76294687440914,
+        "lon": 37.59854286749443
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 42,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 72,
+      "sla_deadline": "2026-09-17T10:30:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:00:00+03:00",
+          "start": "2026-09-17T09:00:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 41",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-042",
+      "location": {
+        "label": "Синтетическая точка 42; адрес вымышлен",
+        "lat": 55.756083200018665,
+        "lon": 37.60571184036852
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 43,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 91,
+      "sla_deadline": "2026-09-17T10:03:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:33:00+03:00",
+          "start": "2026-09-17T08:33:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 42",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-043",
+      "location": {
+        "label": "Синтетическая точка 43; адрес вымышлен",
+        "lat": 55.75274361938995,
+        "lon": 37.60714986211978
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 44,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 81,
+      "sla_deadline": "2026-09-17T11:31:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:01:00+03:00",
+          "start": "2026-09-17T10:01:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 43",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-044",
+      "location": {
+        "label": "Синтетическая точка 44; адрес вымышлен",
+        "lat": 55.73885475691703,
+        "lon": 37.59984654071144
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 45,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 77,
+      "sla_deadline": "2026-09-17T11:20:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:50:00+03:00",
+          "start": "2026-09-17T09:50:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 44",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-045",
+      "location": {
+        "label": "Синтетическая точка 45; адрес вымышлен",
+        "lat": 55.74724883042872,
+        "lon": 37.61835123340183
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 46,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 58,
+      "sla_deadline": "2026-09-17T12:36:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:06:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 45",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-046",
+      "location": {
+        "label": "Синтетическая точка 46; адрес вымышлен",
+        "lat": 55.75624112370256,
+        "lon": 37.6442082605683
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 47,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 58,
+      "sla_deadline": "2026-09-17T09:55:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:25:00+03:00",
+          "start": "2026-09-17T08:25:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 46",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-047",
+      "location": {
+        "label": "Синтетическая точка 47; адрес вымышлен",
+        "lat": 55.74649436615568,
+        "lon": 37.611965130269745
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 48,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 70,
+      "sla_deadline": "2026-09-17T09:57:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:27:00+03:00",
+          "start": "2026-09-17T08:27:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 47",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-048",
+      "location": {
+        "label": "Синтетическая точка 48; адрес вымышлен",
+        "lat": 55.7388972425971,
+        "lon": 37.621814287695514
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 49,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 82,
+      "sla_deadline": "2026-09-17T10:05:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:35:00+03:00",
+          "start": "2026-09-17T08:35:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 48",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-049",
+      "location": {
+        "label": "Синтетическая точка 49; адрес вымышлен",
+        "lat": 55.73860556928834,
+        "lon": 37.618131403420044
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 50,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 83,
+      "sla_deadline": "2026-09-17T09:49:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:19:00+03:00",
+          "start": "2026-09-17T08:19:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 49",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-050",
+      "location": {
+        "label": "Синтетическая точка 50; адрес вымышлен",
+        "lat": 55.76108880081034,
+        "lon": 37.63779834462341
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 51,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 58,
+      "sla_deadline": "2026-09-17T09:55:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:25:00+03:00",
+          "start": "2026-09-17T08:25:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 50",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-051",
+      "location": {
+        "label": "Синтетическая точка 51; адрес вымышлен",
+        "lat": 55.75547721618395,
+        "lon": 37.62202939690501
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 52,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 60,
+      "sla_deadline": "2026-09-17T09:33:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:03:00+03:00",
+          "start": "2026-09-17T08:03:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 51",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-052",
+      "location": {
+        "label": "Синтетическая точка 52; адрес вымышлен",
+        "lat": 55.76534921138829,
+        "lon": 37.63743478672071
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 53,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 81,
+      "sla_deadline": "2026-09-17T10:12:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:42:00+03:00",
+          "start": "2026-09-17T08:42:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 52",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-053",
+      "location": {
+        "label": "Синтетическая точка 53; адрес вымышлен",
+        "lat": 55.74948308051623,
+        "lon": 37.605687364959955
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 54,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 58,
+      "sla_deadline": "2026-09-17T11:12:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:42:00+03:00",
+          "start": "2026-09-17T09:42:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 53",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-054",
+      "location": {
+        "label": "Синтетическая точка 54; адрес вымышлен",
+        "lat": 55.73792693637046,
+        "lon": 37.59510776891757
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 55,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 71,
+      "sla_deadline": "2026-09-17T11:09:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:39:00+03:00",
+          "start": "2026-09-17T09:39:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 54",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-055",
+      "location": {
+        "label": "Синтетическая точка 55; адрес вымышлен",
+        "lat": 55.765354650648135,
+        "lon": 37.634256467839705
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 56,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 82,
+      "sla_deadline": "2026-09-17T10:43:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:13:00+03:00",
+          "start": "2026-09-17T09:13:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 55",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-056",
+      "location": {
+        "label": "Синтетическая точка 56; адрес вымышлен",
+        "lat": 55.75707729412961,
+        "lon": 37.63152526587077
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 57,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 90,
+      "sla_deadline": "2026-09-17T12:50:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:20:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 56",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-057",
+      "location": {
+        "label": "Синтетическая точка 57; адрес вымышлен",
+        "lat": 55.755827367230225,
+        "lon": 37.61933357058271
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 58,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 73,
+      "sla_deadline": "2026-09-17T10:18:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:48:00+03:00",
+          "start": "2026-09-17T08:48:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 57",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-058",
+      "location": {
+        "label": "Синтетическая точка 58; адрес вымышлен",
+        "lat": 55.73983723234291,
+        "lon": 37.597924164600364
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 59,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 89,
+      "sla_deadline": "2026-09-17T12:38:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:08:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 58",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-059",
+      "location": {
+        "label": "Синтетическая точка 59; адрес вымышлен",
+        "lat": 55.73419447257316,
+        "lon": 37.610680240488485
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 60,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 92,
+      "sla_deadline": "2026-09-17T09:42:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:12:00+03:00",
+          "start": "2026-09-17T08:12:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 59",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-060",
+      "location": {
+        "label": "Синтетическая точка 60; адрес вымышлен",
+        "lat": 55.749164386615924,
+        "lon": 37.6409693565416
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 61,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 65,
+      "sla_deadline": "2026-09-17T11:45:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:15:00+03:00",
+          "start": "2026-09-17T10:15:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 60",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-061",
+      "location": {
+        "label": "Синтетическая точка 61; адрес вымышлен",
+        "lat": 55.73404766487023,
+        "lon": 37.62039142484967
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 62,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 59,
+      "sla_deadline": "2026-09-17T10:17:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:47:00+03:00",
+          "start": "2026-09-17T08:47:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 61",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-062",
+      "location": {
+        "label": "Синтетическая точка 62; адрес вымышлен",
+        "lat": 55.7534212638322,
+        "lon": 37.6287606276802
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 63,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 80,
+      "sla_deadline": "2026-09-17T10:30:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:00:00+03:00",
+          "start": "2026-09-17T09:00:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 62",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-063",
+      "location": {
+        "label": "Синтетическая точка 63; адрес вымышлен",
+        "lat": 55.73631591810209,
+        "lon": 37.63951436570647
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 64,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 92,
+      "sla_deadline": "2026-09-17T10:33:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:03:00+03:00",
+          "start": "2026-09-17T09:03:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 63",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-064",
+      "location": {
+        "label": "Синтетическая точка 64; адрес вымышлен",
+        "lat": 55.753402689527206,
+        "lon": 37.6259690755166
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 65,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 97,
+      "sla_deadline": "2026-09-17T11:17:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:47:00+03:00",
+          "start": "2026-09-17T09:47:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 64",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-065",
+      "location": {
+        "label": "Синтетическая точка 65; адрес вымышлен",
+        "lat": 55.75301220241448,
+        "lon": 37.621139135776595
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 66,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 68,
+      "sla_deadline": "2026-09-17T10:36:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:06:00+03:00",
+          "start": "2026-09-17T09:06:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 65",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-066",
+      "location": {
+        "label": "Синтетическая точка 66; адрес вымышлен",
+        "lat": 55.75611013509172,
+        "lon": 37.610709193139776
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 67,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 80,
+      "sla_deadline": "2026-09-17T10:37:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:07:00+03:00",
+          "start": "2026-09-17T09:07:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 66",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-067",
+      "location": {
+        "label": "Синтетическая точка 67; адрес вымышлен",
+        "lat": 55.73671161815659,
+        "lon": 37.62727503944188
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 68,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 75,
+      "sla_deadline": "2026-09-17T11:27:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:57:00+03:00",
+          "start": "2026-09-17T09:57:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 67",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-068",
+      "location": {
+        "label": "Синтетическая точка 68; адрес вымышлен",
+        "lat": 55.7654446599414,
+        "lon": 37.64178671437224
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 69,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 84,
+      "sla_deadline": "2026-09-17T09:32:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:02:00+03:00",
+          "start": "2026-09-17T08:02:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 68",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-069",
+      "location": {
+        "label": "Синтетическая точка 69; адрес вымышлен",
+        "lat": 55.754361733197754,
+        "lon": 37.62314968228195
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 70,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 59,
+      "sla_deadline": "2026-09-17T09:55:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:25:00+03:00",
+          "start": "2026-09-17T08:25:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 69",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-070",
+      "location": {
+        "label": "Синтетическая точка 70; адрес вымышлен",
+        "lat": 55.751354838547655,
+        "lon": 37.620294234702435
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 71,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 77,
+      "sla_deadline": "2026-09-17T10:03:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:33:00+03:00",
+          "start": "2026-09-17T08:33:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 70",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-071",
+      "location": {
+        "label": "Синтетическая точка 71; адрес вымышлен",
+        "lat": 55.763711110252714,
+        "lon": 37.63896351212423
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 72,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 73,
+      "sla_deadline": "2026-09-17T11:04:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:34:00+03:00",
+          "start": "2026-09-17T09:34:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 71",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-072",
+      "location": {
+        "label": "Синтетическая точка 72; адрес вымышлен",
+        "lat": 55.73767888596486,
+        "lon": 37.636687247731984
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 73,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 74,
+      "sla_deadline": "2026-09-17T12:30:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:00:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 72",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-073",
+      "location": {
+        "label": "Синтетическая точка 73; адрес вымышлен",
+        "lat": 55.75402039956614,
+        "lon": 37.64436165318157
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 74,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 88,
+      "sla_deadline": "2026-09-17T12:17:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:47:00+03:00",
+          "start": "2026-09-17T10:47:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 73",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-074",
+      "location": {
+        "label": "Синтетическая точка 74; адрес вымышлен",
+        "lat": 55.732281631857475,
+        "lon": 37.63585520675577
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 75,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 97,
+      "sla_deadline": "2026-09-17T10:46:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:16:00+03:00",
+          "start": "2026-09-17T09:16:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 74",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-075",
+      "location": {
+        "label": "Синтетическая точка 75; адрес вымышлен",
+        "lat": 55.73572911406906,
+        "lon": 37.638906348248675
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 76,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 62,
+      "sla_deadline": "2026-09-17T10:37:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:07:00+03:00",
+          "start": "2026-09-17T09:07:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 75",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-076",
+      "location": {
+        "label": "Синтетическая точка 76; адрес вымышлен",
+        "lat": 55.764029657452205,
+        "lon": 37.63212083419905
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 77,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 72,
+      "sla_deadline": "2026-09-17T10:09:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:39:00+03:00",
+          "start": "2026-09-17T08:39:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 76",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-077",
+      "location": {
+        "label": "Синтетическая точка 77; адрес вымышлен",
+        "lat": 55.74214322577249,
+        "lon": 37.605531482740346
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 78,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 68,
+      "sla_deadline": "2026-09-17T10:57:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:27:00+03:00",
+          "start": "2026-09-17T09:27:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 77",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-078",
+      "location": {
+        "label": "Синтетическая точка 78; адрес вымышлен",
+        "lat": 55.75674989663685,
+        "lon": 37.63764564076959
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 79,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 86,
+      "sla_deadline": "2026-09-17T11:39:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:09:00+03:00",
+          "start": "2026-09-17T10:09:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 78",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-079",
+      "location": {
+        "label": "Синтетическая точка 79; адрес вымышлен",
+        "lat": 55.74104036507452,
+        "lon": 37.64040795231092
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 80,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 60,
+      "sla_deadline": "2026-09-17T09:43:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:13:00+03:00",
+          "start": "2026-09-17T08:13:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 79",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-080",
+      "location": {
+        "label": "Синтетическая точка 80; адрес вымышлен",
+        "lat": 55.75483424010313,
+        "lon": 37.63646740446861
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 81,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 55,
+      "sla_deadline": "2026-09-17T09:41:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:11:00+03:00",
+          "start": "2026-09-17T08:11:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 80",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-081",
+      "location": {
+        "label": "Синтетическая точка 81; адрес вымышлен",
+        "lat": 55.74400803538978,
+        "lon": 37.60154098303508
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 82,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 65,
+      "sla_deadline": "2026-09-17T10:37:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:07:00+03:00",
+          "start": "2026-09-17T09:07:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 81",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-082",
+      "location": {
+        "label": "Синтетическая точка 82; адрес вымышлен",
+        "lat": 55.758684312700524,
+        "lon": 37.62258402105632
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 83,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 90,
+      "sla_deadline": "2026-09-17T11:19:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:49:00+03:00",
+          "start": "2026-09-17T09:49:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 82",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-083",
+      "location": {
+        "label": "Синтетическая точка 83; адрес вымышлен",
+        "lat": 55.7323481091859,
+        "lon": 37.59876219300369
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 84,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 64,
+      "sla_deadline": "2026-09-17T12:26:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:56:00+03:00",
+          "start": "2026-09-17T10:56:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 83",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-084",
+      "location": {
+        "label": "Синтетическая точка 84; адрес вымышлен",
+        "lat": 55.751641250411396,
+        "lon": 37.6367297509943
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 85,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 90,
+      "sla_deadline": "2026-09-17T11:59:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:29:00+03:00",
+          "start": "2026-09-17T10:29:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 84",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-085",
+      "location": {
+        "label": "Синтетическая точка 85; адрес вымышлен",
+        "lat": 55.73733137628043,
+        "lon": 37.6013722759641
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 86,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 78,
+      "sla_deadline": "2026-09-17T10:48:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:18:00+03:00",
+          "start": "2026-09-17T09:18:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 85",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-086",
+      "location": {
+        "label": "Синтетическая точка 86; адрес вымышлен",
+        "lat": 55.76436333359473,
+        "lon": 37.6348061152444
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 87,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 77,
+      "sla_deadline": "2026-09-17T09:40:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:10:00+03:00",
+          "start": "2026-09-17T08:10:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 86",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-087",
+      "location": {
+        "label": "Синтетическая точка 87; адрес вымышлен",
+        "lat": 55.739562755380234,
+        "lon": 37.60747648696115
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 88,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 77,
+      "sla_deadline": "2026-09-17T09:56:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:26:00+03:00",
+          "start": "2026-09-17T08:26:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 87",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-088",
+      "location": {
+        "label": "Синтетическая точка 88; адрес вымышлен",
+        "lat": 55.760084184707374,
+        "lon": 37.63920673507255
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 89,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 94,
+      "sla_deadline": "2026-09-17T11:14:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:44:00+03:00",
+          "start": "2026-09-17T09:44:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 88",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-089",
+      "location": {
+        "label": "Синтетическая точка 89; адрес вымышлен",
+        "lat": 55.758981194001166,
+        "lon": 37.641288191128474
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 90,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 65,
+      "sla_deadline": "2026-09-17T10:30:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:00:00+03:00",
+          "start": "2026-09-17T09:00:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 89",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-090",
+      "location": {
+        "label": "Синтетическая точка 90; адрес вымышлен",
+        "lat": 55.767143417185515,
+        "lon": 37.63553858599702
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 91,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 56,
+      "sla_deadline": "2026-09-17T11:15:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:45:00+03:00",
+          "start": "2026-09-17T09:45:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 90",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-091",
+      "location": {
+        "label": "Синтетическая точка 91; адрес вымышлен",
+        "lat": 55.738456983883054,
+        "lon": 37.641224364762074
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 92,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "bicycle",
+      "service_minutes": 81,
+      "sla_deadline": "2026-09-17T12:50:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:20:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 91",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-092",
+      "location": {
+        "label": "Синтетическая точка 92; адрес вымышлен",
+        "lat": 55.76088046500174,
+        "lon": 37.63820320141876
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 93,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 70,
+      "sla_deadline": "2026-09-17T12:57:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:27:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 92",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-093",
+      "location": {
+        "label": "Синтетическая точка 93; адрес вымышлен",
+        "lat": 55.7416050055454,
+        "lon": 37.634368725456774
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 94,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 79,
+      "sla_deadline": "2026-09-17T09:57:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:27:00+03:00",
+          "start": "2026-09-17T08:27:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 93",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-094",
+      "location": {
+        "label": "Синтетическая точка 94; адрес вымышлен",
+        "lat": 55.763398004184616,
+        "lon": 37.63792966256689
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 95,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "walk",
+      "service_minutes": 67,
+      "sla_deadline": "2026-09-17T10:26:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:56:00+03:00",
+          "start": "2026-09-17T08:56:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 94",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-095",
+      "location": {
+        "label": "Синтетическая точка 95; адрес вымышлен",
+        "lat": 55.761397117801486,
+        "lon": 37.61801516173394
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 96,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 69,
+      "sla_deadline": "2026-09-17T10:48:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:18:00+03:00",
+          "start": "2026-09-17T09:18:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 95",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-096",
+      "location": {
+        "label": "Синтетическая точка 96; адрес вымышлен",
+        "lat": 55.74002524769941,
+        "lon": 37.62800165913743
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 97,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 76,
+      "sla_deadline": "2026-09-17T11:12:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:42:00+03:00",
+          "start": "2026-09-17T09:42:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 96",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-097",
+      "location": {
+        "label": "Синтетическая точка 97; адрес вымышлен",
+        "lat": 55.74202971019683,
+        "lon": 37.59847103773314
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 98,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "local"
+      ],
+      "required_transport": "car",
+      "service_minutes": 72,
+      "sla_deadline": "2026-09-17T12:47:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T14:00:00+03:00",
+          "start": "2026-09-17T11:17:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 97",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-098",
+      "location": {
+        "label": "Синтетическая точка 98; адрес вымышлен",
+        "lat": 55.74464126064698,
+        "lon": 37.6204702837764
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 99,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "connection"
+      ],
+      "required_transport": null,
+      "service_minutes": 89,
+      "sla_deadline": "2026-09-17T12:23:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T13:53:00+03:00",
+          "start": "2026-09-17T10:53:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 98",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-099",
+      "location": {
+        "label": "Синтетическая точка 99; адрес вымышлен",
+        "lat": 55.74392139525572,
+        "lon": 37.59638002675598
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 100,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": null,
+      "service_minutes": 66,
+      "sla_deadline": "2026-09-17T10:36:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T12:06:00+03:00",
+          "start": "2026-09-17T09:06:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 99",
+      "window_semantics": "start"
+    },
+    {
+      "assigned_engineer_id": null,
+      "id": "job-100",
+      "location": {
+        "label": "Синтетическая точка 100; адрес вымышлен",
+        "lat": 55.752901230414594,
+        "lon": 37.64417752864415
+      },
+      "locked": false,
+      "metadata": {
+        "hypothesis": "A",
+        "source_row": 101,
+        "synthetic": true
+      },
+      "priority": 50,
+      "required_equipment": [],
+      "required_skills": [
+        "emergency"
+      ],
+      "required_transport": "public_transport",
+      "service_minutes": 61,
+      "sla_deadline": "2026-09-17T09:39:00+03:00",
+      "status": "pending",
+      "time_windows": [
+        {
+          "end": "2026-09-17T11:09:00+03:00",
+          "start": "2026-09-17T08:09:00+03:00"
+        }
+      ],
+      "title": "Учебная заявка 100",
+      "window_semantics": "start"
+    }
+  ],
+  "optimization_policy": "staff_first",
+  "planning_time": "2026-09-17T08:00:00+03:00",
+  "previous_plan": null,
+  "urgency_policy": "urgent_first",
+  "weights": {
+    "distance_km": 0.2,
+    "overtime": 300,
+    "plan_churn": 20,
+    "schedule_shift": 0.25,
+    "sla_violation": 500,
+    "travel_minutes": 1,
+    "unassigned": 1000,
+    "workload_imbalance": 2
+  }
+}

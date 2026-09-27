@@ -1,0 +1,18 @@
+.manual-assignment{margin:20px 0;padding:16px;border:1px solid #d7e4dc;border-radius:12px;background:#f7faf8}
+.manual-assignment h3{margin:0 0 8px}
+.manual-assignment p{line-height:1.5;overflow-wrap:anywhere}
+.assignment-form{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.assignment-field{display:flex;flex:1;min-width:190px;flex-direction:column;gap:6px;font-size:13px;font-weight:700}
+.assignment-form select{font:inherit;width:100%;min-width:0;max-width:100%;border:1px solid #d7d9de;padding:10px;border-radius:9px;background:#fff}
+.assignment-form .btn{white-space:normal}
+.assignment-actions{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-top:14px}
+.assignment-actions[hidden]{display:none}
+.manual-assignment .btn:disabled,.manual-assignment select:disabled{opacity:.5;cursor:default}
+.assignment-table-wrap{overflow-x:auto;max-width:100%;margin:12px 0}
+.assignment-table{width:100%;border-collapse:collapse;font-size:13px}
+.assignment-table th,.assignment-table td{padding:9px 10px;border-bottom:1px solid #dfe7e2;text-align:left;vertical-align:top}
+.assignment-table th{font-weight:600}
+.assignment-table caption{text-align:left;font-weight:700;margin-bottom:8px}
+.assignment-notices{padding-left:22px;font-size:14px}
+#assignmentStatus:empty,#assignmentEligibility:empty{display:none}
+@media(max-width:650px){.manual-assignment{padding:12px}.assignment-field{min-width:0;flex-basis:100%}.assignment-form .btn,.assignment-actions .btn{width:100%}.assignment-table th,.assignment-table td{padding:8px 6px}}

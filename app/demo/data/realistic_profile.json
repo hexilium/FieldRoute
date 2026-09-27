@@ -1,0 +1,3287 @@
+{
+  "engineers": [
+    {
+      "equipment": [],
+      "id": "msk-eng-001",
+      "max_jobs": null,
+      "name": "Лапина Ксения Захаровна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.764664,
+        "lon": 37.666168
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-002",
+      "max_jobs": null,
+      "name": "Иванова Вероника Максимовна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.799249,
+        "lon": 37.676949
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-003",
+      "max_jobs": null,
+      "name": "Симонова София Семеновна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.797811,
+        "lon": 37.61813
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-004",
+      "max_jobs": null,
+      "name": "Соболев Светозар Тихонович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.776407,
+        "lon": 37.606292
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-005",
+      "max_jobs": null,
+      "name": "Владимиров Андроник Вилорович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.759185,
+        "lon": 37.578457
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-006",
+      "max_jobs": null,
+      "name": "Варвара Кирилловна Евсеева",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.735506,
+        "lon": 37.578068
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-007",
+      "max_jobs": null,
+      "name": "Алевтина Святославовна Артемьева",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.716758,
+        "lon": 37.64231
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-008",
+      "max_jobs": null,
+      "name": "Меркушев Ярополк Владиславович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.759968,
+        "lon": 37.694162
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-009",
+      "max_jobs": null,
+      "name": "Эмилия Макаровна Сидорова",
+      "shift": {
+        "end": "2026-09-17T16:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.772061,
+        "lon": 37.68046
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-010",
+      "max_jobs": null,
+      "name": "Аксенов Руслан Германович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.790799,
+        "lon": 37.679009
+      },
+      "transport": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-011",
+      "max_jobs": null,
+      "name": "Овчинников Иларион Григорьевич",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.796432,
+        "lon": 37.617099
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-012",
+      "max_jobs": null,
+      "name": "Лев Борисович Воронцов",
+      "shift": {
+        "end": "2026-09-17T18:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.771216,
+        "lon": 37.600938
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-013",
+      "max_jobs": null,
+      "name": "г-н Семенов Клавдий Аксёнович",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.764378,
+        "lon": 37.566591
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-014",
+      "max_jobs": null,
+      "name": "Комарова Тамара Григорьевна",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.734308,
+        "lon": 37.587571
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-015",
+      "max_jobs": null,
+      "name": "Влас Елисеевич Иванов",
+      "shift": {
+        "end": "2026-09-17T16:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.707397,
+        "lon": 37.629939
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-016",
+      "max_jobs": null,
+      "name": "Венедикт Артурович Яковлев",
+      "shift": {
+        "end": "2026-09-17T16:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.758615,
+        "lon": 37.700335
+      },
+      "transport": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-017",
+      "max_jobs": null,
+      "name": "Аникита Валерьевич Овчинников",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.764712,
+        "lon": 37.668297
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-018",
+      "max_jobs": null,
+      "name": "Виноградова Дарья Даниловна",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.780192,
+        "lon": 37.679871
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-019",
+      "max_jobs": null,
+      "name": "Комарова Феврония Мироновна",
+      "shift": {
+        "end": "2026-09-17T16:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.787642,
+        "lon": 37.616631
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-020",
+      "max_jobs": null,
+      "name": "Комиссарова Ульяна Семеновна",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.777183,
+        "lon": 37.608068
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-021",
+      "max_jobs": null,
+      "name": "Воронцов Антонин Эдгарович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.763047,
+        "lon": 37.576129
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-022",
+      "max_jobs": null,
+      "name": "Марфа Павловна Баранова",
+      "shift": {
+        "end": "2026-09-17T19:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.727341,
+        "lon": 37.584944
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-023",
+      "max_jobs": null,
+      "name": "Всемил Фролович Евсеев",
+      "shift": {
+        "end": "2026-09-17T19:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.716384,
+        "lon": 37.633958
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-024",
+      "max_jobs": null,
+      "name": "Вероника Мироновна Пахомова",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.753031,
+        "lon": 37.708725
+      },
+      "transport": "walk",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-025",
+      "max_jobs": null,
+      "name": "Вероника Федоровна Денисова",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.770497,
+        "lon": 37.665064
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-026",
+      "max_jobs": null,
+      "name": "Агафон Ефремович Филатов",
+      "shift": {
+        "end": "2026-09-17T16:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.784265,
+        "lon": 37.685617
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-027",
+      "max_jobs": null,
+      "name": "Лаврентьева Ирина Ждановна",
+      "shift": {
+        "end": "2026-09-17T16:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.790032,
+        "lon": 37.617713
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-028",
+      "max_jobs": null,
+      "name": "Варфоломей Федотович Павлов",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.776075,
+        "lon": 37.599534
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-029",
+      "max_jobs": null,
+      "name": "Лихачева Ульяна Сергеевна",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.760828,
+        "lon": 37.566307
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-030",
+      "max_jobs": null,
+      "name": "Юлия Вячеславовна Федосеева",
+      "shift": {
+        "end": "2026-09-17T19:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.734791,
+        "lon": 37.580289
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-031",
+      "max_jobs": null,
+      "name": "Лука Феоктистович Калинин",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.715287,
+        "lon": 37.623293
+      },
+      "transport": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-032",
+      "max_jobs": null,
+      "name": "Брагин Севастьян Данилович",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.745661,
+        "lon": 37.707033
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-033",
+      "max_jobs": null,
+      "name": "Раиса Афанасьевна Доронина",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.767686,
+        "lon": 37.653064
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-034",
+      "max_jobs": null,
+      "name": "Гаврилов Панкрат Давыдович",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.793767,
+        "lon": 37.669181
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-035",
+      "max_jobs": null,
+      "name": "Вероника Ильинична Тимофеева",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.794415,
+        "lon": 37.614741
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-036",
+      "max_jobs": null,
+      "name": "Прохор Давыдович Панов",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.774809,
+        "lon": 37.6109
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-037",
+      "max_jobs": null,
+      "name": "Наина Ждановна Субботина",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.76125,
+        "lon": 37.564978
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-038",
+      "max_jobs": null,
+      "name": "г-жа Ефимова Анастасия Васильевна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.73784,
+        "lon": 37.575172
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-039",
+      "max_jobs": null,
+      "name": "Тамара Рудольфовна Иванова",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.713789,
+        "lon": 37.637223
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-040",
+      "max_jobs": null,
+      "name": "Сергеев Остромир Иларионович",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.749253,
+        "lon": 37.693983
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-041",
+      "max_jobs": null,
+      "name": "Попова Антонина Тимофеевна",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.763588,
+        "lon": 37.683716
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-042",
+      "max_jobs": null,
+      "name": "Князев Анатолий Еремеевич",
+      "shift": {
+        "end": "2026-09-17T18:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.786049,
+        "lon": 37.688125
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-043",
+      "max_jobs": null,
+      "name": "Егоров Святослав Бориславович",
+      "shift": {
+        "end": "2026-09-17T18:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.79863,
+        "lon": 37.61649
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-044",
+      "max_jobs": null,
+      "name": "Элеонора Петровна Пономарева",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.767496,
+        "lon": 37.596633
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-045",
+      "max_jobs": null,
+      "name": "Елена Матвеевна Дроздова",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.764163,
+        "lon": 37.571157
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-046",
+      "max_jobs": null,
+      "name": "Анисимова Нинель Юльевна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.728271,
+        "lon": 37.578036
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-047",
+      "max_jobs": null,
+      "name": "Беспалов Автоном Феоктистович",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.717963,
+        "lon": 37.62624
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-048",
+      "max_jobs": null,
+      "name": "Карпова София Харитоновна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.751932,
+        "lon": 37.705312
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-049",
+      "max_jobs": null,
+      "name": "Ратибор Иларионович Новиков",
+      "shift": {
+        "end": "2026-09-17T17:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.76446,
+        "lon": 37.674419
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-050",
+      "max_jobs": null,
+      "name": "Евфросиния Егоровна Богданова",
+      "shift": {
+        "end": "2026-09-17T19:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.796024,
+        "lon": 37.682896
+      },
+      "transport": "bicycle",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-051",
+      "max_jobs": null,
+      "name": "Данилова Дарья Антоновна",
+      "shift": {
+        "end": "2026-09-17T16:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.795786,
+        "lon": 37.610845
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-052",
+      "max_jobs": null,
+      "name": "Игнатов Игорь Бориславович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.77801,
+        "lon": 37.596905
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-053",
+      "max_jobs": null,
+      "name": "Суханов Панкрат Арсенович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Пресненский · старт смены",
+        "lat": 55.763203,
+        "lon": 37.562914
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-054",
+      "max_jobs": null,
+      "name": "Галкин Якуб Дмитриевич",
+      "shift": {
+        "end": "2026-09-17T16:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Хамовники · старт смены",
+        "lat": 55.733833,
+        "lon": 37.582959
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-055",
+      "max_jobs": null,
+      "name": "Олимпиада Никифоровна Самсонова",
+      "shift": {
+        "end": "2026-09-17T17:30:00+03:00",
+        "start": "2026-09-17T08:30:00+03:00"
+      },
+      "skills": [
+        "connection"
+      ],
+      "start_location": {
+        "label": "Москва, Даниловский · старт смены",
+        "lat": 55.718433,
+        "lon": 37.63158
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-056",
+      "max_jobs": null,
+      "name": "Гаврилова Регина Тарасовна",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Лефортово · старт смены",
+        "lat": 55.755204,
+        "lon": 37.699105
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-057",
+      "max_jobs": null,
+      "name": "Белозеров Тит Вячеславович",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Басманный · старт смены",
+        "lat": 55.769742,
+        "lon": 37.677918
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-058",
+      "max_jobs": null,
+      "name": "Сигизмунд Ильич Петров",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T08:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Сокольники · старт смены",
+        "lat": 55.788471,
+        "lon": 37.682568
+      },
+      "transport": "public_transport",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-059",
+      "max_jobs": null,
+      "name": "Антонина Оскаровна Громова",
+      "shift": {
+        "end": "2026-09-17T18:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Марьина Роща · старт смены",
+        "lat": 55.799164,
+        "lon": 37.610802
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    },
+    {
+      "equipment": [],
+      "id": "msk-eng-060",
+      "max_jobs": null,
+      "name": "Никита Фомич Козлов",
+      "shift": {
+        "end": "2026-09-17T19:00:00+03:00",
+        "start": "2026-09-17T09:00:00+03:00"
+      },
+      "skills": [
+        "connection",
+        "local"
+      ],
+      "start_location": {
+        "label": "Москва, Тверской · старт смены",
+        "lat": 55.771985,
+        "lon": 37.598055
+      },
+      "transport": "car",
+      "travel_speed_kmh": null
+    }
+  ],
+  "job_rules": [
+    {
+      "bk_type": "Локальная заявка",
+      "hd_type": "Диагностика интернет-соединения",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 25,
+      "service_norm": null,
+      "skill": "local",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Локальная заявка",
+      "hd_type": "Настройка Wi-Fi",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 35,
+      "service_norm": null,
+      "skill": "local",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Локальная заявка",
+      "hd_type": "Замена абонентского роутера",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 40,
+      "service_norm": null,
+      "skill": "local",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Локальная заявка",
+      "hd_type": "Восстановление IPTV",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 20,
+      "service_norm": null,
+      "skill": "local",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Подключение",
+      "hd_type": "Подключение квартиры FTTB",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 65,
+      "service_norm": null,
+      "skill": "connection",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Подключение",
+      "hd_type": "Подключение офиса",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": "car",
+      "service_minutes": 85,
+      "service_norm": null,
+      "skill": "connection",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Подключение",
+      "hd_type": "Прокладка кабеля и подключение",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": "car",
+      "service_minutes": 105,
+      "service_norm": null,
+      "skill": "connection",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Дозаказ",
+      "hd_type": "Доставка и установка приставки",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "normal",
+      "required_equipment": [],
+      "required_transport": null,
+      "service_minutes": 15,
+      "service_norm": null,
+      "skill": "connection",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Глобальная проблема",
+      "hd_type": "Замена коммутатора доступа",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "urgent",
+      "required_equipment": [],
+      "required_transport": "car",
+      "service_minutes": 80,
+      "service_norm": null,
+      "skill": "emergency",
+      "window_semantics": "start"
+    },
+    {
+      "bk_type": "Глобальная проблема",
+      "hd_type": "Восстановление оптической линии",
+      "note": "Синтетическая длительность работ на месте; дорога рассчитывается отдельно.",
+      "priority": "urgent",
+      "required_equipment": [],
+      "required_transport": "car",
+      "service_minutes": 100,
+      "service_norm": null,
+      "skill": "emergency",
+      "window_semantics": "start"
+    }
+  ],
+  "location_reviews": {},
+  "locations": {
+    "Москва, Авиамоторная ул., д. 1": {
+      "label": "Москва, Авиамоторная ул., д. 1",
+      "lat": 55.760954,
+      "lon": 37.707887
+    },
+    "Москва, Авиамоторная ул., д. 105": {
+      "label": "Москва, Авиамоторная ул., д. 105",
+      "lat": 55.753381,
+      "lon": 37.705789
+    },
+    "Москва, Авиамоторная ул., д. 11": {
+      "label": "Москва, Авиамоторная ул., д. 11",
+      "lat": 55.761681,
+      "lon": 37.697897
+    },
+    "Москва, Авиамоторная ул., д. 3": {
+      "label": "Москва, Авиамоторная ул., д. 3",
+      "lat": 55.749128,
+      "lon": 37.706065
+    },
+    "Москва, Авиамоторная ул., д. 32": {
+      "label": "Москва, Авиамоторная ул., д. 32",
+      "lat": 55.749831,
+      "lon": 37.710952
+    },
+    "Москва, Авиамоторная ул., д. 44": {
+      "label": "Москва, Авиамоторная ул., д. 44",
+      "lat": 55.750025,
+      "lon": 37.709694
+    },
+    "Москва, Авиамоторная ул., д. 49": {
+      "label": "Москва, Авиамоторная ул., д. 49",
+      "lat": 55.760293,
+      "lon": 37.70187
+    },
+    "Москва, Авиамоторная ул., д. 67": {
+      "label": "Москва, Авиамоторная ул., д. 67",
+      "lat": 55.757179,
+      "lon": 37.701716
+    },
+    "Москва, Авиамоторная ул., д. 68": {
+      "label": "Москва, Авиамоторная ул., д. 68",
+      "lat": 55.753799,
+      "lon": 37.712928
+    },
+    "Москва, Авиамоторная ул., д. 70": {
+      "label": "Москва, Авиамоторная ул., д. 70",
+      "lat": 55.752848,
+      "lon": 37.6984
+    },
+    "Москва, Авиамоторная ул., д. 91": {
+      "label": "Москва, Авиамоторная ул., д. 91",
+      "lat": 55.755579,
+      "lon": 37.68955
+    },
+    "Москва, Бакунинская ул., д. 102": {
+      "label": "Москва, Бакунинская ул., д. 102",
+      "lat": 55.767823,
+      "lon": 37.667042
+    },
+    "Москва, Бакунинская ул., д. 103": {
+      "label": "Москва, Бакунинская ул., д. 103",
+      "lat": 55.770259,
+      "lon": 37.672947
+    },
+    "Москва, Бакунинская ул., д. 104": {
+      "label": "Москва, Бакунинская ул., д. 104",
+      "lat": 55.770745,
+      "lon": 37.680535
+    },
+    "Москва, Бакунинская ул., д. 114": {
+      "label": "Москва, Бакунинская ул., д. 114",
+      "lat": 55.772705,
+      "lon": 37.675331
+    },
+    "Москва, Бакунинская ул., д. 15": {
+      "label": "Москва, Бакунинская ул., д. 15",
+      "lat": 55.770086,
+      "lon": 37.663542
+    },
+    "Москва, Бакунинская ул., д. 21": {
+      "label": "Москва, Бакунинская ул., д. 21",
+      "lat": 55.766528,
+      "lon": 37.675129
+    },
+    "Москва, Бакунинская ул., д. 31": {
+      "label": "Москва, Бакунинская ул., д. 31",
+      "lat": 55.761515,
+      "lon": 37.658877
+    },
+    "Москва, Бакунинская ул., д. 34": {
+      "label": "Москва, Бакунинская ул., д. 34",
+      "lat": 55.772768,
+      "lon": 37.664376
+    },
+    "Москва, Бакунинская ул., д. 56": {
+      "label": "Москва, Бакунинская ул., д. 56",
+      "lat": 55.766411,
+      "lon": 37.675983
+    },
+    "Москва, Бакунинская ул., д. 57": {
+      "label": "Москва, Бакунинская ул., д. 57",
+      "lat": 55.762508,
+      "lon": 37.678511
+    },
+    "Москва, Бакунинская ул., д. 6": {
+      "label": "Москва, Бакунинская ул., д. 6",
+      "lat": 55.772912,
+      "lon": 37.66365
+    },
+    "Москва, Бакунинская ул., д. 88": {
+      "label": "Москва, Бакунинская ул., д. 88",
+      "lat": 55.768258,
+      "lon": 37.676891
+    },
+    "Москва, Бакунинская ул., д. 90": {
+      "label": "Москва, Бакунинская ул., д. 90",
+      "lat": 55.766991,
+      "lon": 37.673252
+    },
+    "Москва, Бауманская ул., д. 100": {
+      "label": "Москва, Бауманская ул., д. 100",
+      "lat": 55.765429,
+      "lon": 37.666688
+    },
+    "Москва, Бауманская ул., д. 107": {
+      "label": "Москва, Бауманская ул., д. 107",
+      "lat": 55.767716,
+      "lon": 37.658552
+    },
+    "Москва, Бауманская ул., д. 11": {
+      "label": "Москва, Бауманская ул., д. 11",
+      "lat": 55.769641,
+      "lon": 37.685066
+    },
+    "Москва, Бауманская ул., д. 111": {
+      "label": "Москва, Бауманская ул., д. 111",
+      "lat": 55.759532,
+      "lon": 37.673986
+    },
+    "Москва, Бауманская ул., д. 13": {
+      "label": "Москва, Бауманская ул., д. 13",
+      "lat": 55.767688,
+      "lon": 37.66038
+    },
+    "Москва, Бауманская ул., д. 14": {
+      "label": "Москва, Бауманская ул., д. 14",
+      "lat": 55.770402,
+      "lon": 37.66751
+    },
+    "Москва, Бауманская ул., д. 22": {
+      "label": "Москва, Бауманская ул., д. 22",
+      "lat": 55.767198,
+      "lon": 37.677445
+    },
+    "Москва, Бауманская ул., д. 25": {
+      "label": "Москва, Бауманская ул., д. 25",
+      "lat": 55.763265,
+      "lon": 37.679646
+    },
+    "Москва, Бауманская ул., д. 28": {
+      "label": "Москва, Бауманская ул., д. 28",
+      "lat": 55.767584,
+      "lon": 37.66895
+    },
+    "Москва, Бауманская ул., д. 31": {
+      "label": "Москва, Бауманская ул., д. 31",
+      "lat": 55.769442,
+      "lon": 37.674364
+    },
+    "Москва, Бауманская ул., д. 53": {
+      "label": "Москва, Бауманская ул., д. 53",
+      "lat": 55.77097,
+      "lon": 37.674022
+    },
+    "Москва, Бауманская ул., д. 59": {
+      "label": "Москва, Бауманская ул., д. 59",
+      "lat": 55.769417,
+      "lon": 37.674875
+    },
+    "Москва, Бауманская ул., д. 60": {
+      "label": "Москва, Бауманская ул., д. 60",
+      "lat": 55.76592,
+      "lon": 37.684629
+    },
+    "Москва, Бауманская ул., д. 62": {
+      "label": "Москва, Бауманская ул., д. 62",
+      "lat": 55.770656,
+      "lon": 37.668541
+    },
+    "Москва, Бауманская ул., д. 72": {
+      "label": "Москва, Бауманская ул., д. 72",
+      "lat": 55.76366,
+      "lon": 37.677969
+    },
+    "Москва, Бауманская ул., д. 74": {
+      "label": "Москва, Бауманская ул., д. 74",
+      "lat": 55.762051,
+      "lon": 37.675547
+    },
+    "Москва, Бауманская ул., д. 76": {
+      "label": "Москва, Бауманская ул., д. 76",
+      "lat": 55.763523,
+      "lon": 37.678701
+    },
+    "Москва, Бауманская ул., д. 79": {
+      "label": "Москва, Бауманская ул., д. 79",
+      "lat": 55.767087,
+      "lon": 37.664566
+    },
+    "Москва, Бауманская ул., д. 83": {
+      "label": "Москва, Бауманская ул., д. 83",
+      "lat": 55.768937,
+      "lon": 37.670126
+    },
+    "Москва, Бауманская ул., д. 88": {
+      "label": "Москва, Бауманская ул., д. 88",
+      "lat": 55.76791,
+      "lon": 37.661269
+    },
+    "Москва, Бауманская ул., д. 91": {
+      "label": "Москва, Бауманская ул., д. 91",
+      "lat": 55.769789,
+      "lon": 37.667529
+    },
+    "Москва, Бауманская ул., д. 97": {
+      "label": "Москва, Бауманская ул., д. 97",
+      "lat": 55.769858,
+      "lon": 37.679509
+    },
+    "Москва, Даниловский Вал, д. 107": {
+      "label": "Москва, Даниловский Вал, д. 107",
+      "lat": 55.715907,
+      "lon": 37.623227
+    },
+    "Москва, Даниловский Вал, д. 118": {
+      "label": "Москва, Даниловский Вал, д. 118",
+      "lat": 55.71618,
+      "lon": 37.616408
+    },
+    "Москва, Даниловский Вал, д. 18": {
+      "label": "Москва, Даниловский Вал, д. 18",
+      "lat": 55.711611,
+      "lon": 37.639578
+    },
+    "Москва, Даниловский Вал, д. 22": {
+      "label": "Москва, Даниловский Вал, д. 22",
+      "lat": 55.706092,
+      "lon": 37.63316
+    },
+    "Москва, Даниловский Вал, д. 39": {
+      "label": "Москва, Даниловский Вал, д. 39",
+      "lat": 55.716702,
+      "lon": 37.623915
+    },
+    "Москва, Даниловский Вал, д. 4": {
+      "label": "Москва, Даниловский Вал, д. 4",
+      "lat": 55.713109,
+      "lon": 37.63479
+    },
+    "Москва, Даниловский Вал, д. 42": {
+      "label": "Москва, Даниловский Вал, д. 42",
+      "lat": 55.721317,
+      "lon": 37.631387
+    },
+    "Москва, Даниловский Вал, д. 50": {
+      "label": "Москва, Даниловский Вал, д. 50",
+      "lat": 55.715,
+      "lon": 37.635467
+    },
+    "Москва, Даниловский Вал, д. 56": {
+      "label": "Москва, Даниловский Вал, д. 56",
+      "lat": 55.717865,
+      "lon": 37.642251
+    },
+    "Москва, Даниловский Вал, д. 59": {
+      "label": "Москва, Даниловский Вал, д. 59",
+      "lat": 55.713366,
+      "lon": 37.609
+    },
+    "Москва, Даниловский Вал, д. 60": {
+      "label": "Москва, Даниловский Вал, д. 60",
+      "lat": 55.709978,
+      "lon": 37.626592
+    },
+    "Москва, Даниловский Вал, д. 69": {
+      "label": "Москва, Даниловский Вал, д. 69",
+      "lat": 55.714929,
+      "lon": 37.638067
+    },
+    "Москва, Даниловский Вал, д. 77": {
+      "label": "Москва, Даниловский Вал, д. 77",
+      "lat": 55.718405,
+      "lon": 37.627655
+    },
+    "Москва, Даниловский Вал, д. 8": {
+      "label": "Москва, Даниловский Вал, д. 8",
+      "lat": 55.715186,
+      "lon": 37.632015
+    },
+    "Москва, Даниловский Вал, д. 82": {
+      "label": "Москва, Даниловский Вал, д. 82",
+      "lat": 55.712704,
+      "lon": 37.619792
+    },
+    "Москва, Дубининская ул., д. 1": {
+      "label": "Москва, Дубининская ул., д. 1",
+      "lat": 55.715416,
+      "lon": 37.633563
+    },
+    "Москва, Дубининская ул., д. 105": {
+      "label": "Москва, Дубининская ул., д. 105",
+      "lat": 55.711843,
+      "lon": 37.640309
+    },
+    "Москва, Дубининская ул., д. 19": {
+      "label": "Москва, Дубининская ул., д. 19",
+      "lat": 55.715387,
+      "lon": 37.634173
+    },
+    "Москва, Дубининская ул., д. 2": {
+      "label": "Москва, Дубининская ул., д. 2",
+      "lat": 55.717926,
+      "lon": 37.640885
+    },
+    "Москва, Дубининская ул., д. 23": {
+      "label": "Москва, Дубининская ул., д. 23",
+      "lat": 55.716886,
+      "lon": 37.630989
+    },
+    "Москва, Дубининская ул., д. 35": {
+      "label": "Москва, Дубининская ул., д. 35",
+      "lat": 55.714776,
+      "lon": 37.6348
+    },
+    "Москва, Дубининская ул., д. 36": {
+      "label": "Москва, Дубининская ул., д. 36",
+      "lat": 55.708947,
+      "lon": 37.644734
+    },
+    "Москва, Дубининская ул., д. 4": {
+      "label": "Москва, Дубининская ул., д. 4",
+      "lat": 55.714561,
+      "lon": 37.628146
+    },
+    "Москва, Дубининская ул., д. 45": {
+      "label": "Москва, Дубининская ул., д. 45",
+      "lat": 55.714311,
+      "lon": 37.634404
+    },
+    "Москва, Дубининская ул., д. 46": {
+      "label": "Москва, Дубининская ул., д. 46",
+      "lat": 55.712714,
+      "lon": 37.637309
+    },
+    "Москва, Дубининская ул., д. 48": {
+      "label": "Москва, Дубининская ул., д. 48",
+      "lat": 55.713553,
+      "lon": 37.632868
+    },
+    "Москва, Дубининская ул., д. 49": {
+      "label": "Москва, Дубининская ул., д. 49",
+      "lat": 55.721235,
+      "lon": 37.630474
+    },
+    "Москва, Дубининская ул., д. 6": {
+      "label": "Москва, Дубининская ул., д. 6",
+      "lat": 55.718108,
+      "lon": 37.635425
+    },
+    "Москва, Дубининская ул., д. 60": {
+      "label": "Москва, Дубининская ул., д. 60",
+      "lat": 55.714547,
+      "lon": 37.633792
+    },
+    "Москва, Дубининская ул., д. 62": {
+      "label": "Москва, Дубининская ул., д. 62",
+      "lat": 55.714583,
+      "lon": 37.624155
+    },
+    "Москва, Дубининская ул., д. 64": {
+      "label": "Москва, Дубининская ул., д. 64",
+      "lat": 55.713955,
+      "lon": 37.621525
+    },
+    "Москва, Дубининская ул., д. 9": {
+      "label": "Москва, Дубининская ул., д. 9",
+      "lat": 55.714506,
+      "lon": 37.626923
+    },
+    "Москва, Звенигородская ул., д. 102": {
+      "label": "Москва, Звенигородская ул., д. 102",
+      "lat": 55.766562,
+      "lon": 37.563775
+    },
+    "Москва, Звенигородская ул., д. 106": {
+      "label": "Москва, Звенигородская ул., д. 106",
+      "lat": 55.760317,
+      "lon": 37.574391
+    },
+    "Москва, Звенигородская ул., д. 114": {
+      "label": "Москва, Звенигородская ул., д. 114",
+      "lat": 55.758222,
+      "lon": 37.563498
+    },
+    "Москва, Звенигородская ул., д. 117": {
+      "label": "Москва, Звенигородская ул., д. 117",
+      "lat": 55.761743,
+      "lon": 37.561544
+    },
+    "Москва, Звенигородская ул., д. 14": {
+      "label": "Москва, Звенигородская ул., д. 14",
+      "lat": 55.759156,
+      "lon": 37.555761
+    },
+    "Москва, Звенигородская ул., д. 2": {
+      "label": "Москва, Звенигородская ул., д. 2",
+      "lat": 55.766359,
+      "lon": 37.560598
+    },
+    "Москва, Звенигородская ул., д. 29": {
+      "label": "Москва, Звенигородская ул., д. 29",
+      "lat": 55.773896,
+      "lon": 37.57677
+    },
+    "Москва, Звенигородская ул., д. 34": {
+      "label": "Москва, Звенигородская ул., д. 34",
+      "lat": 55.75992,
+      "lon": 37.558888
+    },
+    "Москва, Звенигородская ул., д. 44": {
+      "label": "Москва, Звенигородская ул., д. 44",
+      "lat": 55.763693,
+      "lon": 37.565251
+    },
+    "Москва, Звенигородская ул., д. 51": {
+      "label": "Москва, Звенигородская ул., д. 51",
+      "lat": 55.766853,
+      "lon": 37.567671
+    },
+    "Москва, Звенигородская ул., д. 53": {
+      "label": "Москва, Звенигородская ул., д. 53",
+      "lat": 55.770759,
+      "lon": 37.569947
+    },
+    "Москва, Звенигородская ул., д. 62": {
+      "label": "Москва, Звенигородская ул., д. 62",
+      "lat": 55.767125,
+      "lon": 37.553587
+    },
+    "Москва, Звенигородская ул., д. 65": {
+      "label": "Москва, Звенигородская ул., д. 65",
+      "lat": 55.761948,
+      "lon": 37.572769
+    },
+    "Москва, Звенигородская ул., д. 67": {
+      "label": "Москва, Звенигородская ул., д. 67",
+      "lat": 55.76175,
+      "lon": 37.568667
+    },
+    "Москва, Звенигородская ул., д. 69": {
+      "label": "Москва, Звенигородская ул., д. 69",
+      "lat": 55.762823,
+      "lon": 37.567538
+    },
+    "Москва, Звенигородская ул., д. 77": {
+      "label": "Москва, Звенигородская ул., д. 77",
+      "lat": 55.763023,
+      "lon": 37.572284
+    },
+    "Москва, Звенигородская ул., д. 84": {
+      "label": "Москва, Звенигородская ул., д. 84",
+      "lat": 55.763507,
+      "lon": 37.557117
+    },
+    "Москва, Звенигородская ул., д. 86": {
+      "label": "Москва, Звенигородская ул., д. 86",
+      "lat": 55.763821,
+      "lon": 37.562646
+    },
+    "Москва, Звенигородская ул., д. 91": {
+      "label": "Москва, Звенигородская ул., д. 91",
+      "lat": 55.765779,
+      "lon": 37.57587
+    },
+    "Москва, Звенигородская ул., д. 92": {
+      "label": "Москва, Звенигородская ул., д. 92",
+      "lat": 55.754464,
+      "lon": 37.567441
+    },
+    "Москва, Комсомольский проспект, д. 14": {
+      "label": "Москва, Комсомольский проспект, д. 14",
+      "lat": 55.726381,
+      "lon": 37.588832
+    },
+    "Москва, Комсомольский проспект, д. 37": {
+      "label": "Москва, Комсомольский проспект, д. 37",
+      "lat": 55.728983,
+      "lon": 37.57075
+    },
+    "Москва, Комсомольский проспект, д. 49": {
+      "label": "Москва, Комсомольский проспект, д. 49",
+      "lat": 55.733036,
+      "lon": 37.583649
+    },
+    "Москва, Комсомольский проспект, д. 58": {
+      "label": "Москва, Комсомольский проспект, д. 58",
+      "lat": 55.734792,
+      "lon": 37.572635
+    },
+    "Москва, Комсомольский проспект, д. 65": {
+      "label": "Москва, Комсомольский проспект, д. 65",
+      "lat": 55.730636,
+      "lon": 37.59001
+    },
+    "Москва, Комсомольский проспект, д. 71": {
+      "label": "Москва, Комсомольский проспект, д. 71",
+      "lat": 55.735756,
+      "lon": 37.588495
+    },
+    "Москва, Комсомольский проспект, д. 72": {
+      "label": "Москва, Комсомольский проспект, д. 72",
+      "lat": 55.73735,
+      "lon": 37.583432
+    },
+    "Москва, Комсомольский проспект, д. 87": {
+      "label": "Москва, Комсомольский проспект, д. 87",
+      "lat": 55.735721,
+      "lon": 37.586091
+    },
+    "Москва, Комсомольский проспект, д. 90": {
+      "label": "Москва, Комсомольский проспект, д. 90",
+      "lat": 55.732129,
+      "lon": 37.581855
+    },
+    "Москва, Комсомольский проспект, д. 96": {
+      "label": "Москва, Комсомольский проспект, д. 96",
+      "lat": 55.733494,
+      "lon": 37.576383
+    },
+    "Москва, Комсомольский проспект, д. 97": {
+      "label": "Москва, Комсомольский проспект, д. 97",
+      "lat": 55.730662,
+      "lon": 37.579148
+    },
+    "Москва, Красная Пресня, д. 1": {
+      "label": "Москва, Красная Пресня, д. 1",
+      "lat": 55.757657,
+      "lon": 37.570097
+    },
+    "Москва, Красная Пресня, д. 100": {
+      "label": "Москва, Красная Пресня, д. 100",
+      "lat": 55.760776,
+      "lon": 37.573707
+    },
+    "Москва, Красная Пресня, д. 105": {
+      "label": "Москва, Красная Пресня, д. 105",
+      "lat": 55.757699,
+      "lon": 37.559031
+    },
+    "Москва, Красная Пресня, д. 115": {
+      "label": "Москва, Красная Пресня, д. 115",
+      "lat": 55.762183,
+      "lon": 37.570938
+    },
+    "Москва, Красная Пресня, д. 116": {
+      "label": "Москва, Красная Пресня, д. 116",
+      "lat": 55.76737,
+      "lon": 37.567448
+    },
+    "Москва, Красная Пресня, д. 12": {
+      "label": "Москва, Красная Пресня, д. 12",
+      "lat": 55.767221,
+      "lon": 37.559784
+    },
+    "Москва, Красная Пресня, д. 18": {
+      "label": "Москва, Красная Пресня, д. 18",
+      "lat": 55.768604,
+      "lon": 37.564742
+    },
+    "Москва, Красная Пресня, д. 21": {
+      "label": "Москва, Красная Пресня, д. 21",
+      "lat": 55.764688,
+      "lon": 37.573918
+    },
+    "Москва, Красная Пресня, д. 26": {
+      "label": "Москва, Красная Пресня, д. 26",
+      "lat": 55.762841,
+      "lon": 37.566227
+    },
+    "Москва, Красная Пресня, д. 27": {
+      "label": "Москва, Красная Пресня, д. 27",
+      "lat": 55.765115,
+      "lon": 37.563877
+    },
+    "Москва, Красная Пресня, д. 32": {
+      "label": "Москва, Красная Пресня, д. 32",
+      "lat": 55.768386,
+      "lon": 37.571758
+    },
+    "Москва, Красная Пресня, д. 38": {
+      "label": "Москва, Красная Пресня, д. 38",
+      "lat": 55.764065,
+      "lon": 37.556156
+    },
+    "Москва, Красная Пресня, д. 41": {
+      "label": "Москва, Красная Пресня, д. 41",
+      "lat": 55.766522,
+      "lon": 37.552497
+    },
+    "Москва, Красная Пресня, д. 44": {
+      "label": "Москва, Красная Пресня, д. 44",
+      "lat": 55.761907,
+      "lon": 37.575958
+    },
+    "Москва, Красная Пресня, д. 45": {
+      "label": "Москва, Красная Пресня, д. 45",
+      "lat": 55.763407,
+      "lon": 37.572212
+    },
+    "Москва, Красная Пресня, д. 50": {
+      "label": "Москва, Красная Пресня, д. 50",
+      "lat": 55.766342,
+      "lon": 37.562418
+    },
+    "Москва, Красная Пресня, д. 61": {
+      "label": "Москва, Красная Пресня, д. 61",
+      "lat": 55.764073,
+      "lon": 37.568367
+    },
+    "Москва, Красная Пресня, д. 64": {
+      "label": "Москва, Красная Пресня, д. 64",
+      "lat": 55.764949,
+      "lon": 37.546576
+    },
+    "Москва, Красная Пресня, д. 72": {
+      "label": "Москва, Красная Пресня, д. 72",
+      "lat": 55.761492,
+      "lon": 37.57889
+    },
+    "Москва, Красная Пресня, д. 75": {
+      "label": "Москва, Красная Пресня, д. 75",
+      "lat": 55.766888,
+      "lon": 37.558317
+    },
+    "Москва, Красная Пресня, д. 80": {
+      "label": "Москва, Красная Пресня, д. 80",
+      "lat": 55.758856,
+      "lon": 37.562795
+    },
+    "Москва, Красная Пресня, д. 97": {
+      "label": "Москва, Красная Пресня, д. 97",
+      "lat": 55.761361,
+      "lon": 37.571083
+    },
+    "Москва, Красноказарменная ул., д. 100": {
+      "label": "Москва, Красноказарменная ул., д. 100",
+      "lat": 55.755378,
+      "lon": 37.707808
+    },
+    "Москва, Красноказарменная ул., д. 103": {
+      "label": "Москва, Красноказарменная ул., д. 103",
+      "lat": 55.750498,
+      "lon": 37.698368
+    },
+    "Москва, Красноказарменная ул., д. 110": {
+      "label": "Москва, Красноказарменная ул., д. 110",
+      "lat": 55.75088,
+      "lon": 37.698993
+    },
+    "Москва, Красноказарменная ул., д. 111": {
+      "label": "Москва, Красноказарменная ул., д. 111",
+      "lat": 55.750928,
+      "lon": 37.702904
+    },
+    "Москва, Красноказарменная ул., д. 112": {
+      "label": "Москва, Красноказарменная ул., д. 112",
+      "lat": 55.758012,
+      "lon": 37.703788
+    },
+    "Москва, Красноказарменная ул., д. 14": {
+      "label": "Москва, Красноказарменная ул., д. 14",
+      "lat": 55.750873,
+      "lon": 37.713054
+    },
+    "Москва, Красноказарменная ул., д. 15": {
+      "label": "Москва, Красноказарменная ул., д. 15",
+      "lat": 55.755678,
+      "lon": 37.71284
+    },
+    "Москва, Красноказарменная ул., д. 23": {
+      "label": "Москва, Красноказарменная ул., д. 23",
+      "lat": 55.763418,
+      "lon": 37.70275
+    },
+    "Москва, Красноказарменная ул., д. 57": {
+      "label": "Москва, Красноказарменная ул., д. 57",
+      "lat": 55.75579,
+      "lon": 37.704074
+    },
+    "Москва, Красноказарменная ул., д. 64": {
+      "label": "Москва, Красноказарменная ул., д. 64",
+      "lat": 55.754236,
+      "lon": 37.696323
+    },
+    "Москва, Красноказарменная ул., д. 70": {
+      "label": "Москва, Красноказарменная ул., д. 70",
+      "lat": 55.753597,
+      "lon": 37.695544
+    },
+    "Москва, Красноказарменная ул., д. 77": {
+      "label": "Москва, Красноказарменная ул., д. 77",
+      "lat": 55.750905,
+      "lon": 37.690077
+    },
+    "Москва, Красноказарменная ул., д. 83": {
+      "label": "Москва, Красноказарменная ул., д. 83",
+      "lat": 55.752918,
+      "lon": 37.69401
+    },
+    "Москва, Красноказарменная ул., д. 94": {
+      "label": "Москва, Красноказарменная ул., д. 94",
+      "lat": 55.75983,
+      "lon": 37.70367
+    },
+    "Москва, Красноказарменная ул., д. 98": {
+      "label": "Москва, Красноказарменная ул., д. 98",
+      "lat": 55.758424,
+      "lon": 37.707848
+    },
+    "Москва, Лесная ул., д. 106": {
+      "label": "Москва, Лесная ул., д. 106",
+      "lat": 55.775002,
+      "lon": 37.607032
+    },
+    "Москва, Лесная ул., д. 12": {
+      "label": "Москва, Лесная ул., д. 12",
+      "lat": 55.778188,
+      "lon": 37.613308
+    },
+    "Москва, Лесная ул., д. 15": {
+      "label": "Москва, Лесная ул., д. 15",
+      "lat": 55.779268,
+      "lon": 37.599631
+    },
+    "Москва, Лесная ул., д. 16": {
+      "label": "Москва, Лесная ул., д. 16",
+      "lat": 55.772554,
+      "lon": 37.608059
+    },
+    "Москва, Лесная ул., д. 18": {
+      "label": "Москва, Лесная ул., д. 18",
+      "lat": 55.767266,
+      "lon": 37.607561
+    },
+    "Москва, Лесная ул., д. 21": {
+      "label": "Москва, Лесная ул., д. 21",
+      "lat": 55.774167,
+      "lon": 37.601559
+    },
+    "Москва, Лесная ул., д. 3": {
+      "label": "Москва, Лесная ул., д. 3",
+      "lat": 55.775119,
+      "lon": 37.599543
+    },
+    "Москва, Лесная ул., д. 40": {
+      "label": "Москва, Лесная ул., д. 40",
+      "lat": 55.77134,
+      "lon": 37.596892
+    },
+    "Москва, Лесная ул., д. 44": {
+      "label": "Москва, Лесная ул., д. 44",
+      "lat": 55.76932,
+      "lon": 37.608543
+    },
+    "Москва, Лесная ул., д. 52": {
+      "label": "Москва, Лесная ул., д. 52",
+      "lat": 55.775924,
+      "lon": 37.607861
+    },
+    "Москва, Лесная ул., д. 57": {
+      "label": "Москва, Лесная ул., д. 57",
+      "lat": 55.772079,
+      "lon": 37.600914
+    },
+    "Москва, Лесная ул., д. 68": {
+      "label": "Москва, Лесная ул., д. 68",
+      "lat": 55.768411,
+      "lon": 37.607606
+    },
+    "Москва, Лесная ул., д. 76": {
+      "label": "Москва, Лесная ул., д. 76",
+      "lat": 55.763767,
+      "lon": 37.593097
+    },
+    "Москва, Лесная ул., д. 9": {
+      "label": "Москва, Лесная ул., д. 9",
+      "lat": 55.767214,
+      "lon": 37.588246
+    },
+    "Москва, Лесная ул., д. 93": {
+      "label": "Москва, Лесная ул., д. 93",
+      "lat": 55.775573,
+      "lon": 37.588654
+    },
+    "Москва, Люсиновская ул., д. 10": {
+      "label": "Москва, Люсиновская ул., д. 10",
+      "lat": 55.723533,
+      "lon": 37.625042
+    },
+    "Москва, Люсиновская ул., д. 106": {
+      "label": "Москва, Люсиновская ул., д. 106",
+      "lat": 55.713336,
+      "lon": 37.619203
+    },
+    "Москва, Люсиновская ул., д. 114": {
+      "label": "Москва, Люсиновская ул., д. 114",
+      "lat": 55.714505,
+      "lon": 37.63007
+    },
+    "Москва, Люсиновская ул., д. 118": {
+      "label": "Москва, Люсиновская ул., д. 118",
+      "lat": 55.719405,
+      "lon": 37.619948
+    },
+    "Москва, Люсиновская ул., д. 15": {
+      "label": "Москва, Люсиновская ул., д. 15",
+      "lat": 55.707526,
+      "lon": 37.619432
+    },
+    "Москва, Люсиновская ул., д. 23": {
+      "label": "Москва, Люсиновская ул., д. 23",
+      "lat": 55.710555,
+      "lon": 37.627919
+    },
+    "Москва, Люсиновская ул., д. 53": {
+      "label": "Москва, Люсиновская ул., д. 53",
+      "lat": 55.717068,
+      "lon": 37.635314
+    },
+    "Москва, Люсиновская ул., д. 67": {
+      "label": "Москва, Люсиновская ул., д. 67",
+      "lat": 55.718834,
+      "lon": 37.639609
+    },
+    "Москва, Люсиновская ул., д. 70": {
+      "label": "Москва, Люсиновская ул., д. 70",
+      "lat": 55.724877,
+      "lon": 37.627496
+    },
+    "Москва, Люсиновская ул., д. 72": {
+      "label": "Москва, Люсиновская ул., д. 72",
+      "lat": 55.712929,
+      "lon": 37.633433
+    },
+    "Москва, Люсиновская ул., д. 75": {
+      "label": "Москва, Люсиновская ул., д. 75",
+      "lat": 55.710071,
+      "lon": 37.628059
+    },
+    "Москва, Люсиновская ул., д. 76": {
+      "label": "Москва, Люсиновская ул., д. 76",
+      "lat": 55.711537,
+      "lon": 37.626588
+    },
+    "Москва, Люсиновская ул., д. 83": {
+      "label": "Москва, Люсиновская ул., д. 83",
+      "lat": 55.717245,
+      "lon": 37.62283
+    },
+    "Москва, Новослободская ул., д. 10": {
+      "label": "Москва, Новослободская ул., д. 10",
+      "lat": 55.773946,
+      "lon": 37.606074
+    },
+    "Москва, Новослободская ул., д. 100": {
+      "label": "Москва, Новослободская ул., д. 100",
+      "lat": 55.781626,
+      "lon": 37.599456
+    },
+    "Москва, Новослободская ул., д. 115": {
+      "label": "Москва, Новослободская ул., д. 115",
+      "lat": 55.776697,
+      "lon": 37.595725
+    },
+    "Москва, Новослободская ул., д. 12": {
+      "label": "Москва, Новослободская ул., д. 12",
+      "lat": 55.779448,
+      "lon": 37.596489
+    },
+    "Москва, Новослободская ул., д. 120": {
+      "label": "Москва, Новослободская ул., д. 120",
+      "lat": 55.77201,
+      "lon": 37.6027
+    },
+    "Москва, Новослободская ул., д. 14": {
+      "label": "Москва, Новослободская ул., д. 14",
+      "lat": 55.772012,
+      "lon": 37.614226
+    },
+    "Москва, Новослободская ул., д. 2": {
+      "label": "Москва, Новослободская ул., д. 2",
+      "lat": 55.775818,
+      "lon": 37.604232
+    },
+    "Москва, Новослободская ул., д. 24": {
+      "label": "Москва, Новослободская ул., д. 24",
+      "lat": 55.771075,
+      "lon": 37.601442
+    },
+    "Москва, Новослободская ул., д. 26": {
+      "label": "Москва, Новослободская ул., д. 26",
+      "lat": 55.775956,
+      "lon": 37.599393
+    },
+    "Москва, Новослободская ул., д. 28": {
+      "label": "Москва, Новослободская ул., д. 28",
+      "lat": 55.769759,
+      "lon": 37.600428
+    },
+    "Москва, Новослободская ул., д. 29": {
+      "label": "Москва, Новослободская ул., д. 29",
+      "lat": 55.772831,
+      "lon": 37.599305
+    },
+    "Москва, Новослободская ул., д. 30": {
+      "label": "Москва, Новослободская ул., д. 30",
+      "lat": 55.778567,
+      "lon": 37.593247
+    },
+    "Москва, Новослободская ул., д. 34": {
+      "label": "Москва, Новослободская ул., д. 34",
+      "lat": 55.778916,
+      "lon": 37.609302
+    },
+    "Москва, Новослободская ул., д. 39": {
+      "label": "Москва, Новослободская ул., д. 39",
+      "lat": 55.773508,
+      "lon": 37.600905
+    },
+    "Москва, Новослободская ул., д. 43": {
+      "label": "Москва, Новослободская ул., д. 43",
+      "lat": 55.772727,
+      "lon": 37.598518
+    },
+    "Москва, Новослободская ул., д. 46": {
+      "label": "Москва, Новослободская ул., д. 46",
+      "lat": 55.77827,
+      "lon": 37.61322
+    },
+    "Москва, Новослободская ул., д. 49": {
+      "label": "Москва, Новослободская ул., д. 49",
+      "lat": 55.77389,
+      "lon": 37.611983
+    },
+    "Москва, Новослободская ул., д. 5": {
+      "label": "Москва, Новослободская ул., д. 5",
+      "lat": 55.77536,
+      "lon": 37.599861
+    },
+    "Москва, Новослободская ул., д. 52": {
+      "label": "Москва, Новослободская ул., д. 52",
+      "lat": 55.770093,
+      "lon": 37.602084
+    },
+    "Москва, Новослободская ул., д. 55": {
+      "label": "Москва, Новослободская ул., д. 55",
+      "lat": 55.76874,
+      "lon": 37.605046
+    },
+    "Москва, Новослободская ул., д. 56": {
+      "label": "Москва, Новослободская ул., д. 56",
+      "lat": 55.762446,
+      "lon": 37.602665
+    },
+    "Москва, Новослободская ул., д. 58": {
+      "label": "Москва, Новослободская ул., д. 58",
+      "lat": 55.776384,
+      "lon": 37.595248
+    },
+    "Москва, Новослободская ул., д. 68": {
+      "label": "Москва, Новослободская ул., д. 68",
+      "lat": 55.771509,
+      "lon": 37.585758
+    },
+    "Москва, Новослободская ул., д. 73": {
+      "label": "Москва, Новослободская ул., д. 73",
+      "lat": 55.778023,
+      "lon": 37.594558
+    },
+    "Москва, Новослободская ул., д. 76": {
+      "label": "Москва, Новослободская ул., д. 76",
+      "lat": 55.776495,
+      "lon": 37.597435
+    },
+    "Москва, Новослободская ул., д. 79": {
+      "label": "Москва, Новослободская ул., д. 79",
+      "lat": 55.768275,
+      "lon": 37.589945
+    },
+    "Москва, Новослободская ул., д. 81": {
+      "label": "Москва, Новослободская ул., д. 81",
+      "lat": 55.768577,
+      "lon": 37.600782
+    },
+    "Москва, Новослободская ул., д. 84": {
+      "label": "Москва, Новослободская ул., д. 84",
+      "lat": 55.770217,
+      "lon": 37.606725
+    },
+    "Москва, Новослободская ул., д. 85": {
+      "label": "Москва, Новослободская ул., д. 85",
+      "lat": 55.778053,
+      "lon": 37.609145
+    },
+    "Москва, Новослободская ул., д. 9": {
+      "label": "Москва, Новослободская ул., д. 9",
+      "lat": 55.77335,
+      "lon": 37.61352
+    },
+    "Москва, Новослободская ул., д. 94": {
+      "label": "Москва, Новослободская ул., д. 94",
+      "lat": 55.77401,
+      "lon": 37.598213
+    },
+    "Москва, Октябрьская ул., д. 105": {
+      "label": "Москва, Октябрьская ул., д. 105",
+      "lat": 55.794476,
+      "lon": 37.61826
+    },
+    "Москва, Октябрьская ул., д. 110": {
+      "label": "Москва, Октябрьская ул., д. 110",
+      "lat": 55.796894,
+      "lon": 37.597221
+    },
+    "Москва, Октябрьская ул., д. 12": {
+      "label": "Москва, Октябрьская ул., д. 12",
+      "lat": 55.79157,
+      "lon": 37.612458
+    },
+    "Москва, Октябрьская ул., д. 15": {
+      "label": "Москва, Октябрьская ул., д. 15",
+      "lat": 55.79677,
+      "lon": 37.60057
+    },
+    "Москва, Октябрьская ул., д. 2": {
+      "label": "Москва, Октябрьская ул., д. 2",
+      "lat": 55.790675,
+      "lon": 37.611552
+    },
+    "Москва, Октябрьская ул., д. 21": {
+      "label": "Москва, Октябрьская ул., д. 21",
+      "lat": 55.792732,
+      "lon": 37.620913
+    },
+    "Москва, Октябрьская ул., д. 42": {
+      "label": "Москва, Октябрьская ул., д. 42",
+      "lat": 55.798332,
+      "lon": 37.624462
+    },
+    "Москва, Октябрьская ул., д. 7": {
+      "label": "Москва, Октябрьская ул., д. 7",
+      "lat": 55.800812,
+      "lon": 37.621563
+    },
+    "Москва, Октябрьская ул., д. 70": {
+      "label": "Москва, Октябрьская ул., д. 70",
+      "lat": 55.798255,
+      "lon": 37.610991
+    },
+    "Москва, Октябрьская ул., д. 81": {
+      "label": "Москва, Октябрьская ул., д. 81",
+      "lat": 55.798755,
+      "lon": 37.603212
+    },
+    "Москва, Октябрьская ул., д. 87": {
+      "label": "Москва, Октябрьская ул., д. 87",
+      "lat": 55.795143,
+      "lon": 37.618881
+    },
+    "Москва, Октябрьская ул., д. 98": {
+      "label": "Москва, Октябрьская ул., д. 98",
+      "lat": 55.794599,
+      "lon": 37.61566
+    },
+    "Москва, Плющиха, д. 10": {
+      "label": "Москва, Плющиха, д. 10",
+      "lat": 55.735512,
+      "lon": 37.590314
+    },
+    "Москва, Плющиха, д. 105": {
+      "label": "Москва, Плющиха, д. 105",
+      "lat": 55.735461,
+      "lon": 37.586398
+    },
+    "Москва, Плющиха, д. 107": {
+      "label": "Москва, Плющиха, д. 107",
+      "lat": 55.737362,
+      "lon": 37.585092
+    },
+    "Москва, Плющиха, д. 115": {
+      "label": "Москва, Плющиха, д. 115",
+      "lat": 55.731799,
+      "lon": 37.580322
+    },
+    "Москва, Плющиха, д. 16": {
+      "label": "Москва, Плющиха, д. 16",
+      "lat": 55.727685,
+      "lon": 37.579808
+    },
+    "Москва, Плющиха, д. 18": {
+      "label": "Москва, Плющиха, д. 18",
+      "lat": 55.733601,
+      "lon": 37.575011
+    },
+    "Москва, Плющиха, д. 22": {
+      "label": "Москва, Плющиха, д. 22",
+      "lat": 55.740264,
+      "lon": 37.575146
+    },
+    "Москва, Плющиха, д. 30": {
+      "label": "Москва, Плющиха, д. 30",
+      "lat": 55.731237,
+      "lon": 37.578709
+    },
+    "Москва, Плющиха, д. 34": {
+      "label": "Москва, Плющиха, д. 34",
+      "lat": 55.735236,
+      "lon": 37.587925
+    },
+    "Москва, Плющиха, д. 39": {
+      "label": "Москва, Плющиха, д. 39",
+      "lat": 55.739921,
+      "lon": 37.584975
+    },
+    "Москва, Плющиха, д. 5": {
+      "label": "Москва, Плющиха, д. 5",
+      "lat": 55.726792,
+      "lon": 37.583039
+    },
+    "Москва, Плющиха, д. 62": {
+      "label": "Москва, Плющиха, д. 62",
+      "lat": 55.730922,
+      "lon": 37.575889
+    },
+    "Москва, Плющиха, д. 66": {
+      "label": "Москва, Плющиха, д. 66",
+      "lat": 55.731204,
+      "lon": 37.576593
+    },
+    "Москва, Плющиха, д. 73": {
+      "label": "Москва, Плющиха, д. 73",
+      "lat": 55.73744,
+      "lon": 37.586488
+    },
+    "Москва, Плющиха, д. 79": {
+      "label": "Москва, Плющиха, д. 79",
+      "lat": 55.731835,
+      "lon": 37.593446
+    },
+    "Москва, Плющиха, д. 81": {
+      "label": "Москва, Плющиха, д. 81",
+      "lat": 55.735642,
+      "lon": 37.576425
+    },
+    "Москва, Плющиха, д. 96": {
+      "label": "Москва, Плющиха, д. 96",
+      "lat": 55.737758,
+      "lon": 37.580934
+    },
+    "Москва, Русаковская ул., д. 1": {
+      "label": "Москва, Русаковская ул., д. 1",
+      "lat": 55.797061,
+      "lon": 37.67664
+    },
+    "Москва, Русаковская ул., д. 101": {
+      "label": "Москва, Русаковская ул., д. 101",
+      "lat": 55.792019,
+      "lon": 37.683147
+    },
+    "Москва, Русаковская ул., д. 102": {
+      "label": "Москва, Русаковская ул., д. 102",
+      "lat": 55.7943,
+      "lon": 37.673776
+    },
+    "Москва, Русаковская ул., д. 103": {
+      "label": "Москва, Русаковская ул., д. 103",
+      "lat": 55.78888,
+      "lon": 37.677784
+    },
+    "Москва, Русаковская ул., д. 112": {
+      "label": "Москва, Русаковская ул., д. 112",
+      "lat": 55.798478,
+      "lon": 37.667457
+    },
+    "Москва, Русаковская ул., д. 113": {
+      "label": "Москва, Русаковская ул., д. 113",
+      "lat": 55.794234,
+      "lon": 37.678464
+    },
+    "Москва, Русаковская ул., д. 44": {
+      "label": "Москва, Русаковская ул., д. 44",
+      "lat": 55.790224,
+      "lon": 37.687309
+    },
+    "Москва, Русаковская ул., д. 52": {
+      "label": "Москва, Русаковская ул., д. 52",
+      "lat": 55.792206,
+      "lon": 37.681495
+    },
+    "Москва, Русаковская ул., д. 57": {
+      "label": "Москва, Русаковская ул., д. 57",
+      "lat": 55.788672,
+      "lon": 37.683829
+    },
+    "Москва, Русаковская ул., д. 62": {
+      "label": "Москва, Русаковская ул., д. 62",
+      "lat": 55.788442,
+      "lon": 37.689807
+    },
+    "Москва, Русаковская ул., д. 7": {
+      "label": "Москва, Русаковская ул., д. 7",
+      "lat": 55.795232,
+      "lon": 37.671303
+    },
+    "Москва, Русаковская ул., д. 79": {
+      "label": "Москва, Русаковская ул., д. 79",
+      "lat": 55.788373,
+      "lon": 37.668549
+    },
+    "Москва, Русаковская ул., д. 95": {
+      "label": "Москва, Русаковская ул., д. 95",
+      "lat": 55.788521,
+      "lon": 37.671028
+    },
+    "Москва, Сокольнический Вал, д. 107": {
+      "label": "Москва, Сокольнический Вал, д. 107",
+      "lat": 55.782105,
+      "lon": 37.684295
+    },
+    "Москва, Сокольнический Вал, д. 120": {
+      "label": "Москва, Сокольнический Вал, д. 120",
+      "lat": 55.793602,
+      "lon": 37.689193
+    },
+    "Москва, Сокольнический Вал, д. 15": {
+      "label": "Москва, Сокольнический Вал, д. 15",
+      "lat": 55.796371,
+      "lon": 37.680848
+    },
+    "Москва, Сокольнический Вал, д. 26": {
+      "label": "Москва, Сокольнический Вал, д. 26",
+      "lat": 55.796296,
+      "lon": 37.680706
+    },
+    "Москва, Сокольнический Вал, д. 36": {
+      "label": "Москва, Сокольнический Вал, д. 36",
+      "lat": 55.79425,
+      "lon": 37.674442
+    },
+    "Москва, Сокольнический Вал, д. 41": {
+      "label": "Москва, Сокольнический Вал, д. 41",
+      "lat": 55.789787,
+      "lon": 37.687159
+    },
+    "Москва, Сокольнический Вал, д. 85": {
+      "label": "Москва, Сокольнический Вал, д. 85",
+      "lat": 55.793663,
+      "lon": 37.665961
+    },
+    "Москва, Солдатская ул., д. 102": {
+      "label": "Москва, Солдатская ул., д. 102",
+      "lat": 55.758562,
+      "lon": 37.696796
+    },
+    "Москва, Солдатская ул., д. 103": {
+      "label": "Москва, Солдатская ул., д. 103",
+      "lat": 55.751787,
+      "lon": 37.699456
+    },
+    "Москва, Солдатская ул., д. 115": {
+      "label": "Москва, Солдатская ул., д. 115",
+      "lat": 55.753693,
+      "lon": 37.693527
+    },
+    "Москва, Солдатская ул., д. 15": {
+      "label": "Москва, Солдатская ул., д. 15",
+      "lat": 55.757091,
+      "lon": 37.694804
+    },
+    "Москва, Солдатская ул., д. 25": {
+      "label": "Москва, Солдатская ул., д. 25",
+      "lat": 55.755346,
+      "lon": 37.717503
+    },
+    "Москва, Солдатская ул., д. 32": {
+      "label": "Москва, Солдатская ул., д. 32",
+      "lat": 55.750219,
+      "lon": 37.710534
+    },
+    "Москва, Солдатская ул., д. 33": {
+      "label": "Москва, Солдатская ул., д. 33",
+      "lat": 55.753265,
+      "lon": 37.713349
+    },
+    "Москва, Солдатская ул., д. 38": {
+      "label": "Москва, Солдатская ул., д. 38",
+      "lat": 55.753125,
+      "lon": 37.690418
+    },
+    "Москва, Солдатская ул., д. 57": {
+      "label": "Москва, Солдатская ул., д. 57",
+      "lat": 55.752016,
+      "lon": 37.705527
+    },
+    "Москва, Солдатская ул., д. 69": {
+      "label": "Москва, Солдатская ул., д. 69",
+      "lat": 55.755153,
+      "lon": 37.701422
+    },
+    "Москва, Солдатская ул., д. 80": {
+      "label": "Москва, Солдатская ул., д. 80",
+      "lat": 55.75436,
+      "lon": 37.693842
+    },
+    "Москва, Солдатская ул., д. 9": {
+      "label": "Москва, Солдатская ул., д. 9",
+      "lat": 55.760909,
+      "lon": 37.700551
+    },
+    "Москва, Спартаковская ул., д. 106": {
+      "label": "Москва, Спартаковская ул., д. 106",
+      "lat": 55.766548,
+      "lon": 37.670661
+    },
+    "Москва, Спартаковская ул., д. 11": {
+      "label": "Москва, Спартаковская ул., д. 11",
+      "lat": 55.769017,
+      "lon": 37.685445
+    },
+    "Москва, Спартаковская ул., д. 110": {
+      "label": "Москва, Спартаковская ул., д. 110",
+      "lat": 55.770073,
+      "lon": 37.673841
+    },
+    "Москва, Спартаковская ул., д. 118": {
+      "label": "Москва, Спартаковская ул., д. 118",
+      "lat": 55.771767,
+      "lon": 37.66783
+    },
+    "Москва, Спартаковская ул., д. 119": {
+      "label": "Москва, Спартаковская ул., д. 119",
+      "lat": 55.76957,
+      "lon": 37.669678
+    },
+    "Москва, Спартаковская ул., д. 13": {
+      "label": "Москва, Спартаковская ул., д. 13",
+      "lat": 55.758254,
+      "lon": 37.667515
+    },
+    "Москва, Спартаковская ул., д. 14": {
+      "label": "Москва, Спартаковская ул., д. 14",
+      "lat": 55.771496,
+      "lon": 37.67604
+    },
+    "Москва, Спартаковская ул., д. 15": {
+      "label": "Москва, Спартаковская ул., д. 15",
+      "lat": 55.772654,
+      "lon": 37.684389
+    },
+    "Москва, Спартаковская ул., д. 19": {
+      "label": "Москва, Спартаковская ул., д. 19",
+      "lat": 55.770377,
+      "lon": 37.673676
+    },
+    "Москва, Спартаковская ул., д. 22": {
+      "label": "Москва, Спартаковская ул., д. 22",
+      "lat": 55.77437,
+      "lon": 37.664377
+    },
+    "Москва, Спартаковская ул., д. 28": {
+      "label": "Москва, Спартаковская ул., д. 28",
+      "lat": 55.764921,
+      "lon": 37.686981
+    },
+    "Москва, Спартаковская ул., д. 29": {
+      "label": "Москва, Спартаковская ул., д. 29",
+      "lat": 55.768462,
+      "lon": 37.673963
+    },
+    "Москва, Спартаковская ул., д. 32": {
+      "label": "Москва, Спартаковская ул., д. 32",
+      "lat": 55.764355,
+      "lon": 37.672577
+    },
+    "Москва, Спартаковская ул., д. 4": {
+      "label": "Москва, Спартаковская ул., д. 4",
+      "lat": 55.768441,
+      "lon": 37.666667
+    },
+    "Москва, Спартаковская ул., д. 40": {
+      "label": "Москва, Спартаковская ул., д. 40",
+      "lat": 55.773406,
+      "lon": 37.671825
+    },
+    "Москва, Спартаковская ул., д. 48": {
+      "label": "Москва, Спартаковская ул., д. 48",
+      "lat": 55.764588,
+      "lon": 37.670385
+    },
+    "Москва, Спартаковская ул., д. 50": {
+      "label": "Москва, Спартаковская ул., д. 50",
+      "lat": 55.770067,
+      "lon": 37.66616
+    },
+    "Москва, Спартаковская ул., д. 56": {
+      "label": "Москва, Спартаковская ул., д. 56",
+      "lat": 55.770836,
+      "lon": 37.682123
+    },
+    "Москва, Спартаковская ул., д. 6": {
+      "label": "Москва, Спартаковская ул., д. 6",
+      "lat": 55.771606,
+      "lon": 37.678745
+    },
+    "Москва, Спартаковская ул., д. 62": {
+      "label": "Москва, Спартаковская ул., д. 62",
+      "lat": 55.768937,
+      "lon": 37.671817
+    },
+    "Москва, Спартаковская ул., д. 63": {
+      "label": "Москва, Спартаковская ул., д. 63",
+      "lat": 55.765944,
+      "lon": 37.658379
+    },
+    "Москва, Спартаковская ул., д. 69": {
+      "label": "Москва, Спартаковская ул., д. 69",
+      "lat": 55.77645,
+      "lon": 37.679939
+    },
+    "Москва, Спартаковская ул., д. 82": {
+      "label": "Москва, Спартаковская ул., д. 82",
+      "lat": 55.768182,
+      "lon": 37.665508
+    },
+    "Москва, Спартаковская ул., д. 89": {
+      "label": "Москва, Спартаковская ул., д. 89",
+      "lat": 55.767722,
+      "lon": 37.672244
+    },
+    "Москва, Спартаковская ул., д. 93": {
+      "label": "Москва, Спартаковская ул., д. 93",
+      "lat": 55.769002,
+      "lon": 37.686623
+    },
+    "Москва, Спартаковская ул., д. 99": {
+      "label": "Москва, Спартаковская ул., д. 99",
+      "lat": 55.7728,
+      "lon": 37.67424
+    },
+    "Москва, Стромынка, д. 108": {
+      "label": "Москва, Стромынка, д. 108",
+      "lat": 55.79498,
+      "lon": 37.678338
+    },
+    "Москва, Стромынка, д. 114": {
+      "label": "Москва, Стромынка, д. 114",
+      "lat": 55.790522,
+      "lon": 37.676677
+    },
+    "Москва, Стромынка, д. 120": {
+      "label": "Москва, Стромынка, д. 120",
+      "lat": 55.795768,
+      "lon": 37.672031
+    },
+    "Москва, Стромынка, д. 28": {
+      "label": "Москва, Стромынка, д. 28",
+      "lat": 55.79364,
+      "lon": 37.682731
+    },
+    "Москва, Стромынка, д. 29": {
+      "label": "Москва, Стромынка, д. 29",
+      "lat": 55.785503,
+      "lon": 37.676973
+    },
+    "Москва, Стромынка, д. 33": {
+      "label": "Москва, Стромынка, д. 33",
+      "lat": 55.787463,
+      "lon": 37.666073
+    },
+    "Москва, Стромынка, д. 39": {
+      "label": "Москва, Стромынка, д. 39",
+      "lat": 55.797721,
+      "lon": 37.667247
+    },
+    "Москва, Стромынка, д. 68": {
+      "label": "Москва, Стромынка, д. 68",
+      "lat": 55.789888,
+      "lon": 37.66957
+    },
+    "Москва, Стромынка, д. 7": {
+      "label": "Москва, Стромынка, д. 7",
+      "lat": 55.790962,
+      "lon": 37.674595
+    },
+    "Москва, Стромынка, д. 72": {
+      "label": "Москва, Стромынка, д. 72",
+      "lat": 55.786843,
+      "lon": 37.669699
+    },
+    "Москва, Стромынка, д. 76": {
+      "label": "Москва, Стромынка, д. 76",
+      "lat": 55.788973,
+      "lon": 37.67693
+    },
+    "Москва, Стромынка, д. 82": {
+      "label": "Москва, Стромынка, д. 82",
+      "lat": 55.794165,
+      "lon": 37.662707
+    },
+    "Москва, Стромынка, д. 85": {
+      "label": "Москва, Стромынка, д. 85",
+      "lat": 55.790313,
+      "lon": 37.670068
+    },
+    "Москва, Стромынка, д. 88": {
+      "label": "Москва, Стромынка, д. 88",
+      "lat": 55.787114,
+      "lon": 37.681945
+    },
+    "Москва, Стромынка, д. 90": {
+      "label": "Москва, Стромынка, д. 90",
+      "lat": 55.790561,
+      "lon": 37.699
+    },
+    "Москва, Стромынка, д. 96": {
+      "label": "Москва, Стромынка, д. 96",
+      "lat": 55.790357,
+      "lon": 37.674537
+    },
+    "Москва, Стромынка, д. 97": {
+      "label": "Москва, Стромынка, д. 97",
+      "lat": 55.794351,
+      "lon": 37.688314
+    },
+    "Москва, Сущёвский Вал, д. 105": {
+      "label": "Москва, Сущёвский Вал, д. 105",
+      "lat": 55.802413,
+      "lon": 37.617834
+    },
+    "Москва, Сущёвский Вал, д. 11": {
+      "label": "Москва, Сущёвский Вал, д. 11",
+      "lat": 55.800674,
+      "lon": 37.60509
+    },
+    "Москва, Сущёвский Вал, д. 112": {
+      "label": "Москва, Сущёвский Вал, д. 112",
+      "lat": 55.792198,
+      "lon": 37.611775
+    },
+    "Москва, Сущёвский Вал, д. 5": {
+      "label": "Москва, Сущёвский Вал, д. 5",
+      "lat": 55.799605,
+      "lon": 37.610486
+    },
+    "Москва, Сущёвский Вал, д. 51": {
+      "label": "Москва, Сущёвский Вал, д. 51",
+      "lat": 55.802072,
+      "lon": 37.610495
+    },
+    "Москва, Сущёвский Вал, д. 67": {
+      "label": "Москва, Сущёвский Вал, д. 67",
+      "lat": 55.801894,
+      "lon": 37.59378
+    },
+    "Москва, Сущёвский Вал, д. 80": {
+      "label": "Москва, Сущёвский Вал, д. 80",
+      "lat": 55.808243,
+      "lon": 37.614542
+    },
+    "Москва, Сущёвский Вал, д. 86": {
+      "label": "Москва, Сущёвский Вал, д. 86",
+      "lat": 55.800103,
+      "lon": 37.603784
+    },
+    "Москва, Сущёвский Вал, д. 90": {
+      "label": "Москва, Сущёвский Вал, д. 90",
+      "lat": 55.7976,
+      "lon": 37.604804
+    },
+    "Москва, Сущёвский Вал, д. 93": {
+      "label": "Москва, Сущёвский Вал, д. 93",
+      "lat": 55.793457,
+      "lon": 37.623268
+    },
+    "Москва, Сущёвский Вал, д. 94": {
+      "label": "Москва, Сущёвский Вал, д. 94",
+      "lat": 55.796008,
+      "lon": 37.615039
+    },
+    "Москва, Тверская ул., д. 10": {
+      "label": "Москва, Тверская ул., д. 10",
+      "lat": 55.776419,
+      "lon": 37.603666
+    },
+    "Москва, Тверская ул., д. 112": {
+      "label": "Москва, Тверская ул., д. 112",
+      "lat": 55.778687,
+      "lon": 37.605091
+    },
+    "Москва, Тверская ул., д. 116": {
+      "label": "Москва, Тверская ул., д. 116",
+      "lat": 55.777295,
+      "lon": 37.591656
+    },
+    "Москва, Тверская ул., д. 22": {
+      "label": "Москва, Тверская ул., д. 22",
+      "lat": 55.775551,
+      "lon": 37.605344
+    },
+    "Москва, Тверская ул., д. 26": {
+      "label": "Москва, Тверская ул., д. 26",
+      "lat": 55.778347,
+      "lon": 37.609733
+    },
+    "Москва, Тверская ул., д. 28": {
+      "label": "Москва, Тверская ул., д. 28",
+      "lat": 55.775685,
+      "lon": 37.603005
+    },
+    "Москва, Тверская ул., д. 32": {
+      "label": "Москва, Тверская ул., д. 32",
+      "lat": 55.773016,
+      "lon": 37.620582
+    },
+    "Москва, Тверская ул., д. 40": {
+      "label": "Москва, Тверская ул., д. 40",
+      "lat": 55.770112,
+      "lon": 37.588705
+    },
+    "Москва, Тверская ул., д. 48": {
+      "label": "Москва, Тверская ул., д. 48",
+      "lat": 55.772749,
+      "lon": 37.601388
+    },
+    "Москва, Тверская ул., д. 50": {
+      "label": "Москва, Тверская ул., д. 50",
+      "lat": 55.769129,
+      "lon": 37.60838
+    },
+    "Москва, Тверская ул., д. 53": {
+      "label": "Москва, Тверская ул., д. 53",
+      "lat": 55.773167,
+      "lon": 37.609536
+    },
+    "Москва, Тверская ул., д. 54": {
+      "label": "Москва, Тверская ул., д. 54",
+      "lat": 55.772993,
+      "lon": 37.603092
+    },
+    "Москва, Тверская ул., д. 55": {
+      "label": "Москва, Тверская ул., д. 55",
+      "lat": 55.766809,
+      "lon": 37.61334
+    },
+    "Москва, Тверская ул., д. 58": {
+      "label": "Москва, Тверская ул., д. 58",
+      "lat": 55.777435,
+      "lon": 37.61194
+    },
+    "Москва, Тверская ул., д. 61": {
+      "label": "Москва, Тверская ул., д. 61",
+      "lat": 55.777396,
+      "lon": 37.598869
+    },
+    "Москва, Тверская ул., д. 63": {
+      "label": "Москва, Тверская ул., д. 63",
+      "lat": 55.780448,
+      "lon": 37.596739
+    },
+    "Москва, Тверская ул., д. 7": {
+      "label": "Москва, Тверская ул., д. 7",
+      "lat": 55.770563,
+      "lon": 37.598053
+    },
+    "Москва, Тверская ул., д. 75": {
+      "label": "Москва, Тверская ул., д. 75",
+      "lat": 55.772413,
+      "lon": 37.600633
+    },
+    "Москва, Тверская ул., д. 8": {
+      "label": "Москва, Тверская ул., д. 8",
+      "lat": 55.770054,
+      "lon": 37.597901
+    },
+    "Москва, Тверская ул., д. 85": {
+      "label": "Москва, Тверская ул., д. 85",
+      "lat": 55.778262,
+      "lon": 37.603276
+    },
+    "Москва, Тверская ул., д. 86": {
+      "label": "Москва, Тверская ул., д. 86",
+      "lat": 55.774815,
+      "lon": 37.594886
+    },
+    "Москва, Тверская ул., д. 95": {
+      "label": "Москва, Тверская ул., д. 95",
+      "lat": 55.776591,
+      "lon": 37.599219
+    },
+    "Москва, Тверская ул., д. 98": {
+      "label": "Москва, Тверская ул., д. 98",
+      "lat": 55.77526,
+      "lon": 37.607127
+    },
+    "Москва, Усачёва ул., д. 113": {
+      "label": "Москва, Усачёва ул., д. 113",
+      "lat": 55.734474,
+      "lon": 37.566001
+    },
+    "Москва, Усачёва ул., д. 119": {
+      "label": "Москва, Усачёва ул., д. 119",
+      "lat": 55.736565,
+      "lon": 37.590216
+    },
+    "Москва, Усачёва ул., д. 13": {
+      "label": "Москва, Усачёва ул., д. 13",
+      "lat": 55.73301,
+      "lon": 37.58009
+    },
+    "Москва, Усачёва ул., д. 43": {
+      "label": "Москва, Усачёва ул., д. 43",
+      "lat": 55.731318,
+      "lon": 37.591573
+    },
+    "Москва, Усачёва ул., д. 49": {
+      "label": "Москва, Усачёва ул., д. 49",
+      "lat": 55.727679,
+      "lon": 37.58565
+    },
+    "Москва, Усачёва ул., д. 56": {
+      "label": "Москва, Усачёва ул., д. 56",
+      "lat": 55.728169,
+      "lon": 37.568461
+    },
+    "Москва, Усачёва ул., д. 81": {
+      "label": "Москва, Усачёва ул., д. 81",
+      "lat": 55.735224,
+      "lon": 37.575318
+    },
+    "Москва, Усачёва ул., д. 84": {
+      "label": "Москва, Усачёва ул., д. 84",
+      "lat": 55.730806,
+      "lon": 37.581283
+    },
+    "Москва, Усачёва ул., д. 98": {
+      "label": "Москва, Усачёва ул., д. 98",
+      "lat": 55.730595,
+      "lon": 37.592136
+    },
+    "Москва, Шереметьевская ул., д. 117": {
+      "label": "Москва, Шереметьевская ул., д. 117",
+      "lat": 55.802481,
+      "lon": 37.617044
+    },
+    "Москва, Шереметьевская ул., д. 6": {
+      "label": "Москва, Шереметьевская ул., д. 6",
+      "lat": 55.797479,
+      "lon": 37.615294
+    },
+    "Москва, Шереметьевская ул., д. 64": {
+      "label": "Москва, Шереметьевская ул., д. 64",
+      "lat": 55.798586,
+      "lon": 37.628315
+    },
+    "Москва, Шереметьевская ул., д. 78": {
+      "label": "Москва, Шереметьевская ул., д. 78",
+      "lat": 55.799066,
+      "lon": 37.627759
+    },
+    "Москва, Шереметьевская ул., д. 8": {
+      "label": "Москва, Шереметьевская ул., д. 8",
+      "lat": 55.799538,
+      "lon": 37.611719
+    },
+    "Москва, Шереметьевская ул., д. 93": {
+      "label": "Москва, Шереметьевская ул., д. 93",
+      "lat": 55.799198,
+      "lon": 37.619375
+    },
+    "Москва, Шмитовский проезд, д. 1": {
+      "label": "Москва, Шмитовский проезд, д. 1",
+      "lat": 55.759657,
+      "lon": 37.560959
+    },
+    "Москва, Шмитовский проезд, д. 101": {
+      "label": "Москва, Шмитовский проезд, д. 101",
+      "lat": 55.766687,
+      "lon": 37.571385
+    },
+    "Москва, Шмитовский проезд, д. 103": {
+      "label": "Москва, Шмитовский проезд, д. 103",
+      "lat": 55.759957,
+      "lon": 37.567171
+    },
+    "Москва, Шмитовский проезд, д. 107": {
+      "label": "Москва, Шмитовский проезд, д. 107",
+      "lat": 55.761485,
+      "lon": 37.561731
+    },
+    "Москва, Шмитовский проезд, д. 112": {
+      "label": "Москва, Шмитовский проезд, д. 112",
+      "lat": 55.763454,
+      "lon": 37.577494
+    },
+    "Москва, Шмитовский проезд, д. 120": {
+      "label": "Москва, Шмитовский проезд, д. 120",
+      "lat": 55.763931,
+      "lon": 37.570618
+    },
+    "Москва, Шмитовский проезд, д. 16": {
+      "label": "Москва, Шмитовский проезд, д. 16",
+      "lat": 55.764225,
+      "lon": 37.561242
+    },
+    "Москва, Шмитовский проезд, д. 18": {
+      "label": "Москва, Шмитовский проезд, д. 18",
+      "lat": 55.765341,
+      "lon": 37.577398
+    },
+    "Москва, Шмитовский проезд, д. 20": {
+      "label": "Москва, Шмитовский проезд, д. 20",
+      "lat": 55.755318,
+      "lon": 37.568914
+    },
+    "Москва, Шмитовский проезд, д. 3": {
+      "label": "Москва, Шмитовский проезд, д. 3",
+      "lat": 55.767803,
+      "lon": 37.561775
+    },
+    "Москва, Шмитовский проезд, д. 38": {
+      "label": "Москва, Шмитовский проезд, д. 38",
+      "lat": 55.762042,
+      "lon": 37.564586
+    },
+    "Москва, Шмитовский проезд, д. 39": {
+      "label": "Москва, Шмитовский проезд, д. 39",
+      "lat": 55.766181,
+      "lon": 37.570391
+    },
+    "Москва, Шмитовский проезд, д. 49": {
+      "label": "Москва, Шмитовский проезд, д. 49",
+      "lat": 55.754295,
+      "lon": 37.572226
+    },
+    "Москва, Шмитовский проезд, д. 61": {
+      "label": "Москва, Шмитовский проезд, д. 61",
+      "lat": 55.763131,
+      "lon": 37.567842
+    },
+    "Москва, Шмитовский проезд, д. 63": {
+      "label": "Москва, Шмитовский проезд, д. 63",
+      "lat": 55.771259,
+      "lon": 37.550929
+    },
+    "Москва, Шмитовский проезд, д. 70": {
+      "label": "Москва, Шмитовский проезд, д. 70",
+      "lat": 55.760853,
+      "lon": 37.555876
+    },
+    "Москва, Шмитовский проезд, д. 74": {
+      "label": "Москва, Шмитовский проезд, д. 74",
+      "lat": 55.759131,
+      "lon": 37.579233
+    },
+    "Москва, Шмитовский проезд, д. 77": {
+      "label": "Москва, Шмитовский проезд, д. 77",
+      "lat": 55.764024,
+      "lon": 37.574845
+    },
+    "Москва, Шмитовский проезд, д. 83": {
+      "label": "Москва, Шмитовский проезд, д. 83",
+      "lat": 55.760151,
+      "lon": 37.573451
+    },
+    "Москва, Шмитовский проезд, д. 92": {
+      "label": "Москва, Шмитовский проезд, д. 92",
+      "lat": 55.764714,
+      "lon": 37.573124
+    },
+    "Москва, Шмитовский проезд, д. 95": {
+      "label": "Москва, Шмитовский проезд, д. 95",
+      "lat": 55.762183,
+      "lon": 37.571138
+    },
+    "Москва, Шмитовский проезд, д. 96": {
+      "label": "Москва, Шмитовский проезд, д. 96",
+      "lat": 55.759923,
+      "lon": 37.566777
+    }
+  },
+  "name": "Москва · 60 инженеров / 500 заявок · Faker",
+  "notes": [
+    "Полностью синтетические заявки и ФИО, Faker ru_RU; совпадения случайны.",
+    "Адреса составлены из названий улиц и случайных домов. Координаты сгруппированы около условных центров районов Москвы, не геокодированы и не указывают точные дома.",
+    "Начало/Окончание — окно начала визита, UTC+03:00. Длительности 15–105 минут, для обычного окна заложен отдельный 5-минутный организационный резерв. Смены 8–10 часов, частоты работ и приоритеты — допущения сценария, не статистика.",
+    "Автомобиль требуется для кабеля, офисных подключений и аварийного оборудования. Для каждой заявки есть подходящий инженер в районе; выполнимость всех заявок за смену не гарантируется.",
+    "Срок SLA — мягкая цель начала работ: 30 минут от начала окна для аварийных и 60 минут для остальных заявок, но не позже конца окна. Уровни SLA синтетические и не являются нормативами организатора.",
+    "Haversine × 1.25; скорости: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок, перерывов и расписаний.",
+    "Генератор faker-moscow-v3; seed=20260917; Faker=37.12.0."
+  ],
+  "planning_time": "2026-09-17T08:00:00+03:00",
+  "utc_offset_minutes": 180
+}

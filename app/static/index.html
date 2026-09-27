@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FieldRoute</title>
+  <link rel="stylesheet" href="/static/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="/static/map.css" />
+  <link rel="stylesheet" href="/static/import.css" />
+  <link rel="stylesheet" href="/static/events.css" />
+  <link rel="stylesheet" href="/static/catalogs.css" />
+  <style>
+    [hidden]{display:none!important}
+    :root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#141414;background:#f5f6f8}
+    *{box-sizing:border-box}body{margin:0}.shell{max-width:1450px;margin:auto;padding:24px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:18px}.brand{font-size:28px;font-weight:850;letter-spacing:-.03em}.muted{color:#6b7280;font-size:13px}.pill{background:#171717;color:#fff;border-radius:999px;padding:8px 12px;font-size:12px}.actions{display:flex;gap:8px;flex-wrap:wrap}.btn{border:1px solid #d7d9de;background:#fff;border-radius:11px;padding:10px 14px;font-weight:700;cursor:pointer}.btn.primary{background:#171717;color:#fff;border-color:#171717}.btn.active{box-shadow:0 0 0 2px #171717 inset}.card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;box-shadow:0 8px 30px rgba(0,0,0,.04)}.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:16px}.kpi{padding:16px}.kpi b{display:block;font-size:23px;margin-top:3px}.grid{display:grid;grid-template-columns:1.35fr .65fr;gap:18px}.side{padding:18px;max-height:620px;overflow:auto}.route{padding:13px 0;border-bottom:1px solid #eee}.route:last-child{border:none}.stop{font-size:13px;margin:8px 0;padding:9px 10px;border-left:3px solid #ddd;background:#fafafa;border-radius:0 9px 9px 0;cursor:pointer}.stop:hover{background:#f3f4f6}.stop.frozen{border-left-color:#171717}.badge{display:inline-block;border-radius:999px;background:#eceff3;padding:2px 7px;font-size:10px;font-weight:750;margin-left:5px}.badge.p1{background:#fee2e2;color:#991b1b}.explain{margin-top:7px;padding-top:7px;border-top:1px dashed #ddd;color:#4b5563;line-height:1.45}.legend{position:absolute;left:18px;bottom:18px;background:rgba(255,255,255,.95);padding:12px 14px;border-radius:14px;border:1px solid #ddd;font-size:12px;max-width:430px}.compare{display:none;margin-bottom:16px;padding:16px}.compare.show{display:block}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.compare-box{padding:12px;border:1px solid #e5e7eb;border-radius:12px}.compare-box.good{border-width:2px}.delta{font-weight:800}.ok{color:#047857}.warn{color:#b45309}.event{padding:11px 12px;border-radius:12px;background:#fff7ed;border:1px solid #fed7aa;margin-bottom:12px;font-size:13px;line-height:1.45}.tiny{font-size:11px}.empty{padding:16px 0;color:#6b7280}.loading{opacity:.55;pointer-events:none}@media(max-width:1050px){.grid{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(3,1fr)}.side{max-height:none}}@media(max-width:650px){.kpis{grid-template-columns:repeat(2,1fr)}.top{align-items:flex-start;flex-direction:column}.compare-grid{grid-template-columns:1fr}}
+    .policy-bar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:14px 16px;margin-bottom:16px}.policy-bar label{font-size:13px;font-weight:700}.policy-bar select{margin-left:8px;max-width:100%}.policy-hint{flex:1;min-width:230px;line-height:1.5}.error{padding:14px;margin-bottom:16px;border:1px solid #fca5a5;background:#fff1f2;color:#991b1b;border-radius:12px}.btn:disabled,select:disabled{cursor:wait}.policy-bar button{margin-left:auto}
+    .changes{padding:18px;margin-bottom:18px}.changes h3{margin:0 0 5px}.change-toolbar{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;flex-wrap:wrap}.change-controls{display:flex;gap:10px;flex-wrap:wrap}.change-controls label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:700}.change-counts{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 8px}.change-chip{background:#f3f4f6;border-radius:8px;padding:6px 9px;font-size:12px}.change-chip.loss{background:#fff1f2;color:#991b1b}.change-table-wrap{overflow:auto;max-height:440px;margin-top:12px;border:1px solid #e5e7eb;border-radius:10px}.change-table{border-collapse:collapse;width:100%;font-size:13px;min-width:790px;text-align:left}.change-table th{position:sticky;top:0;background:#f8fafc;z-index:1;padding:11px 12px;font-size:12px}.change-table td{padding:12px;vertical-align:top;border-top:1px solid #e5e7eb;line-height:1.6;width:25%}.change-table .muted{font-size:12px}.change-table .loss-row{background:#fff7f7}.change-kind{display:block;font-weight:650}.change-empty{margin:14px 0 0;color:#6b7280;font-size:13px}.changes-note{line-height:1.5}
+  </style>
+<link rel="stylesheet" href="/static/explanations.css">
+<link rel="stylesheet" href="/static/assignments.css">
+<link rel="stylesheet" href="/static/workspace.css">
+<link rel="stylesheet" href="/static/overview.css">
+<link rel="stylesheet" href="/static/assumptions.css">
+</head>
+<body>
+<div class="shell" id="shell">
+  <header class="top">
+    <a class="brand" href="#plan" aria-label="FieldRoute — план смены"><span class="brand-symbol" aria-hidden="true">↗</span> FieldRoute</a>
+    <nav class="workspace-nav" aria-label="Разделы">
+      <button class="nav-btn" data-screen="plan" aria-current="page">План и эффект</button>
+      <button class="nav-btn" data-screen="routes">Маршруты</button>
+      <button class="nav-btn" data-screen="data">Данные</button>
+      <button class="nav-btn" data-screen="assumptions">Допущения</button>
+    </nav>
+    <span class="workspace-caption">Маршруты выездных инженеров</span>
+  </header>
+  <div class="page-heading">
+    <div><h1 id="workspaceTitle">План смены</h1><p id="workspaceHint" class="muted">Выберите инженера, чтобы увидеть его маршрут, или заявку — чтобы узнать подробности.</p></div>
+    <button class="btn primary" id="openEventBtn" disabled>+ Добавить событие</button>
+  </div>
+  <div class="workspace-source"><span class="source-indicator" aria-hidden="true"></span><strong id="datasetLabel">Загрузка плана…</strong><button class="text-btn" data-screen="data">Сменить данные</button></div>
+  <p id="persistenceStatus" class="muted" role="status">Проверка сохранённого плана…</p>
+  <div id="stateError" class="error" role="alert" hidden></div>
+  <section id="stateRecovery" class="card state-recovery" aria-labelledby="stateRecoveryTitle" hidden>
+    <h2 id="stateRecoveryTitle">Сохранённому плану нужен пересчёт</h2>
+    <p id="stateRecoverySummary"></p>
+    <p id="stateRecoveryModels" class="muted"></p>
+    <p class="muted">Пересчитаем сохранённые заявки и инженеров, сохранив события и уже выполняемые работы. Будущие маршруты и время могут измениться. Исходная копия останется в резервных копиях этого браузера.</p>
+    <div class="actions"><button class="btn primary" id="recalculateSavedBtn">Пересчитать сохранённый план</button><button class="btn" id="downloadBlockedStateBtn">Скачать исходную копию</button><button class="btn" id="keepCurrentPlanBtn" hidden>Сохранить показанный план вместо старого</button></div>
+    <p class="muted tiny">Копия будет заменена только после успешного расчёта и сохранения резервной копии. До этого автосохранение приостановлено.</p>
+    <p id="stateRecoveryStatus" role="status"></p>
+  </section>
+  <div id="error" class="error" role="alert" hidden></div>
+  <div id="workspaceBusy" class="loading-status" hidden><div role="status" aria-live="polite"><strong id="progressTitle">Рассчитываем маршруты…</strong><div id="progressDetails"></div></div><button class="btn" id="cancelPlanningBtn" type="button" hidden>Отменить расчёт</button></div>
+
+  <section id="dataScreen" hidden aria-labelledby="dataTitle">
+    <div class="card data-panel" id="importPanel">
+      <h2 id="dataTitle">Подготовьте данные для плана</h2>
+      <p class="muted">Попробуйте готовый пример или загрузите свои заявки. Текущий план сменится после нажатия «Построить план».</p>
+      <div class="sample-options">
+        <div><h3>Районы без пересечений</h3><p class="muted">Синтетический набор: 500 заявок, 60 инженеров, 8 явно заданных районов. Расчёт внутри районов. Это учебные зоны, не проверка административных границ.</p><div class="import-actions"><button class="btn" id="districtSmallDemoBtn">Проверить два района</button><button class="btn" id="districtDemoBtn">Открыть 500 заявок по районам</button></div></div>
+        <div><h3>Рабочий день в Москве</h3><p class="muted">60 инженеров и 500 заявок в 8 районах: подключения, ремонт и аварии. У всех заявок есть синтетический срок SLA. Координаты домов условные. Во время расчёта показываем этапы и найденное покрытие заявок.</p><button class="btn" id="importRealisticBtn">Открыть большой набор</button></div>
+        <div><h3>Готовый пример</h3><p class="muted">12 инженеров и 36 заявок — можно сразу перейти к расчёту.</p><div class="import-actions"><button class="btn" id="importExampleBtn">Открыть учебный набор</button><button class="btn" id="importNormsExampleBtn">Пример с нормативами</button></div></div>
+        <div><h3>Навыки и оборудование</h3><p class="muted">4 инженера и 4 заявки. Подключение и дозаказ требуют разных навыков; для одной работы нет инженера с нужным навыком и оборудованием одновременно.</p><button class="btn" id="importCapabilitiesBtn">Проверить ограничения</button></div>
+        <div><h3>Небольшое демо</h3><p class="muted">3 инженера и 8 заявок для знакомства с картой.</p><button class="btn" id="resetDemoBtn" disabled>Открыть демо</button></div>
+      </div>
+      <details id="importDetails"><summary>Загрузить свои заявки из CSV</summary>
+        <ol class="import-steps"><li>Выберите CSV с заявками и нажмите «Проверить файлы».</li><li>Если данных не хватает, скачайте шаблон, заполните его и загрузите как профиль.</li><li>После успешной проверки нажмите «Построить план».</li></ol>
+        <div class="import-fields"><label>CSV с заявками<input id="csvFile" type="file" accept=".csv,text/csv"></label><label>Профиль данных JSON<input id="profileFile" type="file" accept=".json,application/json"></label></div>
+        <details><summary>История бригад и формат файлов</summary><p class="muted">CSV: разделитель «;», UTF-8 или Windows-1251. Профиль добавляет координаты, инженеров и правила работ. История помогает восстановить список бригад и их навыки.</p><div class="import-fields"><label>Контрольная история CSV (необязательно)<input id="historyFile" type="file" accept=".csv,text/csv"></label></div></details>
+        <div class="import-actions"><button class="btn" id="inspectCsvBtn">Проверить файлы</button></div>
+      </details>
+      <div class="error" id="importError" role="alert" hidden></div>
+      <div id="importResult" hidden>
+        <p id="importReady" role="status"></p><ul id="importIssues"></ul>
+        <div class="import-actions"><button class="btn primary" id="applyImportBtn" disabled>Построить план</button><button class="btn" id="downloadTemplateBtn" disabled>Скачать шаблон профиля</button><button class="btn" id="inspectAddressesBtn" disabled>Найти адреса локально</button><button class="btn" id="editLocationsBtn" disabled>Указать координаты</button></div>
+        <section id="addressAuditPanel" hidden aria-labelledby="addressAuditTitle">
+          <h3 id="addressAuditTitle">Проверка адресов CSV</h3>
+          <p id="addressAuditStatus" role="status" aria-live="polite"></p>
+          <p class="muted">Проверьте населённый пункт, улицу, дом и корпус. Отметьте подходящий вариант или введите координаты и источник вручную. Только отмеченные адреса переносятся в профиль. Дорожная доступность проверяется при расчёте с дорожной моделью.</p>
+          <button class="btn" id="downloadAddressAuditBtn" disabled>Скачать проверку адресов</button>
+          <details open><summary>Адреса, исходные строки и выбор координат</summary><div class="import-table-wrap address-review-table"><table class="import-table"><thead><tr><th>Адрес CSV</th><th>Используется в строках</th><th>Результат поиска</th><th>Координаты для профиля</th></tr></thead><tbody id="addressAuditRows"></tbody></table></div></details>
+          <label class="office-start-choice">Старт смены<select id="officeStartAddress"><option value="">Сохранить старты инженеров</option></select></label>
+          <p class="muted">Выбор офиса заменяет старт всех инженеров. Без этого выбора старты сохраняются. Показанный план обновится после нажатия «Построить план».</p>
+          <div class="import-actions"><button class="btn primary" id="applyLocationsBtn" disabled>Перенести выбранные координаты</button><button class="btn" id="downloadReviewedProfileBtn" disabled>Скачать профиль с координатами</button></div>
+          <p id="locationReviewStatus" role="status" aria-live="polite"></p>
+          <details id="locationProfileIssuesPanel" hidden open><summary>Что осталось заполнить в профиле</summary><ul id="locationProfileIssues"></ul></details>
+        </section>
+        <details><summary>Подробности проверки и выгрузка</summary><p class="muted" id="importSummary"></p><div id="importNotes"></div><div id="crewHistory"></div><div class="import-actions"><button class="btn" id="downloadReportBtn" disabled>Скачать отчёт</button><button class="btn" id="downloadRequestBtn" disabled>Скачать запрос JSON</button></div><div class="import-table-wrap"><table class="import-table"><thead><tr><th>Строка</th><th>Тип</th><th>ID</th><th>Адрес</th><th>Тип BK</th></tr></thead><tbody id="importRows"></tbody></table></div></details>
+      </div>
+      <p class="muted tiny" id="datasetHint" hidden>Карта, события и сравнения используют выбранный набор данных.</p>
+    </div>
+    <section class="card saved-panel" aria-labelledby="savedTitle"><h2 id="savedTitle">Сохранённый план</h2><p class="muted">План сохраняется в этом браузере автоматически. Файл позволяет перенести его на другой компьютер.</p><div class="state-toolbar"><button class="btn" id="downloadStateBtn" disabled>Скачать показанный план</button><label class="file-button">Открыть план из JSON<input type="file" id="stateFile" accept=".json,application/json"></label><button class="btn" id="restoreSavedBtn">Восстановить сохранённое</button></div><details id="stateBackups" hidden><summary>Резервные копии до восстановления <span id="stateBackupCount"></span></summary><div id="stateBackupList"></div></details></section>
+    <section class="card catalog-panel" aria-labelledby="catalogTitle">
+      <div class="catalog-heading"><div><span class="eyebrow">Для новых заявок</span><h2 id="catalogTitle">Справочники</h2><p class="muted">Редактируйте навыки, оборудование и шаблоны работ. Изменения применяются к новым внеплановым заявкам и не меняют уже рассчитанный план.</p></div><div class="actions"><button class="btn" id="resetCatalogsBtn" type="button">Вернуть исходные</button><button class="btn primary" id="saveCatalogsBtn" type="button">Сохранить справочники</button></div></div>
+      <div class="catalog-grid">
+        <details open><summary>Навыки <span id="skillCatalogCount"></span></summary><div id="skillCatalogRows" class="catalog-rows"></div><button class="text-btn catalog-add" id="addSkillBtn" type="button">+ Добавить навык</button></details>
+        <details open><summary>Оборудование <span id="equipmentCatalogCount"></span></summary><div id="equipmentCatalogRows" class="catalog-rows"></div><button class="text-btn catalog-add" id="addEquipmentBtn" type="button">+ Добавить оборудование</button></details>
+      </div>
+      <details open class="template-catalog"><summary>Шаблоны работ <span id="templateCatalogCount"></span></summary><p class="muted tiny">Шаблон заполняет тип, длительность, навык, приоритет и требования. Адрес и окно вы укажете перед расчётом.</p><datalist id="catalogSkillIds"></datalist><div id="templateCatalogRows" class="template-rows"></div><button class="text-btn catalog-add" id="addTemplateBtn" type="button">+ Добавить шаблон</button></details>
+      <p id="catalogStatus" class="muted" role="status" aria-live="polite"></p>
+    </section>
+    <section class="card event-entry-panel" aria-labelledby="eventEntryTitle">
+      <div><span class="eyebrow">Несколько способов добавления</span><h2 id="eventEntryTitle">Внеплановое событие</h2><p class="muted">Создайте событие вручную, начните с шаблона или загрузите JSON-черновик. Перед применением все поля можно проверить.</p></div>
+      <div class="event-entry-options">
+        <div><h3>Вручную</h3><p class="muted">Новая заявка, отмена, задержка или недоступность инженера.</p><button class="btn" id="dataManualEventBtn" type="button">Создать событие</button></div>
+        <div><h3>По шаблону</h3><label for="dataEventTemplate">Шаблон работы</label><select class="btn" id="dataEventTemplate"></select><button class="btn" id="dataTemplateEventBtn" type="button">Заполнить событие</button></div>
+        <div><h3>Из JSON</h3><p class="muted">Поддерживаются один объект события или черновик с полем <code>event</code>.</p><label class="file-button btn">Выбрать JSON<input id="dataEventJsonFile" type="file" accept=".json,application/json"></label></div>
+      </div>
+      <p id="dataEventStatus" class="muted" role="status"></p>
+    </section>
+  </section>
+
+  <main id="overviewScreen">
+    <div class="overview-current"><div><span class="eyebrow">Текущий вариант</span><h2 id="currentPlanLabel">План смены</h2></div><div class="actions"><button class="btn" id="openCompromiseBtn" type="button">Найти компромисс по SLA</button><button class="btn" data-screen="assumptions">Параметры расчёта</button><button class="btn primary" data-screen="routes">Открыть маршруты →</button></div></div>
+    <div id="kpis" class="kpis"></div>
+    <section class="card detail-card" id="districtSummary" hidden aria-label="Результат по районам"></section>
+    <p id="searchStatus" class="event warn" role="status" hidden></p>
+    <section id="planReasoning" class="card reasoning-panel" aria-label="Как получен план"></section>
+    <section class="card analysis-panel" id="analysisScreen" aria-label="Рассчитать эффект">
+      <div class="section-heading"><div><span class="eyebrow">Сравнение на одних данных</span><h2>Что даёт этот план</h2></div></div>
+      <div class="analysis-options actions">
+        <div><h3>Эффект оптимизации</h3><p class="muted">Сравните базовый FIFO с одной из целей оптимизации.</p><div class="variant-pair"><label><span>Расчёт A · база</span><select class="btn fixed-variant" id="optimizationBefore" data-fixed="true" disabled><option value="baseline">Базовый FIFO</option></select></label><span aria-hidden="true">→</span><label><span>Расчёт B · оптимизация</span><select class="btn" id="optimizationAfter"><option value="staff_first">Меньше инженеров</option><option value="distance_first">Меньше километров</option><option value="sla_first">Соблюдать SLA</option></select></label></div><button class="btn" id="compareBtn">Сравнить варианты</button></div>
+        <div><h3>Цена соблюдения сроков</h3><p class="muted">Сравните цель по ресурсам или пробегу с целью «Соблюдать SLA».</p><div class="variant-pair"><label><span>Расчёт A · альтернатива</span><select class="btn" id="policiesBefore"><option value="staff_first">Меньше инженеров</option><option value="distance_first">Меньше километров</option></select></label><span aria-hidden="true">→</span><label><span>Расчёт B · сроки</span><select class="btn fixed-variant" id="policiesAfter" data-fixed="true" disabled><option value="sla_first">Соблюдать SLA</option></select></label></div><button class="btn" id="policiesBtn">Сравнить цели</button></div>
+        <div><h3>Устойчивость к событиям</h3><p class="muted">Сравните полный, сбалансированный и максимально стабильный пересчёт после одного инцидента.</p><div class="variant-pair"><label><span>Расчёт A</span><select class="btn" id="stabilityBefore"><option value="full">Полный пересчёт</option><option value="balanced">Сбалансированный</option><option value="conservative">Минимум изменений</option></select></label><span aria-hidden="true">↔</span><label><span>Расчёт B</span><select class="btn" id="stabilityAfter"><option value="conservative">Минимум изменений</option><option value="balanced">Сбалансированный</option><option value="full">Полный пересчёт</option></select></label></div><button class="btn" id="incidentBtn">Сравнить устойчивость</button><p class="muted tiny" id="incidentHint" hidden>Для примера откройте небольшое демо в разделе «Данные».</p></div>
+      </div>
+      <p class="muted analysis-note">После обычного сравнения текущим становится второй вариант. Компромисс по SLA сначала показывается без применения. Любой вариант можно выбрать и открыть на карте.</p>
+    </section>
+    <section id="compromisePanel" class="card compromise-panel" hidden aria-labelledby="compromiseTitle">
+      <div class="section-heading"><div><span class="eyebrow">От готового плана, без нового полного поиска</span><h2 id="compromiseTitle">SLA в пределах ресурсов</h2></div><button class="btn" id="closeCompromiseBtn" type="button">Закрыть</button></div>
+      <p id="compromiseReference" class="muted"></p>
+      <form id="compromiseForm">
+        <div class="compromise-controls">
+          <label>Дополнительный пробег, %<input id="compromiseDistance" type="number" min="0" max="200" step="0.1" value="10" required></label>
+          <label>Дополнительных инженеров<input id="compromiseEngineers" type="number" min="0" max="10000" step="1" value="0" required></label>
+          <label>Целевой SLA, % (необязательно)<input id="compromiseTarget" type="number" min="0" max="100" step="0.1" placeholder="Максимум в пределах лимитов"></label>
+          <label>Перестройки маршрутов<select id="compromiseNeighborhood"><option value="basic">Базовые: переносы и обмены</option><option value="extended">Расширенные: новые позиции и хвосты маршрутов</option></select></label>
+          <label>Бюджет проверок<input id="compromiseAttempts" type="number" min="0" max="200000" step="1" value="30000" required></label>
+        </div>
+        <p class="muted tiny">Расширенный поиск сначала сохраняет базовый результат (до 30 000 проверок), затем использует оставшийся бюджет для составных перестроек. Для большого плана задайте, например, 60 000 проверок: это общий лимит, не 30 000 плюс 60 000. При том же полном бюджете базовый поиск всё ещё может оказаться лучше.</p>
+        <p id="compromiseLimits" class="muted" aria-live="polite"></p>
+        <p class="muted tiny">Без целевого процента ищем максимум SLA в заданных пределах. С целевым процентом сначала достигаем его, затем сокращаем число инженеров и пробег. Число своевременных визитов и сумма опозданий не ухудшаются относительно исходного плана. Все ранее назначенные заявки сохраняются; для неназначенных места здесь не ищем.</p>
+        <p class="muted tiny">Это предпросмотр. Новый вариант применяется только кнопкой выбора. Лимиты действуют только для этого запуска, не для последующих событий и обычного пересчёта.</p>
+        <div id="compromiseError" class="error" role="alert" hidden></div>
+        <div class="actions"><button class="btn primary" id="runCompromiseBtn" type="submit">Рассчитать компромисс</button></div>
+      </form>
+    </section>
+    <div id="comparison" class="card compare" aria-live="polite"></div>
+    <details id="planDetails" class="card overview-disclosure">
+      <summary><span class="disclosure-summary-line"><strong>Подробности расчёта</strong><span id="planDetailsSummary" class="muted"></span></span></summary>
+      <div id="planDetailsBody" class="overview-disclosure-body"></div>
+    </details>
+  <details class="card changes" id="changes" aria-labelledby="changesTitle" hidden>
+    <summary class="changes-summary"><span class="disclosure-summary-line"><strong id="changesTitle">Изменения по заявкам</strong><span id="changesSummaryCounts" class="muted"></span></span></summary>
+    <div class="changes-content">
+    <div class="change-toolbar">
+      <div class="muted" id="changesReference"></div>
+      <div class="change-controls">
+        <label id="variantControl" hidden>Показанный план
+          <select class="btn" id="variantSelect"><option value="after">Стабильный план</option><option value="before">Полный пересчёт</option></select>
+        </label>
+        <label>Тип изменения<select class="btn" id="changeFilter" aria-label="Тип изменения"></select></label>
+      </div>
+    </div>
+    <div id="changeCounts" class="change-counts"></div>
+    <div class="muted tiny changes-note" id="changesNote"></div>
+    <div class="change-table-wrap" id="changeTableWrap">
+      <table class="change-table"><thead><tr><th scope="col">Заявка</th><th scope="col" id="changeBefore">До</th><th scope="col" id="changeAfter">После</th><th scope="col">Что изменилось</th></tr></thead><tbody id="changeRows"></tbody></table>
+    </div>
+    <p id="changeEmpty" class="change-empty" role="status" hidden></p>
+    </div>
+  </details>
+
+  </main>
+
+  <section id="assumptionsScreen" hidden aria-label="Допущения и параметры">
+    <section class="card settings-primary" id="planningSettings"><h2>Районы и распределение</h2><p class="muted">Здесь можно задать принадлежность инженеров и заявок к районам или сравнить два режима. Цель, режим районов и вычислительный бюджет настраиваются в общей форме ниже.</p>
+    <section class="policy-bar district-settings-actions" aria-label="Районы планирования">
+      <label for="districtMode" hidden>Районы <select class="btn" id="districtMode"><option value="strict">Каждый район отдельно, без выездов</option><option value="unrestricted" selected>Общий расчёт, выезды разрешены</option></select></label>
+      <button class="btn" type="button" id="districtSetupBtn">Настроить районы</button>
+      <button class="btn" type="button" id="districtCompareBtn">Сравнить режимы районов</button>
+      <span hidden class="muted policy-hint" id="districtModeHint">Выбор применяется при следующем расчёте. Для строгого режима нужны районы всех инженеров и активных заявок.</span>
+    </section>
+    <section class="policy-bar legacy-settings-controls" hidden aria-label="Цель планирования">
+      <label for="policySelect">Цель <select class="btn" id="policySelect"><option value="staff_first">Меньше инженеров</option><option value="distance_first">Меньше километров</option><option value="sla_first">Соблюдать сроки (SLA)</option></select></label>
+      <span class="muted policy-hint" id="policyHint"></span>
+      <button class="btn" id="baselineBtn">Пересчитать план</button>
+    </section>
+    </section>
+    <div id="assumptionsContent"></div>
+  </section>
+
+  <main id="planScreen" hidden>
+    <div class="route-context"><div id="routePlanSummary" class="muted"></div><button class="text-btn" data-screen="plan">Показатели и сравнение →</button></div>
+  <div class="grid">
+    <section class="card map-card" aria-label="Карта маршрутов">
+      <div class="map-toolbar">
+        <label for="engineerSelect">Маршрут<select class="btn" id="engineerSelect"><option value="">Все инженеры</option></select></label>
+        <div class="map-actions"><button class="btn" id="fitMapBtn">Показать весь маршрут</button></div>
+
+      </div>
+      <div class="muted map-summary" id="mapSummary" role="status"></div>
+      <div class="map-container"><div id="map" aria-label="Интерактивная карта заявок и инженеров"></div><p id="mapEmpty" class="map-empty" hidden></p></div>
+      <details class="map-footer"><summary>Обозначения и настройки карты</summary>
+        <label class="tile-option"><input type="checkbox" id="basemapToggle" checked> Показывать локальную карту</label>
+        <div class="map-key"><span><b class="key-origin">С</b> Старт / текущая позиция</span><span><b class="key-stop">1</b> Порядок визита</span><span><b class="key-unassigned">!</b> Не назначена</span><span><b class="key-urgent">○</b> Срочная</span></div>
+        <div class="muted tiny" id="legend">Пунктир соединяет визиты по порядку. Цвет соответствует инженеру; линии не повторяют дороги.</div>
+        <div class="muted tiny" id="distanceModel"></div>
+        <div class="muted tiny" id="mapStatus" role="status"></div>
+      </details>
+    </section>
+    <div class="card side"><div id="event"></div><h3 style="margin-top:0">Расписание инженеров</h3><div id="routes"></div><div id="unassigned"></div></div>
+  </div>
+
+    <details class="card event-panel" id="eventLog"><summary>История событий <span id="eventCount"></span></summary><div class="event-source"><span id="eventState" class="muted" role="status">Загрузка плана…</span><button class="btn" id="resetEventsBtn" hidden>Вернуться к плану до событий</button></div><ol id="eventHistory"></ol><div id="eventOutcome" class="muted" role="status"></div></details>
+  </main>
+</div>
+<dialog id="eventDetails" class="event-panel event-dialog" aria-labelledby="eventTitle" aria-describedby="eventDescription">
+  <header class="dialog-header"><div><h2 id="eventTitle">Добавить событие</h2><p id="eventDescription" class="muted">Укажите, что изменилось. Мы пересчитаем оставшиеся маршруты.</p></div><button class="btn" id="closeEventBtn" type="button" aria-label="Закрыть событие">Закрыть</button></header>
+  <form id="eventForm">
+    <section class="event-draft-tools" aria-label="Способ добавления события"><div><label for="eventTemplateSelect">Шаблон работы</label><select id="eventTemplateSelect"></select><button class="btn" id="applyEventTemplateBtn" type="button">Заполнить</button></div><label class="file-button btn">Загрузить JSON<input id="eventJsonFile" type="file" accept=".json,application/json"></label><p id="eventDraftStatus" class="muted" role="status"></p></section>
+    <div class="event-fields"><label>Что произошло?<select id="eventType" autofocus><option value="urgent_job">Поступила срочная заявка</option><option value="new_job">Появилась внеплановая заявка</option><option value="cancel_job">Заявку отменили</option><option value="engineer_delay">Инженер задерживается</option><option value="engineer_unavailable">Инженер недоступен</option></select></label><label><span id="eventTimeLabel">Время события</span><input id="eventTime" type="datetime-local" required></label></div>
+    <div id="cancelFields" class="event-fields" hidden><label>Какую заявку отменили?<select id="cancelJob"></select></label></div>
+    <div id="unavailableFields" hidden><div class="event-fields"><label>Какой инженер недоступен?<select id="unavailableEngineer"></select></label></div><p class="muted">Инженер завершит начатую работу. Будущие визиты можно будет передать другим.</p></div>
+    <div id="delayFields" hidden><div class="event-fields"><label>Какой инженер задерживается?<select id="delayEngineer"></select></label><label>Задержка, мин<input id="delayMinutes" type="number" min="1" max="1440" step="1" value="30" required></label></div><p class="muted">До указанного времени инженер не получает новые визиты; начатая работа остаётся за ним.</p></div>
+    <fieldset id="urgentFields"><legend id="eventJobLegend">Срочная заявка</legend>
+      <div class="event-fields"><label>Название работы<input id="urgentTitle" required value="Срочная заявка"></label><label>Район заявки<input id="urgentDistrict" maxlength="120" placeholder="district_id как у инженеров"></label><div class="location-address"><label for="urgentAddress">Адрес</label><div class="location-combobox"><input id="urgentAddress" required maxlength="300" placeholder="Начните вводить улицу и дом" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="urgentAddressResults" aria-describedby="urgentLocationStatus"><ul id="urgentAddressResults" class="location-results" role="listbox" aria-label="Найденные адреса" hidden></ul></div></div></div>
+      <div class="location-actions"><button class="btn" id="urgentFindAddressBtn" type="button">Найти адрес</button><button class="btn" id="urgentMapToggleBtn" type="button" aria-expanded="false" aria-controls="urgentMapPanel">Выбрать на карте</button></div>
+      <p id="urgentLocationStatus" class="muted" role="status" aria-live="polite">Начните вводить адрес — варианты появятся под полем. Или выберите точку на карте.</p>
+      <div id="urgentMapPanel" hidden><p class="muted">Нажмите на нужное место или перетащите метку. Проверьте адрес ближайшего объекта.</p><div id="urgentLocationMap" aria-label="Выбор места срочной заявки"></div><p id="urgentMapStatus" class="muted tiny" role="status"></p></div>
+      <div class="event-fields"><label>Широта<input id="urgentLat" type="number" min="-90" max="90" step="any" required placeholder="55.75"></label><label>Долгота<input id="urgentLon" type="number" min="-180" max="180" step="any" required placeholder="37.62"></label></div>
+      <div class="location-actions"><button class="btn" id="urgentLocateBtn" type="button">Определить адрес по координатам</button><span class="muted tiny">Локальные адреса · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap</a> · без интернета</span></div>
+      <div class="event-fields"><label>Длительность работы, мин<input id="urgentDuration" type="number" min="1" step="1" value="45" required></label><label>Нужный навык<select id="urgentSkill" required></select></label><label>Приоритет<input id="urgentPriority" type="number" min="0" max="100" step="1" value="100" required></label></div>
+      <div class="event-fields"><label>Временное окно: с<input id="urgentStart" type="datetime-local" required></label><label>Временное окно: до<input id="urgentEnd" type="datetime-local" required></label></div>
+      <details><summary>Дополнительные требования</summary>
+        <div class="event-fields"><label>ID заявки<input id="urgentId" required></label><label>Транспорт<select id="urgentTransport"></select></label><label>Оборудование через запятую<input id="urgentEquipment" placeholder="Не требуется"></label></div>
+        <div class="event-fields"><label>Правило временного окна<select id="urgentWindowSemantics"><option value="start">Начать внутри окна</option><option value="completion">Завершить внутри окна</option></select></label><label>Начать по SLA до (необязательно)<input id="urgentSla" type="datetime-local"></label></div>
+      </details>
+    </fieldset>
+    <details><summary>Правила пересчёта</summary><p class="muted">Начатая работа сохраняется за инженером. Завершённые визиты учитываются по расписанию. Положение в пути оценивается по последнему достигнутому адресу.</p><div class="event-fields"><label>Если на все заявки не хватает времени<select id="urgencyPolicy"><option value="urgent_first">Сначала срочные заявки</option><option value="coverage_first">Выполнить больше заявок</option></select></label><label>Как рано начинать срочные работы<select id="urgentStartPolicy" aria-describedby="urgentStartPolicyHelp"><option value="after_primary">После основной цели</option><option value="before_primary">Перед основной целью</option><option value="before_coverage">Раньше, даже ценой обычных заявок</option></select></label></div><p class="muted" id="urgentStartPolicyHelp">Первые два режима сначала учитывают выбранный приоритет назначения: «Сначала срочные заявки» уже допускает меньше обычных назначений ради срочных. При равенстве этих критериев: после основной цели — ускоряем срочные при тех же главных показателях цели; перед основной целью — допускаем дополнительных инженеров, километры и нарушения мягкого SLA. Раньше ценой обычных заявок — назначение и раннее начало срочных важнее общего числа назначений, даже если выше выбрано «Выполнить больше заявок». Обязательные закрепления, начатые работы, строгие окна и смены сохраняются.</p></details>
+    <p class="muted tiny" id="eventEligibility"></p><div id="eventError" class="error" role="alert" hidden></div>
+    <div class="dialog-footer"><button class="btn" id="cancelEventBtn" type="button">Отмена</button><button class="btn primary" id="applyEventBtn" type="submit" disabled>Применить и пересчитать</button></div>
+  </form>
+</dialog>
+<dialog id="explanationDialog" class="decision-dialog" aria-labelledby="explanationTitle" aria-describedby="explanationScope">
+ <header class="decision-header"><h2 id="explanationTitle">Разбор заявки</h2><button type="button" class="btn" id="closeExplanationBtn" autofocus>Закрыть</button></header>
+ <p id="explanationScope" class="muted"></p><ul id="explanationFacts"></ul>
+ <section id="manualAssignment" class="manual-assignment" aria-labelledby="assignmentTitle">
+  <h3 id="assignmentTitle">Назначить вручную</h3>
+  <p id="assignmentHelp" class="muted">Выбранный исполнитель будет закреплён за заявкой. Можно изменить прежнее закрепление или закрепить текущего исполнителя. Проверка покажет допустимое расписание и его последствия до применения.</p>
+  <form id="assignmentForm" class="assignment-form">
+   <div class="assignment-field"><label for="assignmentEngineer">Исполнитель</label><select id="assignmentEngineer" aria-describedby="assignmentHelp assignmentEligibility"></select></div>
+   <button id="previewAssignmentBtn" class="btn" type="submit">Проверить назначение</button>
+  </form>
+  <p id="assignmentEligibility" class="muted"></p>
+  <p id="assignmentStatus" role="status" aria-live="polite"></p>
+  <div id="assignmentPreview" hidden></div>
+  <div id="assignmentActions" class="assignment-actions" hidden>
+   <button id="cancelAssignmentBtn" class="btn" type="button">Сбросить проверку</button>
+   <button id="applyAssignmentBtn" class="btn primary" type="button" disabled>Применить назначение</button>
+  </div>
+ </section>
+ <h3>Инженеры с учётом текущих закреплений</h3><p id="explanationStatus" role="status"></p><div id="explanationAlternatives"></div>
+</dialog>
+<dialog id="districtDialog" class="decision-dialog" aria-labelledby="districtTitle">
+ <header class="decision-header"><h2 id="districtTitle">Принадлежность к районам</h2><button class="btn" type="button" id="districtCloseBtn">Закрыть</button></header>
+ <p class="muted">Задайте один district_id для каждого инженера и активной заявки. Значения должны совпадать в точности, включая регистр. Например, tverskoy. Адреса и координаты сами по себе район не задают. Пустые значения null в строгом режиме не допускаются.</p>
+ <p class="muted">Раздел reference содержит подписи для удобства и не меняет адреса или заявки. Изменение районов доступно до событий. Никакие старые назначения не снимаются автоматически.</p>
+ <div class="actions"><button class="btn" type="button" id="districtDownloadBtn">Скачать шаблон JSON</button><label class="file-button btn">Загрузить распределение<input id="districtFile" type="file" accept=".json,application/json"></label></div>
+ <label for="districtMapping">Распределение по ID</label><textarea id="districtMapping" rows="16" spellcheck="false" style="width:100%;box-sizing:border-box" aria-describedby="districtMappingError"></textarea>
+ <p id="districtMappingError" class="error" hidden role="alert"></p>
+ <div class="dialog-footer"><button class="btn primary" type="button" id="districtApplyBtn">Рассчитать по районам</button></div>
+</dialog>
+<script src="/static/vendor/leaflet/leaflet.js"></script>
+<script src="/static/local-map.js"></script>
+<script src="/static/map.js"></script>
+<script src="/static/progress.js"></script>
+<script src="/static/app.js"></script>
+<script src="/static/explanations.js"></script>
+<script src="/static/assignments.js"></script>
+<script src="/static/import.js?v=location-review-1"></script>
+<script src="/static/catalogs.js"></script>
+<script src="/static/events.js"></script>
+<script src="/static/location-picker.js"></script>
+<script src="/static/state-store.js"></script>
+<script src="/static/overview.js"></script>
+<script src="/static/compromise.js"></script>
+<script src="/static/districts.js"></script>
+<script src="/static/assumptions.js"></script>
+<script src="/static/planner-settings.js"></script>
+<script src="/static/workspace.js"></script>
+<script src="/static/state.js"></script>
+
+</body></html>

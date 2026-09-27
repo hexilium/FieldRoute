@@ -1,0 +1,3453 @@
+{
+  "planning_time": "2026-08-17T08:00:00+03:00",
+  "engineers": [
+    {
+      "id": "training-eng-01",
+      "name": "Инженер 01",
+      "start_location": {
+        "lat": 55.72,
+        "lon": 37.59,
+        "label": "Учебный старт 1"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-02",
+      "name": "Инженер 02",
+      "start_location": {
+        "lat": 55.72,
+        "lon": 37.606,
+        "label": "Учебный старт 2"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-03",
+      "name": "Инженер 03",
+      "start_location": {
+        "lat": 55.72,
+        "lon": 37.622,
+        "label": "Учебный старт 3"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "emergency"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-04",
+      "name": "Инженер 04",
+      "start_location": {
+        "lat": 55.72,
+        "lon": 37.638000000000005,
+        "label": "Учебный старт 4"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-05",
+      "name": "Инженер 05",
+      "start_location": {
+        "lat": 55.734,
+        "lon": 37.59,
+        "label": "Учебный старт 5"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-06",
+      "name": "Инженер 06",
+      "start_location": {
+        "lat": 55.734,
+        "lon": 37.606,
+        "label": "Учебный старт 6"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "emergency"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-07",
+      "name": "Инженер 07",
+      "start_location": {
+        "lat": 55.734,
+        "lon": 37.622,
+        "label": "Учебный старт 7"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-08",
+      "name": "Инженер 08",
+      "start_location": {
+        "lat": 55.734,
+        "lon": 37.638000000000005,
+        "label": "Учебный старт 8"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-09",
+      "name": "Инженер 09",
+      "start_location": {
+        "lat": 55.748,
+        "lon": 37.59,
+        "label": "Учебный старт 9"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "emergency"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-10",
+      "name": "Инженер 10",
+      "start_location": {
+        "lat": 55.748,
+        "lon": 37.606,
+        "label": "Учебный старт 10"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "walk"
+      ],
+      "travel_mode": "walk",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-11",
+      "name": "Инженер 11",
+      "start_location": {
+        "lat": 55.748,
+        "lon": 37.622,
+        "label": "Учебный старт 11"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "emergency",
+        "connection"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "bicycle"
+      ],
+      "travel_mode": "bicycle",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "training-eng-12",
+      "name": "Инженер 12",
+      "start_location": {
+        "lat": 55.748,
+        "lon": 37.638000000000005,
+        "label": "Учебный старт 12"
+      },
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-08-17T08:00:00+03:00",
+        "end": "2026-08-17T18:00:00+03:00"
+      },
+      "skills": [
+        "local",
+        "emergency"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "public_transport"
+      ],
+      "travel_mode": "public_transport",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    }
+  ],
+  "jobs": [
+    {
+      "id": "00001",
+      "title": "Диагностика (автомобиль) · 00001",
+      "location": {
+        "lat": 55.72,
+        "lon": 37.59,
+        "label": "Учебная точка 01"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 2,
+          "end_row": 2,
+          "id": "00001",
+          "fields": {
+            "Заявка": "00001",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (автомобиль)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 01",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (автомобиль)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00002",
+      "title": "Заявка на подключение (автомобиль) · 00002",
+      "location": {
+        "lat": 55.734,
+        "lon": 37.606,
+        "label": "Учебная точка 02"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 3,
+          "end_row": 3,
+          "id": "00002",
+          "fields": {
+            "Заявка": "00002",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (автомобиль)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 02",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (автомобиль)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00003",
+      "title": "Авария (автомобиль) · 00003",
+      "location": {
+        "lat": 55.748,
+        "lon": 37.622,
+        "label": "Учебная точка 03"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 4,
+          "end_row": 4,
+          "id": "00003",
+          "fields": {
+            "Заявка": "00003",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (автомобиль)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 03",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (автомобиль)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00004",
+      "title": "Диагностика (пешеход) · 00004",
+      "location": {
+        "lat": 55.72,
+        "lon": 37.638,
+        "label": "Учебная точка 04"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 5,
+          "end_row": 5,
+          "id": "00004",
+          "fields": {
+            "Заявка": "00004",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (пешеход)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 04",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (пешеход)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00005",
+      "title": "Заявка на подключение (пешеход) · 00005",
+      "location": {
+        "lat": 55.748,
+        "lon": 37.59,
+        "label": "Учебная точка 05"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 6,
+          "end_row": 6,
+          "id": "00005",
+          "fields": {
+            "Заявка": "00005",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (пешеход)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 05",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (пешеход)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00006",
+      "title": "Авария (пешеход) · 00006",
+      "location": {
+        "lat": 55.72,
+        "lon": 37.606,
+        "label": "Учебная точка 06"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 7,
+          "end_row": 7,
+          "id": "00006",
+          "fields": {
+            "Заявка": "00006",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (пешеход)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 06",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (пешеход)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00007",
+      "title": "Диагностика (велосипед) · 00007",
+      "location": {
+        "lat": 55.734,
+        "lon": 37.622,
+        "label": "Учебная точка 07"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 8,
+          "end_row": 8,
+          "id": "00007",
+          "fields": {
+            "Заявка": "00007",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (велосипед)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 07",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (велосипед)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00008",
+      "title": "Заявка на подключение (велосипед) · 00008",
+      "location": {
+        "lat": 55.748,
+        "lon": 37.638,
+        "label": "Учебная точка 08"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 9,
+          "end_row": 9,
+          "id": "00008",
+          "fields": {
+            "Заявка": "00008",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (велосипед)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 08",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (велосипед)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00009",
+      "title": "Авария (велосипед) · 00009",
+      "location": {
+        "lat": 55.734,
+        "lon": 37.59,
+        "label": "Учебная точка 09"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 10,
+          "end_row": 10,
+          "id": "00009",
+          "fields": {
+            "Заявка": "00009",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (велосипед)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 09",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (велосипед)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00010",
+      "title": "Диагностика (общественный транспорт) · 00010",
+      "location": {
+        "lat": 55.748,
+        "lon": 37.606,
+        "label": "Учебная точка 10"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 11,
+          "end_row": 11,
+          "id": "00010",
+          "fields": {
+            "Заявка": "00010",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (общественный транспорт)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 10",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (общественный транспорт)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00011",
+      "title": "Заявка на подключение (общественный транспорт) · 00011",
+      "location": {
+        "lat": 55.72,
+        "lon": 37.622,
+        "label": "Учебная точка 11"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 12,
+          "end_row": 12,
+          "id": "00011",
+          "fields": {
+            "Заявка": "00011",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (общественный транспорт)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 11",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (общественный транспорт)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00012",
+      "title": "Авария (общественный транспорт) · 00012",
+      "location": {
+        "lat": 55.734,
+        "lon": 37.638,
+        "label": "Учебная точка 12"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T08:00:00+03:00",
+          "end": "2026-08-17T12:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 13,
+          "end_row": 13,
+          "id": "00012",
+          "fields": {
+            "Заявка": "00012",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (общественный транспорт)",
+            "Начало": "17.08.2026 08:00",
+            "Окончание": "17.08.2026 12:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 12",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (общественный транспорт)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00013",
+      "title": "Диагностика (автомобиль) · 00013",
+      "location": {
+        "lat": 55.723,
+        "lon": 37.592,
+        "label": "Учебная точка 13"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 14,
+          "end_row": 14,
+          "id": "00013",
+          "fields": {
+            "Заявка": "00013",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (автомобиль)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 13",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (автомобиль)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00014",
+      "title": "Заявка на подключение (автомобиль) · 00014",
+      "location": {
+        "lat": 55.737,
+        "lon": 37.608,
+        "label": "Учебная точка 14"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 15,
+          "end_row": 15,
+          "id": "00014",
+          "fields": {
+            "Заявка": "00014",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (автомобиль)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 14",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (автомобиль)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00015",
+      "title": "Авария (автомобиль) · 00015",
+      "location": {
+        "lat": 55.751,
+        "lon": 37.624,
+        "label": "Учебная точка 15"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 16,
+          "end_row": 16,
+          "id": "00015",
+          "fields": {
+            "Заявка": "00015",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (автомобиль)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 15",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (автомобиль)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00016",
+      "title": "Диагностика (пешеход) · 00016",
+      "location": {
+        "lat": 55.723,
+        "lon": 37.64,
+        "label": "Учебная точка 16"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 17,
+          "end_row": 17,
+          "id": "00016",
+          "fields": {
+            "Заявка": "00016",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (пешеход)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 16",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (пешеход)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00017",
+      "title": "Заявка на подключение (пешеход) · 00017",
+      "location": {
+        "lat": 55.751,
+        "lon": 37.592,
+        "label": "Учебная точка 17"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 18,
+          "end_row": 18,
+          "id": "00017",
+          "fields": {
+            "Заявка": "00017",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (пешеход)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 17",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (пешеход)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00018",
+      "title": "Авария (пешеход) · 00018",
+      "location": {
+        "lat": 55.723,
+        "lon": 37.608,
+        "label": "Учебная точка 18"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 19,
+          "end_row": 19,
+          "id": "00018",
+          "fields": {
+            "Заявка": "00018",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (пешеход)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 18",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (пешеход)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00019",
+      "title": "Диагностика (велосипед) · 00019",
+      "location": {
+        "lat": 55.737,
+        "lon": 37.624,
+        "label": "Учебная точка 19"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 20,
+          "end_row": 20,
+          "id": "00019",
+          "fields": {
+            "Заявка": "00019",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (велосипед)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 19",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (велосипед)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00020",
+      "title": "Заявка на подключение (велосипед) · 00020",
+      "location": {
+        "lat": 55.751,
+        "lon": 37.64,
+        "label": "Учебная точка 20"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 21,
+          "end_row": 21,
+          "id": "00020",
+          "fields": {
+            "Заявка": "00020",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (велосипед)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 20",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (велосипед)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00021",
+      "title": "Авария (велосипед) · 00021",
+      "location": {
+        "lat": 55.737,
+        "lon": 37.592,
+        "label": "Учебная точка 21"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 22,
+          "end_row": 22,
+          "id": "00021",
+          "fields": {
+            "Заявка": "00021",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (велосипед)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 21",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (велосипед)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00022",
+      "title": "Диагностика (общественный транспорт) · 00022",
+      "location": {
+        "lat": 55.751,
+        "lon": 37.608,
+        "label": "Учебная точка 22"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 23,
+          "end_row": 23,
+          "id": "00022",
+          "fields": {
+            "Заявка": "00022",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (общественный транспорт)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 22",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (общественный транспорт)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00023",
+      "title": "Заявка на подключение (общественный транспорт) · 00023",
+      "location": {
+        "lat": 55.723,
+        "lon": 37.624,
+        "label": "Учебная точка 23"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 24,
+          "end_row": 24,
+          "id": "00023",
+          "fields": {
+            "Заявка": "00023",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (общественный транспорт)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 23",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (общественный транспорт)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00024",
+      "title": "Авария (общественный транспорт) · 00024",
+      "location": {
+        "lat": 55.737,
+        "lon": 37.64,
+        "label": "Учебная точка 24"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T10:00:00+03:00",
+          "end": "2026-08-17T14:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 25,
+          "end_row": 25,
+          "id": "00024",
+          "fields": {
+            "Заявка": "00024",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (общественный транспорт)",
+            "Начало": "17.08.2026 10:00",
+            "Окончание": "17.08.2026 14:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 24",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (общественный транспорт)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00025",
+      "title": "Диагностика (автомобиль) · 00025",
+      "location": {
+        "lat": 55.726,
+        "lon": 37.594,
+        "label": "Учебная точка 25"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 26,
+          "end_row": 26,
+          "id": "00025",
+          "fields": {
+            "Заявка": "00025",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (автомобиль)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 25",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (автомобиль)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00026",
+      "title": "Заявка на подключение (автомобиль) · 00026",
+      "location": {
+        "lat": 55.74,
+        "lon": 37.61,
+        "label": "Учебная точка 26"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 27,
+          "end_row": 27,
+          "id": "00026",
+          "fields": {
+            "Заявка": "00026",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (автомобиль)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 26",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (автомобиль)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00027",
+      "title": "Авария (автомобиль) · 00027",
+      "location": {
+        "lat": 55.754,
+        "lon": 37.626,
+        "label": "Учебная точка 27"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "car",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 28,
+          "end_row": 28,
+          "id": "00027",
+          "fields": {
+            "Заявка": "00027",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (автомобиль)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 27",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (автомобиль)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "car",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00028",
+      "title": "Диагностика (пешеход) · 00028",
+      "location": {
+        "lat": 55.726,
+        "lon": 37.642,
+        "label": "Учебная точка 28"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 29,
+          "end_row": 29,
+          "id": "00028",
+          "fields": {
+            "Заявка": "00028",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (пешеход)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 28",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (пешеход)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00029",
+      "title": "Заявка на подключение (пешеход) · 00029",
+      "location": {
+        "lat": 55.754,
+        "lon": 37.594,
+        "label": "Учебная точка 29"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 30,
+          "end_row": 30,
+          "id": "00029",
+          "fields": {
+            "Заявка": "00029",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (пешеход)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 29",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (пешеход)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00030",
+      "title": "Авария (пешеход) · 00030",
+      "location": {
+        "lat": 55.726,
+        "lon": 37.61,
+        "label": "Учебная точка 30"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "walk",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 31,
+          "end_row": 31,
+          "id": "00030",
+          "fields": {
+            "Заявка": "00030",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (пешеход)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 30",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (пешеход)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "walk",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00031",
+      "title": "Диагностика (велосипед) · 00031",
+      "location": {
+        "lat": 55.74,
+        "lon": 37.626,
+        "label": "Учебная точка 31"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 32,
+          "end_row": 32,
+          "id": "00031",
+          "fields": {
+            "Заявка": "00031",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (велосипед)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 31",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (велосипед)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00032",
+      "title": "Заявка на подключение (велосипед) · 00032",
+      "location": {
+        "lat": 55.754,
+        "lon": 37.642,
+        "label": "Учебная точка 32"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 33,
+          "end_row": 33,
+          "id": "00032",
+          "fields": {
+            "Заявка": "00032",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (велосипед)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 32",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (велосипед)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00033",
+      "title": "Авария (велосипед) · 00033",
+      "location": {
+        "lat": 55.74,
+        "lon": 37.594,
+        "label": "Учебная точка 33"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "bicycle",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 34,
+          "end_row": 34,
+          "id": "00033",
+          "fields": {
+            "Заявка": "00033",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (велосипед)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 33",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (велосипед)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "bicycle",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00034",
+      "title": "Диагностика (общественный транспорт) · 00034",
+      "location": {
+        "lat": 55.754,
+        "lon": 37.61,
+        "label": "Учебная точка 34"
+      },
+      "service_minutes": 30,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 35,
+          "end_row": 35,
+          "id": "00034",
+          "fields": {
+            "Заявка": "00034",
+            "Тип заявки BK": "Локальная заявка",
+            "Тип заявки HD": "Диагностика (общественный транспорт)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 34",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Локальная заявка",
+            "hd_type": "Диагностика (общественный транспорт)",
+            "skill": "local",
+            "service_minutes": 30,
+            "service_norm": "local_repair",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Локальная заявка/ремонт у клиента» из Нормативы.xlsx, Лист1!A5:E5. На месте: 30 мин работ + 0 мин документов = 30 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "local_repair",
+            "title": "Локальная заявка/ремонт у клиента",
+            "skill": "local",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 30,
+            "documentation_minutes": 0,
+            "base_minutes": 50,
+            "service_minutes": 30,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A5:E5",
+              "base_formula": "SUM(B5:D5)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00035",
+      "title": "Заявка на подключение (общественный транспорт) · 00035",
+      "location": {
+        "lat": 55.726,
+        "lon": 37.626,
+        "label": "Учебная точка 35"
+      },
+      "service_minutes": 70,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "connection"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 50,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 36,
+          "end_row": 36,
+          "id": "00035",
+          "fields": {
+            "Заявка": "00035",
+            "Тип заявки BK": "Подключение",
+            "Тип заявки HD": "Заявка на подключение (общественный транспорт)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 35",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Подключение",
+            "hd_type": "Заявка на подключение (общественный транспорт)",
+            "skill": "connection",
+            "service_minutes": 70,
+            "service_norm": "connection_basic",
+            "priority": "normal",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Подключение клиентов Базовая» из Нормативы.xlsx, Лист1!A2:E2. На месте: 60 мин работ + 10 мин документов = 70 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "connection_basic",
+            "title": "Подключение клиентов Базовая",
+            "skill": "connection",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 60,
+            "documentation_minutes": 10,
+            "base_minutes": 90,
+            "service_minutes": 70,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A2:E2",
+              "base_formula": "SUM(B2:D2)"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "00036",
+      "title": "Авария (общественный транспорт) · 00036",
+      "location": {
+        "lat": 55.74,
+        "lon": 37.642,
+        "label": "Учебная точка 36"
+      },
+      "service_minutes": 80,
+      "time_windows": [
+        {
+          "start": "2026-08-17T12:00:00+03:00",
+          "end": "2026-08-17T16:00:00+03:00"
+        }
+      ],
+      "window_semantics": "start",
+      "required_skills": [
+        "emergency"
+      ],
+      "required_equipment": [],
+      "required_transport": "public_transport",
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "source": {
+          "filename": "training-with-norms.csv",
+          "sha256": "d80039695053c9b12cc3bca5769ea7d1a59ce2e532e0d4d04f3607c60011ecc9",
+          "row": 37,
+          "end_row": 37,
+          "id": "00036",
+          "fields": {
+            "Заявка": "00036",
+            "Тип заявки BK": "Глобальная проблема",
+            "Тип заявки HD": "Авария (общественный транспорт)",
+            "Начало": "17.08.2026 12:00",
+            "Окончание": "17.08.2026 16:00",
+            "Район": "Учебный район",
+            "Адрес": "Учебная точка 36",
+            "Гигабитное подключение": "Нет"
+          }
+        },
+        "enrichment": {
+          "profile": "Учебный набор 12 / 36 с нормативами организатора",
+          "notes": [
+            "Учебные адреса и координаты условные, не относятся к заявкам организатора.",
+            "Начало/Окончание — окно начала визита, UTC+03:00; смены, навыки, транспорт и приоритеты выбраны для демонстрации.",
+            "Все виды транспорта используют Haversine × 1.25; скорости-допущения: авто 28, пешком 5, велосипед 15, общественный транспорт 18 км/ч, без пробок и расписаний.",
+            "Длительности работ взяты из Нормативы.xlsx; время дороги рассчитывается отдельно."
+          ],
+          "rule": {
+            "bk_type": "Глобальная проблема",
+            "hd_type": "Авария (общественный транспорт)",
+            "skill": "emergency",
+            "service_minutes": 80,
+            "service_norm": "tkd_emergency",
+            "priority": "urgent",
+            "required_transport": "public_transport",
+            "window_semantics": "start",
+            "note": "Предложено сопоставление BK/HD с нормативом «Аварий на ТКД» из Нормативы.xlsx, Лист1!A3:E3. На месте: 80 мин работ + 0 мин документов = 80 мин. Вместо нормативных 20 мин дороги используется расчёт переезда. Проверьте применимость к подтипу заявки."
+          },
+          "utc_offset_minutes": 180,
+          "service_norm": {
+            "code": "tkd_emergency",
+            "title": "Аварий на ТКД",
+            "skill": "emergency",
+            "travel_allowance_minutes": 20,
+            "technical_minutes": 80,
+            "documentation_minutes": 0,
+            "base_minutes": 100,
+            "service_minutes": 80,
+            "duration_basis": "technical_plus_documentation",
+            "travel_policy": "routing_replaces_allowance",
+            "source": {
+              "filename": "Нормативы.xlsx",
+              "sha256": "b82b3f1062be039835086c0471fd0247e0bf2de42d8c3e5cf9a59f4cf8c8482b",
+              "sheet": "Лист1",
+              "range": "A3:E3",
+              "base_formula": "SUM(B3:D3)"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "optimization_policy": "staff_first",
+  "urgency_policy": "urgent_first",
+  "weights": {
+    "unassigned": 1000.0,
+    "sla_violation": 500.0,
+    "overtime": 300.0,
+    "travel_minutes": 1.0,
+    "distance_km": 0.2,
+    "workload_imbalance": 2.0,
+    "plan_churn": 20.0,
+    "schedule_shift": 0.25
+  },
+  "freeze_horizon_minutes": 60,
+  "previous_plan": null
+}

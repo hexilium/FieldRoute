@@ -1,0 +1,36 @@
+.data-panel{padding:14px 16px;margin-bottom:16px;min-width:0}
+.source-line{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px}
+.source-line strong{overflow-wrap:anywhere}
+.data-panel summary{cursor:pointer;font-weight:700;font-size:13px;margin-top:12px}
+.import-fields{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0}
+.import-fields label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;flex:1;min-width:200px}
+.import-fields input{font:inherit;max-width:100%;border:1px solid #d7d9de;padding:9px;border-radius:9px;background:#fff;min-width:0}
+.import-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+#importError{white-space:pre-wrap;margin-top:12px}
+#importResult{font-size:13px;line-height:1.6;overflow-wrap:anywhere}
+#importIssues{max-height:200px;overflow:auto;padding-left:22px;background:#f8fafc;border-radius:8px}
+#importIssues li{padding:4px 0}
+.import-problem{color:#991b1b}
+#importPanel .btn:disabled{cursor:default;opacity:.45}
+.import-table-wrap{max-height:260px;overflow:auto;margin-top:8px}
+.import-table{width:100%;border-collapse:collapse;text-align:left;font-size:12px;min-width:540px}
+.import-table th,.import-table td{padding:7px 10px;border-bottom:1px solid #e5e7eb}
+.import-table th{position:sticky;top:0;background:#f8fafc}
+.address-review-table{max-height:460px}
+.address-review-table th{z-index:1}
+.address-review-table td{vertical-align:top}
+.location-review-cell{min-width:300px;max-width:460px}
+.location-review-cell select,.location-review-fields input,.office-start-choice select{width:100%;padding:7px;border:1px solid #cbd5e1;border-radius:6px;font:inherit;background:white;box-sizing:border-box}
+.location-review-cell select{max-width:440px}
+.location-review-cell>label{display:block;margin-top:10px;line-height:1.5}
+.location-review-fields:not([hidden]){display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.location-review-fields label:last-child{grid-column:1/-1}
+.location-review-fields label{display:grid;gap:4px}
+.office-start-choice{display:block;max-width:600px;margin-top:12px}
+#importNotes p{margin:5px 0}
+.state-toolbar{display:flex;align-items:flex-end;flex-wrap:wrap;gap:12px;margin:14px 0 8px}
+.state-toolbar label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;min-width:0;max-width:100%}
+.state-toolbar input{font:inherit;max-width:100%;min-width:0;border:1px solid #d7d9de;padding:9px;border-radius:9px;background:#fff}
+#persistenceStatus{font-size:12px;line-height:1.5}
+#stateError{white-space:pre-wrap;font-size:13px;overflow-wrap:anywhere;margin-top:12px}
+@media(max-width:650px){.import-fields label{min-width:0;flex-basis:100%}}

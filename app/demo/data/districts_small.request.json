@@ -1,0 +1,94 @@
+{
+  "planning_time": "2026-09-21T08:00:00+03:00",
+  "district_mode": "strict",
+  "freeze_horizon_minutes": 0,
+  "engineers": [
+    {
+      "id": "e-zone-A",
+      "name": "Инженер zone-A",
+      "district_id": "zone-A",
+      "start_location": {
+        "lat": 55.75,
+        "lon": 37.6
+      },
+      "shift": {
+        "start": "2026-09-21T08:00:00+03:00",
+        "end": "2026-09-21T16:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "max_jobs": 1
+    },
+    {
+      "id": "e-zone-B",
+      "name": "Инженер zone-B",
+      "district_id": "zone-B",
+      "start_location": {
+        "lat": 55.75,
+        "lon": 37.6
+      },
+      "shift": {
+        "start": "2026-09-21T08:00:00+03:00",
+        "end": "2026-09-21T16:00:00+03:00"
+      },
+      "skills": [
+        "local"
+      ],
+      "max_jobs": 2
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Учебная заявка 1",
+      "district_id": "zone-A",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.602
+      },
+      "service_minutes": 20,
+      "required_skills": [
+        "local"
+      ],
+      "sla_deadline": "2026-09-21T11:00:00+03:00",
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "id": "job-2",
+      "title": "Учебная заявка 2",
+      "district_id": "zone-A",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.603
+      },
+      "service_minutes": 20,
+      "required_skills": [
+        "local"
+      ],
+      "sla_deadline": "2026-09-21T11:00:00+03:00",
+      "metadata": {
+        "synthetic": true
+      }
+    },
+    {
+      "id": "job-3",
+      "title": "Учебная заявка 3",
+      "district_id": "zone-B",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.604
+      },
+      "service_minutes": 20,
+      "required_skills": [
+        "local"
+      ],
+      "sla_deadline": "2026-09-21T11:00:00+03:00",
+      "metadata": {
+        "synthetic": true
+      }
+    }
+  ]
+}

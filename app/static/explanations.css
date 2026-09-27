@@ -1,0 +1,13 @@
+.explain-action{margin-top:8px;white-space:normal}
+.decision-dialog{font:inherit;border:0;border-radius:16px;padding:22px;width:min(900px,calc(100vw - 32px));max-height:85vh;box-sizing:border-box;color:#17202a;overflow:auto;box-shadow:0 12px 60px #17202a33}
+.decision-dialog::backdrop{background:#17202a66}
+.decision-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;position:sticky;top:-22px;background:white;padding:16px 0;z-index:1}
+.decision-header h2{font-size:20px;margin:0;overflow-wrap:anywhere}
+.decision-header .btn{flex-shrink:0}
+.decision-dialog li{margin:6px 0;overflow-wrap:anywhere}
+.candidate-row{border:1px solid #e1e4e8;border-radius:10px;margin:10px 0;padding:12px}
+.candidate-row summary{cursor:pointer;overflow-wrap:anywhere}
+.candidate-status{display:inline-block;margin:0 8px;font-size:13px;color:#475569}
+.candidate-status.better{color:#116149}.candidate-status.infeasible{color:#9b3b28}
+.candidate-reason{margin-top:6px;font-size:14px;color:#475569}
+.candidate-body{padding-top:10px;font-size:14px}

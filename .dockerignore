@@ -1,0 +1,8 @@
+**
+!pyproject.toml
+!constraints.txt
+!app/
+!app/**
+app/**/__pycache__/
+app/**/*.pyc
+app/**/.DS_Store

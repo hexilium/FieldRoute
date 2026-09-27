@@ -1,0 +1,40 @@
+.catalog-panel,.event-entry-panel{padding:24px;margin-bottom:18px}
+.catalog-panel h2,.event-entry-panel h2{font-size:17px;margin:0 0 6px}
+.catalog-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.catalog-heading p,.event-entry-panel>div>p{max-width:760px;margin:5px 0 14px}
+.catalog-heading .actions{flex-shrink:0}
+.catalog-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}
+.catalog-panel details{border:1px solid var(--border);border-radius:10px;padding:14px 16px;min-width:0}
+.catalog-panel summary{cursor:pointer;font-size:13px;font-weight:700}
+.catalog-panel summary span{color:#68746d;font-weight:500}
+.catalog-rows,.template-rows{display:grid;gap:8px;margin-top:13px}
+.catalog-row{display:grid;grid-template-columns:minmax(100px,.7fr) minmax(150px,1.3fr) auto;align-items:end;gap:8px}
+.catalog-row label,.template-row label,.event-entry-options label,.event-draft-tools label{display:grid;gap:5px;font-size:11px;font-weight:650;min-width:0}
+.catalog-row input,.template-row input,.template-row select,.event-entry-options select,.event-draft-tools select{font:inherit;width:100%;min-width:0;border:1px solid #d6dfd9;border-radius:7px;padding:8px;background:#fff}
+.catalog-remove{border:0;background:none;color:#8b4b4b;cursor:pointer;padding:8px;font:inherit;font-size:12px}
+.catalog-remove:hover{color:#651f1f;text-decoration:underline}
+.catalog-add{margin-top:10px;padding-left:0}
+.template-catalog{margin-top:0}
+.template-row{display:grid;grid-template-columns:minmax(105px,.75fr) minmax(170px,1.25fr) 90px minmax(135px,1fr) 85px minmax(130px,1fr) auto;align-items:end;gap:8px;padding:11px 0;border-bottom:1px solid var(--border)}
+.template-row:last-child{border-bottom:0}
+#catalogStatus{min-height:1.5em;margin:12px 0 0;font-size:12px}
+#catalogStatus.warn{color:#991b1b}
+.event-entry-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:20px;border:1px solid var(--border);border-radius:11px;overflow:hidden}
+.event-entry-options>div{display:flex;flex-direction:column;align-items:flex-start;gap:9px;padding:18px}
+.event-entry-options>div+div{border-left:1px solid var(--border)}
+.event-entry-options h3{font-size:14px;margin:0}
+.event-entry-options p{font-size:12px;line-height:1.55;margin:0;min-height:38px}
+.event-entry-options .btn{margin-top:auto;max-width:100%}
+.event-entry-options select{width:100%;font-size:12px}
+.file-button.btn{display:inline-flex;align-items:center;cursor:pointer}
+.file-button.btn input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+#dataEventStatus{min-height:1.5em;margin:10px 0 0;font-size:12px}
+.event-draft-tools{display:flex;align-items:end;justify-content:space-between;gap:12px;padding:12px 14px;margin:6px 0 14px;background:#f4f7f5;border:1px solid var(--border);border-radius:10px}
+.event-draft-tools>div{display:grid;grid-template-columns:minmax(180px,1fr) auto;gap:7px;align-items:end;flex:1}
+.event-draft-tools>div label{grid-column:1}
+.event-draft-tools>div .btn{grid-column:2;grid-row:1}
+.event-draft-tools>.file-button{flex-shrink:0}
+#eventDraftStatus{flex-basis:100%;margin:0;font-size:11px}
+@media(max-width:1000px){.template-row{grid-template-columns:repeat(3,minmax(0,1fr)) auto}.template-row .template-title{grid-column:2/4}.template-row .catalog-remove{grid-column:4;grid-row:1}}
+@media(max-width:780px){.catalog-heading{flex-direction:column}.catalog-heading .actions{width:100%}.catalog-grid,.event-entry-options{grid-template-columns:1fr}.event-entry-options>div+div{border-left:0;border-top:1px solid var(--border)}.template-row{grid-template-columns:1fr 1fr}.template-row .template-title{grid-column:auto}.template-row .catalog-remove{grid-column:2;grid-row:auto;justify-self:end}.event-entry-options p{min-height:0}}
+@media(max-width:520px){.catalog-panel,.event-entry-panel{padding:18px}.catalog-heading .actions{flex-direction:column}.catalog-heading .btn{width:100%}.catalog-row,.template-row{grid-template-columns:1fr}.template-row .catalog-remove{grid-column:1}.event-draft-tools{align-items:stretch;flex-direction:column}.event-draft-tools>div{width:100%;grid-template-columns:1fr}.event-draft-tools>div label,.event-draft-tools>div .btn{grid-column:1;grid-row:auto}.event-draft-tools>.file-button{width:100%;justify-content:center}}

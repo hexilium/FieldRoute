@@ -1,0 +1,232 @@
+{
+  "planning_time": "2026-09-23T08:00:00Z",
+  "engineers": [
+    {
+      "id": "A",
+      "name": "A",
+      "start_location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "district_id": null,
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-09-23T08:00:00Z",
+        "end": "2026-09-23T09:00:00Z"
+      },
+      "skills": [
+        "special",
+        "local",
+        "flex"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    },
+    {
+      "id": "B",
+      "name": "B",
+      "start_location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "district_id": null,
+      "end_location": null,
+      "current_location": null,
+      "shift": {
+        "start": "2026-09-23T08:00:00Z",
+        "end": "2026-09-23T09:00:00Z"
+      },
+      "skills": [
+        "local",
+        "flex"
+      ],
+      "equipment": [],
+      "transport_modes": [
+        "car"
+      ],
+      "travel_mode": "car",
+      "travel_speed_kmh": null,
+      "max_jobs": null,
+      "available": true,
+      "available_from": null
+    }
+  ],
+  "jobs": [
+    {
+      "id": "r0",
+      "district_id": null,
+      "title": "r0",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 30,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {}
+    },
+    {
+      "id": "r1",
+      "district_id": null,
+      "title": "r1",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 30,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {}
+    },
+    {
+      "id": "r2",
+      "district_id": null,
+      "title": "r2",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 30,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {}
+    },
+    {
+      "id": "r3",
+      "district_id": null,
+      "title": "r3",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 30,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "local"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {}
+    },
+    {
+      "id": "flex",
+      "district_id": null,
+      "title": "flex",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 60,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "flex"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 100,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "dispatch_work_type": "connection"
+      }
+    },
+    {
+      "id": "special",
+      "district_id": null,
+      "title": "special",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.61,
+        "label": null
+      },
+      "service_minutes": 60,
+      "time_windows": [],
+      "window_semantics": "start",
+      "required_skills": [
+        "special"
+      ],
+      "required_equipment": [],
+      "required_transport": null,
+      "priority": 0,
+      "sla_deadline": null,
+      "status": "pending",
+      "assigned_engineer_id": null,
+      "locked": false,
+      "metadata": {
+        "dispatch_work_type": "connection"
+      }
+    }
+  ],
+  "district_mode": "unrestricted",
+  "optimization_policy": "staff_first",
+  "urgency_policy": "urgent_first",
+  "urgent_start_policy": "after_primary",
+  "service_priority_policy": "organizer",
+  "emergency_replan_policy": "reroute_future",
+  "weights": {
+    "unassigned": 1000.0,
+    "sla_violation": 500.0,
+    "overtime": 300.0,
+    "travel_minutes": 1.0,
+    "distance_km": 0.2,
+    "workload_imbalance": 2.0,
+    "plan_churn": 20.0,
+    "schedule_shift": 0.25
+  },
+  "freeze_horizon_minutes": 0,
+  "previous_plan": null
+}

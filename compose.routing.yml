@@ -1,0 +1,49 @@
+services:
+  map-download:
+    image: python:3.12-slim
+    command: ["python", "/download.py"]
+    volumes:
+      - ./.local/roads:/data
+      - ./app/routing/download.py:/download.py:ro
+  map-prepare:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    depends_on:
+      map-download:
+        condition: service_completed_successfully
+    entrypoint: ["sh", "/config/prepare.sh"]
+    volumes:
+      - ./.local/roads:/data
+      - ./routing:/config:ro
+  geodata-prepare:
+    build:
+      context: .
+      target: geodata
+    depends_on:
+      map-download:
+        condition: service_completed_successfully
+    volumes:
+      - ./.local/roads:/data
+  roads-car:
+    &roads
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    depends_on:
+      map-prepare:
+        condition: service_completed_successfully
+    command: ["osrm-routed", "--algorithm", "mld", "--threads", "2", "--max-table-size", "100", "/data/car/moscow.osrm"]
+    ports: ["127.0.0.1:5001:5000"]
+    volumes:
+      - ./.local/roads:/data:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:5000/nearest/v1/driving/37.6173,55.7558"]
+      interval: 3s
+      timeout: 2s
+      retries: 20
+      start_period: 30s
+  roads-foot:
+    <<: *roads
+    command: ["osrm-routed", "--algorithm", "mld", "--threads", "2", "--max-table-size", "100", "/data/foot/moscow.osrm"]
+    ports: ["127.0.0.1:5002:5000"]
+  roads-bicycle:
+    <<: *roads
+    command: ["osrm-routed", "--algorithm", "mld", "--threads", "2", "--max-table-size", "100", "/data/bicycle/moscow.osrm"]
+    ports: ["127.0.0.1:5003:5000"]
