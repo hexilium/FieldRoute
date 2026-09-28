@@ -1,0 +1,8 @@
+{$FIELDROUTE_DOMAIN} {
+    basic_auth {
+        jury {$FIELDROUTE_PASSWORD_HASH}
+    }
+
+    # Includes HTML, API, streaming endpoints, static assets and /docs.
+    reverse_proxy api:8000
+}

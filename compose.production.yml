@@ -1,0 +1,95 @@
+name: fieldroute-production
+
+x-runtime: &runtime
+  restart: unless-stopped
+  security_opt:
+    - no-new-privileges:true
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+
+services:
+  map-download:
+    extends:
+      file: compose.routing.yml
+      service: map-download
+  map-prepare:
+    extends:
+      file: compose.routing.yml
+      service: map-prepare
+  geodata-prepare:
+    extends:
+      file: compose.routing.yml
+      service: geodata-prepare
+
+  roads-car:
+    <<: *runtime
+    extends:
+      file: compose.routing.yml
+      service: roads-car
+    ports: !override []
+  roads-foot:
+    <<: *runtime
+    extends:
+      file: compose.routing.yml
+      service: roads-foot
+    ports: !override []
+  roads-bicycle:
+    <<: *runtime
+    extends:
+      file: compose.routing.yml
+      service: roads-bicycle
+    ports: !override []
+
+  api:
+    <<: *runtime
+    build:
+      context: .
+      target: runtime
+    environment:
+      APP_ENV: production
+      SOLVER_BACKEND: insertion
+      SEARCH_WORKERS: "1"
+      ROUTING_BACKEND: local_roads
+      ROADS_CAR_URL: http://roads-car:5000
+      ROADS_FOOT_URL: http://roads-foot:5000
+      ROADS_BICYCLE_URL: http://roads-bicycle:5000
+      ROAD_DATA_DIR: /data
+      GEOCODING_BACKEND: local
+      GEODATA_PATH: /data/geodata.sqlite3
+      GEOCODING_CACHE_PATH: /app/.local/geocoding/cache.sqlite3
+    volumes:
+      - ./.local/roads:/data:ro
+      - ./.local/geocoding:/app/.local/geocoding
+    depends_on:
+      geodata-prepare:
+        condition: service_completed_successfully
+      roads-car:
+        condition: service_healthy
+      roads-foot:
+        condition: service_healthy
+      roads-bicycle:
+        condition: service_healthy
+
+  caddy:
+    <<: *runtime
+    image: caddy:2-alpine
+    environment:
+      FIELDROUTE_DOMAIN: ${FIELDROUTE_DOMAIN:?Run deploy-ubuntu.sh first}
+      FIELDROUTE_PASSWORD_HASH: ${FIELDROUTE_PASSWORD_HASH:?Password hash is required}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  caddy-data:
+  caddy-config:
