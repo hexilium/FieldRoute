@@ -193,8 +193,11 @@ def _import_osm(source: Path, writer: _IndexWriter, location_index: str) -> None
     try:
         import osmium
     except ImportError as exc:
-        raise RuntimeError("Для подготовки локальной карты установите: pip install '.[geodata]'") \
-            from exc
+        raise RuntimeError(
+            f"Не удалось загрузить osmium: {exc}. "
+            "Для Docker пересоберите образ geodata-prepare; для запуска без Docker "
+            "установите пакет .[geodata] и системную библиотеку libexpat1."
+        ) from exc
 
     factory = osmium.geom.GeoJSONFactory()
 

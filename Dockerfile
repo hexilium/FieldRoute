@@ -11,7 +11,12 @@ HEALTHCHECK --interval=10s --timeout=3s --start-period=10s --retries=3 \
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 FROM base AS geodata
-RUN pip install --no-cache-dir -c /app/constraints.txt 'osmium==4.3.1'
+# Pyosmium's Linux wheel links against libexpat, absent from python:slim.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends libexpat1 \
+    && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir -c /app/constraints.txt 'osmium==4.3.1' \
+    && python -c "import osmium; osmium.geom.GeoJSONFactory()"
 CMD ["python", "-m", "app.geodata.build", "--source", "/data/moscow.osm.pbf", "--output", "/data/geodata.sqlite3"]
 
 FROM base AS runtime
