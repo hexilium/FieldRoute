@@ -1,0 +1,27 @@
+name: fieldroute-production
+services:
+  api:
+    extends:
+      file: compose.production.yml
+      service: api
+    depends_on: !override {}
+    environment:
+      ROADS_REMOTE: "true"
+      ROADS_CAR_URL: https://routing.openstreetmap.de/routed-car
+      ROADS_FOOT_URL: https://routing.openstreetmap.de/routed-foot
+      ROADS_BICYCLE_URL: https://routing.openstreetmap.de/routed-bike
+      ROADS_USER_AGENT: "FieldRoute/0.2 (+https://${FIELDROUTE_DOMAIN})"
+      ROADS_MATRIX_CONCURRENCY: "1"
+      GEOCODING_BACKEND: photon
+      GEOCODING_URL: https://photon.komoot.io
+      GEOCODING_USER_AGENT: "FieldRoute/0.2 (+https://${FIELDROUTE_DOMAIN})"
+    volumes: !override
+      - ./.local/road-cache:/app/.local/road-cache
+      - ./.local/geocoding:/app/.local/geocoding
+  caddy:
+    extends:
+      file: compose.production.yml
+      service: caddy
+volumes:
+  caddy-data:
+  caddy-config:

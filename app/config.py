@@ -16,6 +16,10 @@ class Settings(BaseSettings):
     roads_foot_url: str = "http://127.0.0.1:5002"
     roads_bicycle_url: str = "http://127.0.0.1:5003"
     road_data_dir: str = ".local/roads"
+    road_cache_dir: str | None = None
+    roads_remote: bool = False
+    roads_user_agent: str = "FieldRoute/0.2 (route planning demo)"
+    online_tiles_url: str = "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
     roads_snap_radius_m: float = Field(default=1000, gt=0, allow_inf_nan=False)
     roads_matrix_batch_size: int = Field(default=40, ge=1, le=50)
     roads_matrix_concurrency: int = Field(default=4, ge=1, le=16)

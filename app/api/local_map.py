@@ -31,6 +31,10 @@ def connect(settings: Settings):
 
 @router.get("/status")
 def status(settings: Annotated[Settings, Depends(get_settings)]) -> dict:
+    if settings.roads_remote:
+        return {"available": True, "backend": "online", "bounds": None,
+                "source": "OpenStreetMap · онлайн", "attribution": ATTRIBUTION,
+                "tile_url": settings.online_tiles_url}
     result = {
         "available": False, "bounds": None, "address_count": 0, "feature_count": 0,
         "source": "Локальная карта OpenStreetMap", "attribution": ATTRIBUTION,

@@ -5,6 +5,9 @@ import asyncio
 import hashlib
 import json
 import sqlite3
+import time
+import weakref
+from datetime import UTC, datetime
 from itertools import pairwise
 from math import inf, isfinite
 from pathlib import Path
@@ -25,6 +28,22 @@ class RoutingUnavailable(RuntimeError):
 
 class RoutingCoverageError(ValueError):
     pass
+
+
+# The deployed API uses one Uvicorn process. Share a gate across provider instances
+# and all transport profiles; each event loop owns its lock.
+_remote_gates = weakref.WeakKeyDictionary()
+
+
+async def remote_get(client, url, params):
+    loop = asyncio.get_running_loop()
+    if loop not in _remote_gates:
+        _remote_gates[loop] = [asyncio.Lock(), 0.0]
+    gate = _remote_gates[loop]
+    async with gate[0]:
+        await asyncio.sleep(max(0.0, gate[1] - time.monotonic()))
+        gate[1] = time.monotonic() + 1.1
+        return await client.get(url, params=params)
 
 
 class RoadCache:
@@ -65,13 +84,19 @@ class RoadCache:
 class LocalRoadsRoutingProvider(RoutingProvider):
     def __init__(self, settings: Settings, *, transport: httpx.AsyncBaseTransport | None = None):
         directory = Path(settings.road_data_dir)
-        try:
-            signature = (directory / "ready").read_bytes()
-        except OSError as exc:
-            raise RoutingUnavailable(
-                "Дорожные данные Москвы ещё не подготовлены. Запустите make run "
-                "или docker compose up --build и дождитесь подготовки карты."
-            ) from exc
+        self.remote = settings.roads_remote
+        self.user_agent = settings.roads_user_agent
+        if self.remote:
+            # External graph versions are not exposed. Refresh the cache namespace daily.
+            signature = ("external-v1:" + datetime.now(UTC).date().isoformat()).encode()
+        else:
+            try:
+                signature = (directory / "ready").read_bytes()
+            except OSError as exc:
+                raise RoutingUnavailable(
+                    "Дорожные данные Москвы ещё не подготовлены. Запустите make run "
+                    "или docker compose up --build и дождитесь подготовки карты."
+                ) from exc
         self.version = hashlib.sha256(signature).hexdigest()
         self.urls = {"car": settings.roads_car_url.rstrip("/"),
                      "foot": settings.roads_foot_url.rstrip("/"),
@@ -81,7 +106,9 @@ class LocalRoadsRoutingProvider(RoutingProvider):
         self.batch_size = settings.roads_matrix_batch_size
         self.matrix_concurrency = settings.roads_matrix_concurrency
         self.transport = transport
-        self.cache = RoadCache(directory / "distances.sqlite3")
+        cache_directory = Path(settings.road_cache_dir) if settings.road_cache_dir else directory
+        cache_directory.mkdir(parents=True, exist_ok=True)
+        self.cache = RoadCache(cache_directory / "distances.sqlite3")
         self.distances: dict[str, dict[str, float]] = {p: {} for p in self.urls}
         self.table_requests = 0
         self.geometry_requests = 0
@@ -98,19 +125,21 @@ class LocalRoadsRoutingProvider(RoutingProvider):
         return f"v1:{self.version}:{self.urls[profile]}:{self.radius}:{profile}:{kind}"
 
     def client(self) -> httpx.AsyncClient:
-        return httpx.AsyncClient(timeout=60, transport=self.transport)
+        return httpx.AsyncClient(timeout=60, transport=self.transport,
+                                 headers={"User-Agent": self.user_agent})
 
     async def query(self, client, profile: str, service: str, points: list[str], **params) -> dict:
         url = f"{self.urls[profile]}/{service}/v1/{profile}/" + ";".join(points)
         params["radiuses"] = ";".join([str(self.radius)] * len(points))
         try:
-            response = await client.get(url, params=params)
+            response = (await remote_get(client, url, params) if self.remote
+                        else await client.get(url, params=params))
             payload = response.json()
             if not isinstance(payload, dict):
                 raise TypeError("Invalid routing response")
             if payload.get("code") == "NoSegment":
                 raise RoutingCoverageError(
-                    f"Для профиля {profile} есть точки вне дорожной сети Москвы "
+                    f"Для профиля {profile} есть точки вне доступной дорожной сети "
                     f"или дальше {self.radius:g} м от доступного пути. Проверьте координаты."
                 )
             response.raise_for_status()
@@ -120,6 +149,11 @@ class LocalRoadsRoutingProvider(RoutingProvider):
         except (httpx.HTTPError, ValueError, TypeError) as exc:
             if isinstance(exc, RoutingCoverageError):
                 raise
+            if self.remote:
+                raise RoutingUnavailable(
+                    f"Внешний маршрутизатор {profile} недоступен или ограничил запросы. "
+                    "Повторите расчёт позднее; замена дорог прямыми линиями не выполняется."
+                ) from exc
             raise RoutingUnavailable(
                 f"Локальный маршрутизатор {profile} недоступен или вернул ошибку. "
                 "Проверьте запуск дорожных сервисов: make roads."

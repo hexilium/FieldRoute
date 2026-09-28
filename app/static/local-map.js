@@ -1,4 +1,4 @@
-/* The shared street layer reads only the application's local OSM index. */
+/* Local OSM features or online tiles, as selected by the server. */
 class LocalMapLayer {
   constructor(map, status) {
     this.map = map;
@@ -42,8 +42,8 @@ class LocalMapLayer {
       this.metadata = null;
       this.refresh();
     } else {
-      this.layer.remove(); this.labels.remove();
-      this.status.textContent = 'Локальная карта выключена. Точки и маршруты остаются доступны.';
+      this.layer.remove(); this.labels.remove(); this.onlineLayer?.remove();
+      this.status.textContent = 'Карта выключена. Точки и маршруты остаются доступны.';
     }
   }
 
@@ -64,7 +64,7 @@ class LocalMapLayer {
     this.controller = controller;
     const version = ++this.version;
     const timer = setTimeout(() => controller.abort(), 15000);
-    this.status.textContent = 'Загружается локальная карта…';
+    this.status.textContent = 'Загружается карта…';
     try {
       let metadata = this.metadata;
       if (!metadata || Date.now() - this.metadataAt > 30000) {
@@ -72,6 +72,22 @@ class LocalMapLayer {
         if (version !== this.version) return;
         if (metadata.available) { this.metadata = metadata; this.metadataAt = Date.now(); }
       }
+      if (metadata.backend === 'online') {
+        this.clear();
+        if (!this.onlineLayer) {
+          this.onlineLayer = L.tileLayer(metadata.tile_url, {
+            pane: 'localBasemap', maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · <a href="https://www.openstreetmap.org/fixthemap">Исправить карту</a> · маршруты: <a href="https://routing.openstreetmap.de/about.html">FOSSGIS / OSRM</a>',
+          });
+          this.onlineLayer.on('tileerror', () => {
+            if (this.enabled) this.status.textContent = 'Онлайн-карта недоступна. Точки и маршруты остаются доступны.';
+          });
+        }
+        if (!this.map.hasLayer(this.onlineLayer)) this.onlineLayer.addTo(this.map);
+        this.status.textContent = 'OpenStreetMap · онлайн. Для карты и маршрутов нужен интернет.';
+        return;
+      }
+      this.onlineLayer?.remove();
       if (!metadata.available || !metadata.bounds) {
         this.clear();
         this.status.textContent = 'Локальная карта ещё не подготовлена. Точки и маршруты доступны; загрузите данные региона и обновите карту.';

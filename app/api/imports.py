@@ -38,6 +38,9 @@ async def inspect_addresses(
     except (Error, ValueError):
         raise HTTPException(status_code=422, detail="csv_base64 должен содержать корректный Base64.") from None
     report = import_csv(data, payload.filename)
+    if settings.roads_remote:
+        raise HTTPException(503, "Массовая проверка адресов CSV требует локального индекса. "
+                            "Во внешнем режиме используйте готовые координаты или ручной поиск адреса.")
     try:
         return await audit_addresses(report, settings)
     except GeocodingError as exc:

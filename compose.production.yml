@@ -57,11 +57,13 @@ services:
       ROADS_FOOT_URL: http://roads-foot:5000
       ROADS_BICYCLE_URL: http://roads-bicycle:5000
       ROAD_DATA_DIR: /data
+      ROAD_CACHE_DIR: /app/.local/road-cache
       GEOCODING_BACKEND: local
       GEODATA_PATH: /data/geodata.sqlite3
       GEOCODING_CACHE_PATH: /app/.local/geocoding/cache.sqlite3
     volumes:
       - ./.local/roads:/data:ro
+      - ./.local/road-cache:/app/.local/road-cache
       - ./.local/geocoding:/app/.local/geocoding
     depends_on:
       geodata-prepare:
