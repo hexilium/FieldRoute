@@ -1,0 +1,215 @@
+{
+  "checked_on": "2026-09-29",
+  "source_commit": "ee99343607cf9712cc30bbb1fb2667aed394ea34",
+  "method": "In-process app.api.routes.compare_baseline, built-in validation and repeated app.services.validation.validate_plan for both plans",
+  "scope": "Three synthetic inputs; metric reproduction and constraint validation, not a latency benchmark or a production trial",
+  "environment": {
+    "python": "3.14.5",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O"
+  },
+  "settings": {
+    "routing_backend": "haversine",
+    "search_strategy": "full",
+    "search_workers": 0,
+    "search_time_limit_ms": null,
+    "haversine_road_factor": 1.25,
+    "speed_car_kmh": 28.0,
+    "speed_walk_kmh": 5.0,
+    "speed_bicycle_kmh": 15.0,
+    "speed_public_transport_kmh": 18.0
+  },
+  "cases": [
+    {
+      "source": "examples/norms/training.request.json",
+      "input_sha256": "f19e5c7a1ca17b8714d587e9907291d907787b57c9ce61b1fd1e9d9e993204db",
+      "request_policies": {
+        "optimization_policy": "staff_first",
+        "service_priority_policy": "organizer",
+        "urgent_start_policy": "after_primary",
+        "emergency_replan_policy": "reroute_future",
+        "district_mode": "unrestricted"
+      },
+      "execution": null,
+      "before": {
+        "metrics": {
+          "total_jobs": 36,
+          "assigned_jobs": 36,
+          "unassigned_jobs": 0,
+          "used_engineers": 8,
+          "total_distance_km": 83.88,
+          "total_travel_minutes": 485.4,
+          "sla_jobs": 0,
+          "sla_met_jobs": 0,
+          "sla_rate": 1.0,
+          "late_minutes": 0.0
+        },
+        "labor": {
+          "service_minutes": 2160.0,
+          "travel_minutes": 485.4191,
+          "waiting_minutes": 304.1234,
+          "total_minutes": 2949.5425,
+          "total_hours": 49.159,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 446.8144,
+        "selected_candidate": null,
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      },
+      "after": {
+        "metrics": {
+          "total_jobs": 36,
+          "assigned_jobs": 36,
+          "unassigned_jobs": 0,
+          "used_engineers": 8,
+          "total_distance_km": 44.13,
+          "total_travel_minutes": 282.1,
+          "sla_jobs": 0,
+          "sla_met_jobs": 0,
+          "sla_rate": 1.0,
+          "late_minutes": 0.0
+        },
+        "labor": {
+          "service_minutes": 2160.0,
+          "travel_minutes": 282.1016,
+          "waiting_minutes": 500.4561,
+          "total_minutes": 2942.5577,
+          "total_hours": 49.0426,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 478.1377,
+        "selected_candidate": "staff_first:ruin_recreate",
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      }
+    },
+    {
+      "source": "examples/benchmarks/overload-15x100.request.json",
+      "input_sha256": "0e19be014292c128c88cb21820cbac86dbf208c7a8d77fe6366268884ceb8fee",
+      "request_policies": {
+        "optimization_policy": "staff_first",
+        "service_priority_policy": "organizer",
+        "urgent_start_policy": "after_primary",
+        "emergency_replan_policy": "reroute_future",
+        "district_mode": "unrestricted"
+      },
+      "execution": null,
+      "before": {
+        "metrics": {
+          "total_jobs": 100,
+          "assigned_jobs": 39,
+          "unassigned_jobs": 61,
+          "used_engineers": 15,
+          "total_distance_km": 80.43,
+          "total_travel_minutes": 402.3,
+          "sla_jobs": 100,
+          "sla_met_jobs": 27,
+          "sla_rate": 0.27,
+          "late_minutes": 490.3
+        },
+        "labor": {
+          "service_minutes": 3130.0,
+          "travel_minutes": 402.2931,
+          "waiting_minutes": 1482.7259,
+          "total_minutes": 5015.019,
+          "total_hours": 83.5837,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 359.8711,
+        "selected_candidate": null,
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      },
+      "after": {
+        "metrics": {
+          "total_jobs": 100,
+          "assigned_jobs": 62,
+          "unassigned_jobs": 38,
+          "used_engineers": 15,
+          "total_distance_km": 80.42,
+          "total_travel_minutes": 368.6,
+          "sla_jobs": 100,
+          "sla_met_jobs": 37,
+          "sla_rate": 0.37,
+          "late_minutes": 1357.1
+        },
+        "labor": {
+          "service_minutes": 4540.0,
+          "travel_minutes": 368.5891,
+          "waiting_minutes": 200.1845,
+          "total_minutes": 5108.7736,
+          "total_hours": 85.1462,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 357.4897,
+        "selected_candidate": "staff_first:cyclic_reinsertion",
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      }
+    },
+    {
+      "source": "examples/priority/specialist-chain.request.json",
+      "input_sha256": "69937627d056093eaf8eae40d9c923da974f24d49a0a46100c8cf309f44afbb9",
+      "request_policies": {
+        "optimization_policy": "staff_first",
+        "service_priority_policy": "organizer",
+        "urgent_start_policy": "after_primary",
+        "emergency_replan_policy": "reroute_future",
+        "district_mode": "unrestricted"
+      },
+      "execution": null,
+      "before": {
+        "metrics": {
+          "total_jobs": 6,
+          "assigned_jobs": 4,
+          "unassigned_jobs": 2,
+          "used_engineers": 2,
+          "total_distance_km": 0.0,
+          "total_travel_minutes": 0.0,
+          "sla_jobs": 0,
+          "sla_met_jobs": 0,
+          "sla_rate": 1.0,
+          "late_minutes": 0.0
+        },
+        "labor": {
+          "service_minutes": 120.0,
+          "travel_minutes": 0.0,
+          "waiting_minutes": 0.0,
+          "total_minutes": 120.0,
+          "total_hours": 2.0,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 60.0,
+        "selected_candidate": null,
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      },
+      "after": {
+        "metrics": {
+          "total_jobs": 6,
+          "assigned_jobs": 2,
+          "unassigned_jobs": 4,
+          "used_engineers": 2,
+          "total_distance_km": 0.0,
+          "total_travel_minutes": 0.0,
+          "sla_jobs": 0,
+          "sla_met_jobs": 0,
+          "sla_rate": 1.0,
+          "late_minutes": 0.0
+        },
+        "labor": {
+          "service_minutes": 120.0,
+          "travel_minutes": 0.0,
+          "waiting_minutes": 0.0,
+          "total_minutes": 120.0,
+          "total_hours": 2.0,
+          "scope": "plan"
+        },
+        "max_engineer_minutes": 60.0,
+        "selected_candidate": "staff_first:priority_repair",
+        "internal_validation": "passed",
+        "extra_validation_errors": []
+      }
+    }
+  ]
+}

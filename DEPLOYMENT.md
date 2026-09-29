@@ -63,7 +63,7 @@ sudo cat .local/deploy/credentials.txt
 Для небольшого демонстрационного набора на слабом VPS:
 
 ```bash
-sudo bash deploy-ubuntu.sh fieldroute.mooo.com --external-routing
+sudo bash deploy-ubuntu.sh routes.example.org --external-routing
 ```
 
 Обнови весь репозиторий: одного нового скрипта недостаточно. Режим использует
@@ -76,7 +76,7 @@ sudo bash deploy-ubuntu.sh fieldroute.mooo.com --external-routing
 его сохраняет. Вернуться к локальной обработке:
 
 ```bash
-sudo bash deploy-ubuntu.sh fieldroute.mooo.com --local-routing
+sudo bash deploy-ubuntu.sh routes.example.org --local-routing
 ```
 
 Используются три внешних профиля [FOSSGIS / OSRM](https://routing.openstreetmap.de/about.html):
